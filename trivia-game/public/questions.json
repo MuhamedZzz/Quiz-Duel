@@ -1,0 +1,803 @@
+[
+    {
+      "text": "What is the capital of Japan?",
+      "answers": [
+        { "text": "1. Tokyo", "correct": true },
+        { "text": "2. Seoul", "correct": false },
+        { "text": "3. Beijing", "correct": false },
+        { "text": "4. Bangkok", "correct": false }
+      ]
+    },
+    {
+      "text": "Which programming language is primarily used for iOS development?",
+      "answers": [
+        { "text": "1. Swift", "correct": true },
+        { "text": "2. Python", "correct": false },
+        { "text": "3. JavaScript", "correct": false },
+        { "text": "4. Ruby", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gaming console is known for its exclusive game 'The Legend of Zelda'?",
+      "answers": [
+        { "text": "1. PlayStation", "correct": false },
+        { "text": "2. Nintendo Switch", "correct": true },
+        { "text": "3. Xbox", "correct": false },
+        { "text": "4. PC", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known as the 'Caped Crusader'?",
+      "answers": [
+        { "text": "1. Spider-Man", "correct": false },
+        { "text": "2. Iron Man", "correct": false },
+        { "text": "3. Batman", "correct": true },
+        { "text": "4. Superman", "correct": false }
+      ]
+    },
+    {
+      "text": "In the TV show 'Friends', who was Ross's second wife?",
+      "answers": [
+        { "text": "1. Rachel", "correct": false },
+        { "text": "2. Carol", "correct": false },
+        { "text": "3. Emily", "correct": true },
+        { "text": "4. Susan", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of the wizarding school in the 'Harry Potter' series?",
+      "answers": [
+        { "text": "1. Hogwarts", "correct": true },
+        { "text": "2. Beauxbatons", "correct": false },
+        { "text": "3. Ilvermorny", "correct": false },
+        { "text": "4. Durmstrang", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company developed the game 'Minecraft'?",
+      "answers": [
+        { "text": "1. Epic Games", "correct": false },
+        { "text": "2. EA Sports", "correct": false },
+        { "text": "3. Valve", "correct": false },
+        { "text": "4. Mojang", "correct": true }
+      ]
+    },
+    {
+      "text": "Which animal is the largest mammal on Earth?",
+      "answers": [
+        { "text": "1. Shark", "correct": false },
+        { "text": "2. Elephant", "correct": false },
+        { "text": "3. Blue Whale", "correct": true },
+        { "text": "4. Giraffe", "correct": false }
+      ]
+    },
+    {
+      "text": "Which video game franchise is known for the character 'Mario'?",
+      "answers": [
+        { "text": "1. The Legend of Zelda", "correct": false },
+        { "text": "2. Super Mario", "correct": true },
+        { "text": "3. Donkey Kong", "correct": false },
+        { "text": "4. Sonic the Hedgehog", "correct": false }
+      ]
+    },
+    {
+      "text": "What programming language is known for its use in web development?",
+      "answers": [
+        { "text": "1. JavaScript", "correct": true },
+        { "text": "2. C#", "correct": false },
+        { "text": "3. Java", "correct": false },
+        { "text": "4. PHP", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'Stranger Things', what is the name of the alternate dimension?",
+      "answers": [
+        { "text": "1. The Netherworld", "correct": false },
+        { "text": "2. The Shadow Realm", "correct": false },
+        { "text": "3. The Upside Down", "correct": true },
+        { "text": "4. The Dark Zone", "correct": false }
+      ]
+    },
+    {
+      "text": "Which fruit is known for being high in potassium?",
+      "answers": [
+        { "text": "1. Grape", "correct": false },
+        { "text": "2. Banana", "correct": true },
+        { "text": "3. Orange", "correct": false },
+        { "text": "4. Apple", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animated film features a character named Simba?",
+      "answers": [
+        { "text": "1. Frozen", "correct": false },
+        { "text": "2. Shrek", "correct": false },
+        { "text": "3. The Lion King", "correct": true },
+        { "text": "4. Zootopia", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animal is known for its black and white stripes?",
+      "answers": [
+        { "text": "1. Penguin", "correct": false },
+        { "text": "2. Zebra", "correct": true },
+        { "text": "3. Tiger", "correct": false },
+        { "text": "4. Panda", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the chemical symbol for gold?",
+      "answers": [
+        { "text": "1. Ag", "correct": false },
+        { "text": "2. Fe", "correct": false },
+        { "text": "3. Pb", "correct": false },
+        { "text": "4. Au", "correct": true }
+      ]
+    },
+    {
+      "text": "Which fast food chain is famous for its 'Big Mac'?",
+      "answers": [
+        { "text": "1. Wendy's", "correct": false },
+        { "text": "2. Taco Bell", "correct": false },
+        { "text": "3. McDonald's", "correct": true },
+        { "text": "4. Burger King", "correct": false }
+      ]
+    },
+    {
+      "text": "What does the acronym 'HTML' stand for?",
+      "answers": [
+        { "text": "1. Home Tool Markup Language", "correct": false },
+        { "text": "2. Hyper Transfer Markup Language", "correct": false },
+        { "text": "3. HyperText Machine Language", "correct": false },
+        { "text": "4. HyperText Markup Language", "correct": true }
+      ]
+    },
+    {
+      "text": "Which Marvel movie features the character 'Black Panther'?",
+      "answers": [
+        { "text": "1. Captain America: Civil War", "correct": false },
+        { "text": "2. Thor: Ragnarok", "correct": false },
+        { "text": "3. Black Panther", "correct": true },
+        { "text": "4. Avengers: Infinity War", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV show is set in a post-apocalyptic world where zombies rule?",
+      "answers": [
+        { "text": "1. Breaking Bad", "correct": false },
+        { "text": "2. Stranger Things", "correct": false },
+        { "text": "3. Game of Thrones", "correct": false },
+        { "text": "4. The Walking Dead", "correct": true }
+      ]
+    },
+    {
+      "text": "Which video game series features a character named 'Link'?",
+      "answers": [
+        { "text": "1. Halo", "correct": false },
+        { "text": "2. Final Fantasy", "correct": false },
+        { "text": "3. Metroid", "correct": false },
+        { "text": "4. The Legend of Zelda", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the main ingredient in guacamole?",
+      "answers": [
+        { "text": "1. Tomato", "correct": false },
+        { "text": "2. Avocado", "correct": true },
+        { "text": "3. Cucumber", "correct": false },
+        { "text": "4. Lemon", "correct": false }
+      ]
+    },
+    {
+      "text": "Which famous artist painted the 'Mona Lisa'?",
+      "answers": [
+        { "text": "1. Vincent van Gogh", "correct": false },
+        { "text": "2. Claude Monet", "correct": false },
+        { "text": "3. Pablo Picasso", "correct": false },
+        { "text": "4. Leonardo da Vinci", "correct": true }
+      ]
+    },
+    {
+      "text": "Which company created the iPhone?",
+      "answers": [
+        { "text": "1. Samsung", "correct": false },
+        { "text": "2. Google", "correct": false },
+        { "text": "3. Microsoft", "correct": false },
+        { "text": "4. Apple", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the capital city of France?",
+      "answers": [
+        { "text": "1. Berlin", "correct": false },
+        { "text": "2. Madrid", "correct": false },
+        { "text": "3. Paris", "correct": true },
+        { "text": "4. Rome", "correct": false }
+      ]
+    },
+    {
+      "text": "Which fictional character is known for saying 'To infinity and beyond!'?",
+      "answers": [
+        { "text": "1. Buzz Lightyear", "correct": true },
+        { "text": "2. Woody", "correct": false },
+        { "text": "3. Mike Wazowski", "correct": false },
+        { "text": "4. Lightning McQueen", "correct": false }
+      ]
+    },
+    {
+      "text": "What animal is the symbol of the World Wildlife Fund (WWF)?",
+      "answers": [
+        { "text": "1. Lion", "correct": false },
+        { "text": "2. Elephant", "correct": false },
+        { "text": "3. Panda", "correct": true },
+        { "text": "4. Tiger", "correct": false }
+      ]
+    },
+    {
+      "text": "Which popular video game features a battle royale mode called 'Warzone'?",
+      "answers": [
+        { "text": "1. Call of Duty", "correct": true },
+        { "text": "2. Fortnite", "correct": false },
+        { "text": "3. Apex Legends", "correct": false },
+        { "text": "4. PUBG", "correct": false }
+      ]
+    },
+    {
+      "text": "In what year did the first iPhone release?",
+      "answers": [
+        { "text": "1. 2010", "correct": false },
+        { "text": "2. 2009", "correct": false },
+        { "text": "3. 2007", "correct": true },
+        { "text": "4. 2005", "correct": false }
+      ]
+    },
+    {
+      "text": "Which character is the main antagonist in the movie 'The Lion King'?",
+      "answers": [
+        { "text": "1. Scar", "correct": true },
+        { "text": "2. Mufasa", "correct": false },
+        { "text": "3. Simba", "correct": false },
+        { "text": "4. Timon", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Canada?",
+      "answers": [
+        { "text": "1. Toronto", "correct": false },
+        { "text": "2. Montreal", "correct": false },
+        { "text": "3. Ottawa", "correct": true },
+        { "text": "4. Vancouver", "correct": false }
+      ]
+    },
+    {
+      "text": "Which programming language is used for machine learning frameworks like TensorFlow?",
+      "answers": [
+        { "text": "1. Python", "correct": true },
+        { "text": "2. C++", "correct": false },
+        { "text": "3. Ruby", "correct": false },
+        { "text": "4. Go", "correct": false }
+      ]
+    },
+    {
+      "text": "Which console is known for the 'Halo' franchise?",
+      "answers": [
+        { "text": "1. PlayStation", "correct": false },
+        { "text": "2. Xbox", "correct": true },
+        { "text": "3. Nintendo Switch", "correct": false },
+        { "text": "4. Sega Genesis", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is known as the 'Man of Steel'?",
+      "answers": [
+        { "text": "1. Batman", "correct": false },
+        { "text": "2. Spider-Man", "correct": false },
+        { "text": "3. Superman", "correct": true },
+        { "text": "4. Wolverine", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'The Office', what is Michael Scott's favorite movie?",
+      "answers": [
+        { "text": "1. Die Hard", "correct": false },
+        { "text": "2. Threat Level Midnight", "correct": true },
+        { "text": "3. The Godfather", "correct": false },
+        { "text": "4. Star Wars", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet is known as the 'Red Planet'?",
+      "answers": [
+        { "text": "1. Venus", "correct": false },
+        { "text": "2. Mars", "correct": true },
+        { "text": "3. Jupiter", "correct": false },
+        { "text": "4. Saturn", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company owns Instagram?",
+      "answers": [
+        { "text": "1. Google", "correct": false },
+        { "text": "2. Amazon", "correct": false },
+        { "text": "3. Meta", "correct": true },
+        { "text": "4. Microsoft", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the smallest prime number?",
+      "answers": [
+        { "text": "1. 0", "correct": false },
+        { "text": "2. 1", "correct": false },
+        { "text": "3. 2", "correct": true },
+        { "text": "4. 3", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game popularized the battle royale genre?",
+      "answers": [
+        { "text": "1. Fortnite", "correct": false },
+        { "text": "2. PUBG", "correct": true },
+        { "text": "3. Apex Legends", "correct": false },
+        { "text": "4. Overwatch", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Romeo and Juliet'?",
+      "answers": [
+        { "text": "1. Charles Dickens", "correct": false },
+        { "text": "2. J.K. Rowling", "correct": false },
+        { "text": "3. William Shakespeare", "correct": true },
+        { "text": "4. Mark Twain", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country invented pizza?",
+      "answers": [
+        { "text": "1. United States", "correct": false },
+        { "text": "2. France", "correct": false },
+        { "text": "3. China", "correct": false },
+        { "text": "4. Italy", "correct": true }
+      ]
+    },
+    {
+      "text": "What does 'HTTP' stand for?",
+      "answers": [
+        { "text": "1. HyperText Transfer Protocol", "correct": true },
+        { "text": "2. High-Tech Text Processor", "correct": false },
+        { "text": "3. Home Terminal Transfer Program", "correct": false },
+        { "text": "4. Hyperlink Text Transmission", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animal can regrow its limbs?",
+      "answers": [
+        { "text": "1. Shark", "correct": false },
+        { "text": "2. Starfish", "correct": true },
+        { "text": "3. Elephant", "correct": false },
+        { "text": "4. Kangaroo", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'Breaking Bad', what is Walter White's alias?",
+      "answers": [
+        { "text": "1. The Joker", "correct": false },
+        { "text": "2. Heisenberg", "correct": true },
+        { "text": "3. Pablo Escobar", "correct": false },
+        { "text": "4. Tony Montana", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the currency of Germany?",
+      "answers": [
+        { "text": "1. Euro", "correct": true },
+        { "text": "2. Dollar", "correct": false },
+        { "text": "3. Pound", "correct": false },
+        { "text": "4. Yen", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet is closest to the Sun?",
+      "answers": [
+        { "text": "1. Venus", "correct": false },
+        { "text": "2. Earth", "correct": false },
+        { "text": "3. Mercury", "correct": true },
+        { "text": "4. Mars", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted the ceiling of the Sistine Chapel?",
+      "answers": [
+        { "text": "1. Vincent van Gogh", "correct": false },
+        { "text": "2. Michelangelo", "correct": true },
+        { "text": "3. Leonardo da Vinci", "correct": false },
+        { "text": "4. Pablo Picasso", "correct": false }
+      ]
+    },
+    {
+      "text": "Which language is used for styling web pages?",
+      "answers": [
+        { "text": "1. HTML", "correct": false },
+        { "text": "2. JavaScript", "correct": false },
+        { "text": "3. CSS", "correct": true },
+        { "text": "4. Python", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the largest organ in the human body?",
+      "answers": [
+        { "text": "1. Liver", "correct": false },
+        { "text": "2. Heart", "correct": false },
+        { "text": "3. Skin", "correct": true },
+        { "text": "4. Lungs", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'Game of Thrones', what is the name of Jon Snow's direwolf?",
+      "answers": [
+        { "text": "1. Grey Wind", "correct": false },
+        { "text": "2. Ghost", "correct": true },
+        { "text": "3. Nymeria", "correct": false },
+        { "text": "4. Summer", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is known as the 'Land of the Rising Sun'?",
+      "answers": [
+        { "text": "1. China", "correct": false },
+        { "text": "2. South Korea", "correct": false },
+        { "text": "3. Japan", "correct": true },
+        { "text": "4. Thailand", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the main component of the Earth's core?",
+      "answers": [
+        { "text": "1. Silicon", "correct": false },
+        { "text": "2. Iron", "correct": true },
+        { "text": "3. Magnesium", "correct": false },
+        { "text": "4. Oxygen", "correct": false }
+      ]
+    },
+    {
+      "text": "Which social media platform uses a blue bird as its logo?",
+      "answers": [
+        { "text": "1. Facebook", "correct": false },
+        { "text": "2. Instagram", "correct": false },
+        { "text": "3. Twitter (X)", "correct": true },
+        { "text": "4. TikTok", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote '1984'?",
+      "answers": [
+        { "text": "1. J.R.R. Tolkien", "correct": false },
+        { "text": "2. George Orwell", "correct": true },
+        { "text": "3. Aldous Huxley", "correct": false },
+        { "text": "4. Ray Bradbury", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the chemical symbol for silver?",
+      "answers": [
+        { "text": "1. Si", "correct": false },
+        { "text": "2. Ag", "correct": true },
+        { "text": "3. Au", "correct": false },
+        { "text": "4. Fe", "correct": false }
+      ]
+    },
+    {
+      "text": "Which video game features a plumber named Mario?",
+      "answers": [
+        { "text": "1. Sonic the Hedgehog", "correct": false },
+        { "text": "2. Super Mario Bros.", "correct": true },
+        { "text": "3. Donkey Kong", "correct": false },
+        { "text": "4. Pac-Man", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Australia?",
+      "answers": [
+        { "text": "1. Sydney", "correct": false },
+        { "text": "2. Melbourne", "correct": false },
+        { "text": "3. Canberra", "correct": true },
+        { "text": "4. Brisbane", "correct": false }
+      ]
+    },
+    {
+      "text": "Which element has the atomic number 1?",
+      "answers": [
+        { "text": "1. Helium", "correct": false },
+        { "text": "2. Oxygen", "correct": false },
+        { "text": "3. Hydrogen", "correct": true },
+        { "text": "4. Carbon", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'Harry Potter', what is the name of Hermione's cat?",
+      "answers": [
+        { "text": "1. Crookshanks", "correct": true },
+        { "text": "2. Hedwig", "correct": false },
+        { "text": "3. Scabbers", "correct": false },
+        { "text": "4. Fang", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country gifted the Statue of Liberty to the United States?",
+      "answers": [
+        { "text": "1. Spain", "correct": false },
+        { "text": "2. France", "correct": true },
+        { "text": "3. England", "correct": false },
+        { "text": "4. Italy", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the CEO of Tesla?",
+      "answers": [
+        { "text": "1. Jeff Bezos", "correct": false },
+        { "text": "2. Tim Cook", "correct": false },
+        { "text": "3. Elon Musk", "correct": true },
+        { "text": "4. Mark Zuckerberg", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the hardest natural substance on Earth?",
+      "answers": [
+        { "text": "1. Gold", "correct": false },
+        { "text": "2. Diamond", "correct": true },
+        { "text": "3. Platinum", "correct": false },
+        { "text": "4. Titanium", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country invented tea?",
+      "answers": [
+        { "text": "1. India", "correct": false },
+        { "text": "2. England", "correct": false },
+        { "text": "3. China", "correct": true },
+        { "text": "4. Japan", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of Batman's butler?",
+      "answers": [
+        { "text": "1. Alfred", "correct": true },
+        { "text": "2. Jarvis", "correct": false },
+        { "text": "3. Lucius", "correct": false },
+        { "text": "4. Gordon", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gas do plants absorb during photosynthesis?",
+      "answers": [
+        { "text": "1. Oxygen", "correct": false },
+        { "text": "2. Nitrogen", "correct": false },
+        { "text": "3. Carbon Dioxide", "correct": true },
+        { "text": "4. Hydrogen", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet has the most moons?",
+      "answers": [
+        { "text": "1. Saturn", "correct": true },
+        { "text": "2. Jupiter", "correct": false },
+        { "text": "3. Mars", "correct": false },
+        { "text": "4. Uranus", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Brazil?",
+      "answers": [
+        { "text": "1. Rio de Janeiro", "correct": false },
+        { "text": "2. São Paulo", "correct": false },
+        { "text": "3. Brasília", "correct": true },
+        { "text": "4. Salvador", "correct": false }
+      ]
+    },
+    {
+      "text": "Who invented the telephone?",
+      "answers": [
+        { "text": "1. Thomas Edison", "correct": false },
+        { "text": "2. Alexander Graham Bell", "correct": true },
+        { "text": "3. Nikola Tesla", "correct": false },
+        { "text": "4. Albert Einstein", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animal is known as the 'King of the Jungle'?",
+      "answers": [
+        { "text": "1. Tiger", "correct": false },
+        { "text": "2. Elephant", "correct": false },
+        { "text": "3. Lion", "correct": true },
+        { "text": "4. Gorilla", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the square root of 64?",
+      "answers": [
+        { "text": "1. 6", "correct": false },
+        { "text": "2. 8", "correct": true },
+        { "text": "3. 10", "correct": false },
+        { "text": "4. 12", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is the largest by land area?",
+      "answers": [
+        { "text": "1. Canada", "correct": false },
+        { "text": "2. China", "correct": false },
+        { "text": "3. Russia", "correct": true },
+        { "text": "4. United States", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'The Avengers', what is Thor's weapon called?",
+      "answers": [
+        { "text": "1. Stormbreaker", "correct": false },
+        { "text": "2. Mjölnir", "correct": true },
+        { "text": "3. Infinity Gauntlet", "correct": false },
+        { "text": "4. Shield", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Egypt?",
+      "answers": [
+        { "text": "1. Alexandria", "correct": false },
+        { "text": "2. Giza", "correct": false },
+        { "text": "3. Cairo", "correct": true },
+        { "text": "4. Luxor", "correct": false }
+      ]
+    },
+    {
+      "text": "Which programming language is used for Android app development?",
+      "answers": [
+        { "text": "1. Java/Kotlin", "correct": true },
+        { "text": "2. Swift", "correct": false },
+        { "text": "3. C#", "correct": false },
+        { "text": "4. Python", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek god of the sea?",
+      "answers": [
+        { "text": "1. Zeus", "correct": false },
+        { "text": "2. Poseidon", "correct": true },
+        { "text": "3. Hades", "correct": false },
+        { "text": "4. Apollo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country has the most pyramids?",
+      "answers": [
+        { "text": "1. Egypt", "correct": false },
+        { "text": "2. Mexico", "correct": false },
+        { "text": "3. Sudan", "correct": true },
+        { "text": "4. Peru", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet is known for its rings?",
+      "answers": [
+        { "text": "1. Venus", "correct": false },
+        { "text": "2. Saturn", "correct": true },
+        { "text": "3. Jupiter", "correct": false },
+        { "text": "4. Neptune", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the largest species of shark?",
+      "answers": [
+        { "text": "1. Great White Shark", "correct": false },
+        { "text": "2. Hammerhead Shark", "correct": false },
+        { "text": "3. Whale Shark", "correct": true },
+        { "text": "4. Tiger Shark", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company developed the game 'Fortnite'?",
+      "answers": [
+        { "text": "1. EA", "correct": false },
+        { "text": "2. Ubisoft", "correct": false },
+        { "text": "3. Epic Games", "correct": true },
+        { "text": "4. Activision", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Hunger Games' trilogy?",
+      "answers": [
+        { "text": "1. J.K. Rowling", "correct": false },
+        { "text": "2. Suzanne Collins", "correct": true },
+        { "text": "3. Veronica Roth", "correct": false },
+        { "text": "4. Stephenie Meyer", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the chemical symbol for sodium?",
+      "answers": [
+        { "text": "1. So", "correct": false },
+        { "text": "2. Na", "correct": true },
+        { "text": "3. K", "correct": false },
+        { "text": "4. S", "correct": false }
+      ]
+    },
+    {
+      "text": "Which continent is the Sahara Desert located in?",
+      "answers": [
+        { "text": "1. Asia", "correct": false },
+        { "text": "2. Africa", "correct": true },
+        { "text": "3. Australia", "correct": false },
+        { "text": "4. South America", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the smallest country in the world?",
+      "answers": [
+        { "text": "1. Monaco", "correct": false },
+        { "text": "2. Vatican City", "correct": true },
+        { "text": "3. San Marino", "correct": false },
+        { "text": "4. Liechtenstein", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gaming console is abbreviated as 'PS5'?",
+      "answers": [
+        { "text": "1. PlayStation 5", "correct": true },
+        { "text": "2. Xbox Series X", "correct": false },
+        { "text": "3. Nintendo Wii", "correct": false },
+        { "text": "4. Sega Genesis", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Spain?",
+      "answers": [
+        { "text": "1. Barcelona", "correct": false },
+        { "text": "2. Madrid", "correct": true },
+        { "text": "3. Valencia", "correct": false },
+        { "text": "4. Seville", "correct": false }
+      ]
+    },
+    {
+      "text": "Which element is a liquid at room temperature?",
+      "answers": [
+        { "text": "1. Bromine", "correct": false },
+        { "text": "2. Mercury", "correct": true },
+        { "text": "3. Iron", "correct": false },
+        { "text": "4. Gold", "correct": false }
+      ]
+    },
+    {
+      "text": "Who discovered penicillin?",
+      "answers": [
+        { "text": "1. Marie Curie", "correct": false },
+        { "text": "2. Alexander Fleming", "correct": true },
+        { "text": "3. Isaac Newton", "correct": false },
+        { "text": "4. Albert Einstein", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of South Korea?",
+      "answers": [
+        { "text": "1. Busan", "correct": false },
+        { "text": "2. Seoul", "correct": true },
+        { "text": "3. Incheon", "correct": false },
+        { "text": "4. Daegu", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animal is the fastest land mammal?",
+      "answers": [
+        { "text": "1. Lion", "correct": false },
+        { "text": "2. Cheetah", "correct": true },
+        { "text": "3. Gazelle", "correct": false },
+        { "text": "4. Horse", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the largest ocean on Earth?",
+      "answers": [
+        { "text": "1. Atlantic Ocean", "correct": false },
+        { "text": "2. Indian Ocean", "correct": false },
+        { "text": "3. Pacific Ocean", "correct": true },
+        { "text": "4. Arctic Ocean", "correct": false }
+      ]
+    }
+  ]
