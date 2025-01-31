@@ -25,6 +25,11 @@ const Menu = ({ startGame }) => {
             <p>
               Answer with <span className="key-style">1 - 4</span> keys
             </p>
+            <p>
+              ✅ Correct Answer: Gain +1 point ❌ Incorrect Answer: Lose -1
+              point
+            </p>
+
             <p className="highlight-text">First to 10 points wins! 🏆</p>
           </div>
         </div>
