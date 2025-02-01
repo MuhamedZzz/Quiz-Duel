@@ -65,7 +65,6 @@ const App = () => {
       );
       const isCorrect = answerIndex === correctAnswer;
 
-      // Flash handling and score updates
       const updateScore = (player, correct) => {
         const setScore = player === 1 ? setPlayer1Score : setPlayer2Score;
         const setFlash = player === 1 ? setScoreFlash1 : setScoreFlash2;
