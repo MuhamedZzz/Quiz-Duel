@@ -1,12 +1,28 @@
 import React from "react";
+import CategorySelector from "./CategorySelector";
 
-const Menu = ({ startGame }) => {
+const Menu = ({
+  startGame,
+  categories,
+  selectedCategory,
+  onCategoryChange,
+}) => {
   return (
     <div className="menu-container">
       <div className="glass-card main-menu">
         <h1 className="neon-title">
           Welcome to <span className="gradient-text">Quiz Duel</span>
         </h1>
+
+        <div className="category-selector-wrapper">
+          <label className="category-label neon-text">Select Category:</label>
+          <CategorySelector
+            categories={categories}
+            selectedCategory={selectedCategory}
+            onSelect={onCategoryChange}
+          />
+        </div>
+
         <button onClick={startGame} className="gradient-btn hover-glow">
           Start Game
         </button>

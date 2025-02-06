@@ -1,7 +1,15 @@
 import React, { useEffect } from "react";
 import confetti from "canvas-confetti";
+import CategorySelector from "./CategorySelector";
 
-const GameOver = ({ winner, scoreboard, playAgain }) => {
+const GameOver = ({
+  winner,
+  scoreboard,
+  playAgain,
+  categories,
+  selectedCategory,
+  onCategoryChange,
+}) => {
   useEffect(() => {
     const count = 200;
     const defaults = {
@@ -44,6 +52,14 @@ const GameOver = ({ winner, scoreboard, playAgain }) => {
             <p className="score-player neon-text">
               Player 2: {scoreboard.player2} Points
             </p>
+          </div>
+          <div className="category-selector-wrapper">
+            <label className="category-label neon-text">Select Category:</label>
+            <CategorySelector
+              categories={categories}
+              selectedCategory={selectedCategory}
+              onSelect={onCategoryChange}
+            />
           </div>
           <button onClick={playAgain} className="play-again-btn hover-glow">
             🎮 Play Again 🎮

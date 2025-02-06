@@ -7,6 +7,8 @@ import GameOver from "./components/GameOver";
 import Scoreboard from "./components/Scoreboard";
 import "./App.css";
 
+// fix overflow to prevent horizontal scroll
+
 const App = () => {
   const [gameStarted, setGameStarted] = useState(false);
   const [player1Score, setPlayer1Score] = useState(0);
@@ -19,18 +21,40 @@ const App = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [scoreFlash1, setScoreFlash1] = useState(false);
   const [scoreFlash2, setScoreFlash2] = useState(false);
+  const [categories, setCategories] = useState(["General Knowledge"]);
+  const [selectedCategory, setSelectedCategory] = useState("General Knowledge");
+  const [allQuestions, setAllQuestions] = useState([]);
 
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
         const response = await axios.get("/questions.json");
-        const shuffledQuestions = response.data.sort(() => Math.random() - 0.5);
-        setQuestions(shuffledQuestions);
+        const withCategories = response.data.map((q) => ({
+          ...q,
+          category: q.category || "General Knowledge",
+        }));
+        setAllQuestions(withCategories);
+
+        // disable categories because there are not enough questions
+        const unwantedCategories = [
+          "Food",
+          "Movies",
+          "Art",
+          "Math",
+          "History",
+          "Mythology",
+        ];
+
+        const uniqueCategories = [
+          ...new Set(withCategories.map((q) => q.category)),
+        ].filter((category) => !unwantedCategories.includes(category));
+        setCategories(["General Knowledge", ...uniqueCategories]);
+
+        setQuestions(shuffleArray(withCategories));
       } catch (error) {
         console.error("Error fetching questions:", error);
       }
     };
-
     fetchQuestions();
   }, []);
 
@@ -42,6 +66,16 @@ const App = () => {
   const handleStartGame = () => {
     setGameStarted(true);
     playSound("gamestart");
+  };
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+    const filtered =
+      category === "General Knowledge"
+        ? allQuestions
+        : allQuestions.filter((q) => q.category === category);
+    setQuestions(shuffleArray(filtered));
+    setCurrentQuestionIndex(0);
   };
 
   const handleBuzzIn = useCallback(
@@ -118,6 +152,11 @@ const App = () => {
   );
 
   const handlePlayAgain = () => {
+    const filtered =
+      selectedCategory === "General Knowledge"
+        ? allQuestions
+        : allQuestions.filter((q) => q.category === selectedCategory);
+    setQuestions(shuffleArray(filtered));
     setPlayer1Score(0);
     setPlayer2Score(0);
     setGameOver(false);
@@ -125,7 +164,6 @@ const App = () => {
     setBuzzedInPlayer(null);
     setWinner("");
     setSelectedAnswer(null);
-    setQuestions(questions);
     playSound("gamestart");
   };
 
@@ -144,13 +182,25 @@ const App = () => {
     return () => window.removeEventListener("keydown", handleKeyPress);
   }, [gameStarted, gameOver, handleBuzzIn, handleAnswerSelect, buzzedInPlayer]);
 
-  if (!gameStarted) return <Menu startGame={handleStartGame} />;
+  if (!gameStarted)
+    return (
+      <Menu
+        startGame={handleStartGame}
+        categories={categories}
+        selectedCategory={selectedCategory}
+        onCategoryChange={handleCategoryChange}
+      />
+    );
+
   if (gameOver)
     return (
       <GameOver
         winner={winner}
         scoreboard={{ player1: player1Score, player2: player2Score }}
         playAgain={handlePlayAgain}
+        categories={categories}
+        selectedCategory={selectedCategory}
+        onCategoryChange={handleCategoryChange}
       />
     );
 
@@ -185,6 +235,16 @@ const App = () => {
       </div>
     </div>
   );
+};
+
+// Shuffle function outside component
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 };
 
 export default App;

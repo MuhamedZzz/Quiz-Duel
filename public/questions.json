@@ -1,510 +1,3427 @@
 [
-    {
-      "text": "What is the capital of Japan?",
-      "answers": [
-        { "text": "1. Tokyo", "correct": true },
-        { "text": "2. Seoul", "correct": false },
-        { "text": "3. Beijing", "correct": false },
-        { "text": "4. Bangkok", "correct": false }
-      ]
-    },
-    {
-      "text": "Which programming language is primarily used for iOS development?",
-      "answers": [
-        { "text": "1. Swift", "correct": true },
-        { "text": "2. Python", "correct": false },
-        { "text": "3. JavaScript", "correct": false },
-        { "text": "4. Ruby", "correct": false }
-      ]
-    },
-    {
-      "text": "Which gaming console is known for its exclusive game 'The Legend of Zelda'?",
-      "answers": [
-        { "text": "1. PlayStation", "correct": false },
-        { "text": "2. Nintendo Switch", "correct": true },
-        { "text": "3. Xbox", "correct": false },
-        { "text": "4. PC", "correct": false }
-      ]
-    },
-    {
-      "text": "Which superhero is known as the 'Caped Crusader'?",
-      "answers": [
-        { "text": "1. Spider-Man", "correct": false },
-        { "text": "2. Iron Man", "correct": false },
-        { "text": "3. Batman", "correct": true },
-        { "text": "4. Superman", "correct": false }
-      ]
-    },
-    {
-      "text": "In the TV show 'Friends', who was Ross's second wife?",
-      "answers": [
-        { "text": "1. Rachel", "correct": false },
-        { "text": "2. Carol", "correct": false },
-        { "text": "3. Emily", "correct": true },
-        { "text": "4. Susan", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the name of the wizarding school in the 'Harry Potter' series?",
-      "answers": [
-        { "text": "1. Hogwarts", "correct": true },
-        { "text": "2. Beauxbatons", "correct": false },
-        { "text": "3. Ilvermorny", "correct": false },
-        { "text": "4. Durmstrang", "correct": false }
-      ]
-    },
-    {
-      "text": "Which company developed the game 'Minecraft'?",
-      "answers": [
-        { "text": "1. Epic Games", "correct": false },
-        { "text": "2. EA Sports", "correct": false },
-        { "text": "3. Valve", "correct": false },
-        { "text": "4. Mojang", "correct": true }
-      ]
-    },
-    {
-      "text": "Which animal is the largest mammal on Earth?",
-      "answers": [
-        { "text": "1. Shark", "correct": false },
-        { "text": "2. Elephant", "correct": false },
-        { "text": "3. Blue Whale", "correct": true },
-        { "text": "4. Giraffe", "correct": false }
-      ]
-    },
-    {
-      "text": "Which video game franchise is known for the character 'Mario'?",
-      "answers": [
-        { "text": "1. The Legend of Zelda", "correct": false },
-        { "text": "2. Super Mario", "correct": true },
-        { "text": "3. Donkey Kong", "correct": false },
-        { "text": "4. Sonic the Hedgehog", "correct": false }
-      ]
-    },
-    {
-      "text": "What programming language is known for its use in web development?",
-      "answers": [
-        { "text": "1. JavaScript", "correct": true },
-        { "text": "2. C#", "correct": false },
-        { "text": "3. Java", "correct": false },
-        { "text": "4. PHP", "correct": false }
-      ]
-    },
-    {
-      "text": "In 'Stranger Things', what is the name of the alternate dimension?",
-      "answers": [
-        { "text": "1. The Netherworld", "correct": false },
-        { "text": "2. The Shadow Realm", "correct": false },
-        { "text": "3. The Upside Down", "correct": true },
-        { "text": "4. The Dark Zone", "correct": false }
-      ]
-    },
-    {
-      "text": "Which fruit is known for being high in potassium?",
-      "answers": [
-        { "text": "1. Grape", "correct": false },
-        { "text": "2. Banana", "correct": true },
-        { "text": "3. Orange", "correct": false },
-        { "text": "4. Apple", "correct": false }
-      ]
-    },
-    {
-      "text": "Which animated film features a character named Simba?",
-      "answers": [
-        { "text": "1. Frozen", "correct": false },
-        { "text": "2. Shrek", "correct": false },
-        { "text": "3. The Lion King", "correct": true },
-        { "text": "4. Zootopia", "correct": false }
-      ]
-    },
-    {
-      "text": "Which animal is known for its black and white stripes?",
-      "answers": [
-        { "text": "1. Penguin", "correct": false },
-        { "text": "2. Zebra", "correct": true },
-        { "text": "3. Tiger", "correct": false },
-        { "text": "4. Panda", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the chemical symbol for gold?",
-      "answers": [
-        { "text": "1. Ag", "correct": false },
-        { "text": "2. Fe", "correct": false },
-        { "text": "3. Pb", "correct": false },
-        { "text": "4. Au", "correct": true }
-      ]
-    },
-    {
-      "text": "Which fast food chain is famous for its 'Big Mac'?",
-      "answers": [
-        { "text": "1. Wendy's", "correct": false },
-        { "text": "2. Taco Bell", "correct": false },
-        { "text": "3. McDonald's", "correct": true },
-        { "text": "4. Burger King", "correct": false }
-      ]
-    },
-    {
-      "text": "What does the acronym 'HTML' stand for?",
-      "answers": [
-        { "text": "1. Home Tool Markup Language", "correct": false },
-        { "text": "2. Hyper Transfer Markup Language", "correct": false },
-        { "text": "3. HyperText Machine Language", "correct": false },
-        { "text": "4. HyperText Markup Language", "correct": true }
-      ]
-    },
+  {
+    "text": "What is the capital of Japan?",
+    "category": "Geography",
+    "answers": [
+    { "text": "1. Tokyo", "correct": true },
+    { "text": "2. Seoul", "correct": false },
+    { "text": "3. Beijing", "correct": false },
+    { "text": "4. Bangkok", "correct": false }
+    ]
+  },
+  {
+    "text": "Which programming language is primarily used for iOS development?",
+    "category": "Technology",
+    "answers": [
+    { "text": "1. Swift", "correct": true },
+    { "text": "2. Python", "correct": false },
+    { "text": "3. JavaScript", "correct": false },
+    { "text": "4. Ruby", "correct": false }
+    ]
+  },
+  {
+    "text": "Which gaming console is known for its exclusive game 'The Legend of Zelda'?",
+    "category": "Gaming",
+    "answers": [
+    { "text": "1. PlayStation", "correct": false },
+    { "text": "2. Nintendo Switch", "correct": true },
+    { "text": "3. Xbox", "correct": false },
+    { "text": "4. PC", "correct": false }
+    ]
+  },
+  {
+    "text": "Which superhero is known as the 'Caped Crusader'?",
+    "category": "Comics",
+    "answers": [
+    { "text": "1. Spider-Man", "correct": false },
+    { "text": "2. Iron Man", "correct": false },
+    { "text": "3. Batman", "correct": true },
+    { "text": "4. Superman", "correct": false }
+    ]
+  },
+  {
+    "text": "In the TV show 'Friends', who was Ross's second wife?",
+    "category": "TV",
+    "answers": [
+    { "text": "1. Rachel", "correct": false },
+    { "text": "2. Carol", "correct": false },
+    { "text": "3. Emily", "correct": true },
+    { "text": "4. Susan", "correct": false }
+    ]
+  },
+  {
+    "text": "What is the name of the wizarding school in the 'Harry Potter' series?",
+    "category": "Literature",
+    "answers": [
+    { "text": "1. Hogwarts", "correct": true },
+    { "text": "2. Beauxbatons", "correct": false },
+    { "text": "3. Ilvermorny", "correct": false },
+    { "text": "4. Durmstrang", "correct": false }
+    ]
+  },
+  {
+    "text": "Which company developed the game 'Minecraft'?",
+    "category": "Gaming",
+    "answers": [
+    { "text": "1. Epic Games", "correct": false },
+    { "text": "2. EA Sports", "correct": false },
+    { "text": "3. Valve", "correct": false },
+    { "text": "4. Mojang", "correct": true }
+    ]
+  },
+  {
+    "text": "Which animal is the largest mammal on Earth?",
+    "category": "Science",
+    "answers": [
+    { "text": "1. Shark", "correct": false },
+    { "text": "2. Elephant", "correct": false },
+    { "text": "3. Blue Whale", "correct": true },
+    { "text": "4. Giraffe", "correct": false }
+    ]
+  },
+  {
+    "text": "Which video game franchise is known for the character 'Mario'?",
+    "category": "Gaming",
+    "answers": [
+    { "text": "1. The Legend of Zelda", "correct": false },
+    { "text": "2. Super Mario", "correct": true },
+    { "text": "3. Donkey Kong", "correct": false },
+    { "text": "4. Sonic the Hedgehog", "correct": false }
+    ]
+  },
+  {
+    "text": "What programming language is known for its use in web development?",
+    "category": "Technology",
+    "answers": [
+    { "text": "1. JavaScript", "correct": true },
+    { "text": "2. C#", "correct": false },
+    { "text": "3. Java", "correct": false },
+    { "text": "4. PHP", "correct": false }
+    ]
+  },
+  {
+    "text": "In 'Stranger Things', what is the name of the alternate dimension?",
+    "category": "TV",
+    "answers": [
+    { "text": "1. The Netherworld", "correct": false },
+    { "text": "2. The Shadow Realm", "correct": false },
+    { "text": "3. The Upside Down", "correct": true },
+    { "text": "4. The Dark Zone", "correct": false }
+    ]
+  },
+  {
+    "text": "Which fruit is known for being high in potassium?",
+    "category": "Food",
+    "answers": [
+    { "text": "1. Grape", "correct": false },
+    { "text": "2. Banana", "correct": true },
+    { "text": "3. Orange", "correct": false },
+    { "text": "4. Apple", "correct": false }
+    ]
+  },
+  {
+    "text": "Which animated film features a character named Simba?",
+    "category": "Movies",
+    "answers": [
+    { "text": "1. Frozen", "correct": false },
+    { "text": "2. Shrek", "correct": false },
+    { "text": "3. The Lion King", "correct": true },
+    { "text": "4. Zootopia", "correct": false }
+    ]
+  },
+  {
+    "text": "Which animal is known for its black and white stripes?",
+    "category": "Science",
+    "answers": [
+    { "text": "1. Penguin", "correct": false },
+    { "text": "2. Zebra", "correct": true },
+    { "text": "3. Tiger", "correct": false },
+    { "text": "4. Panda", "correct": false }
+    ]
+  },
+  {
+    "text": "What is the chemical symbol for gold?",
+    "category": "Science",
+    "answers": [
+    { "text": "1. Ag", "correct": false },
+    { "text": "2. Fe", "correct": false },
+    { "text": "3. Pb", "correct": false },
+    { "text": "4. Au", "correct": true }
+    ]
+  },
+  {
+    "text": "Which fast food chain is famous for its 'Big Mac'?",
+    "category": "Food",
+    "answers": [
+    { "text": "1. Wendy's", "correct": false },
+    { "text": "2. Taco Bell", "correct": false },
+    { "text": "3. McDonald's", "correct": true },
+    { "text": "4. Burger King", "correct": false }
+    ]
+  },
+  {
+    "text": "What does the acronym 'HTML' stand for?",
+    "category": "Technology",
+    "answers": [
+    { "text": "1. Home Tool Markup Language", "correct": false },
+    { "text": "2. Hyper Transfer Markup Language", "correct": false },
+    { "text": "3. HyperText Machine Language", "correct": false },
+    { "text": "4. HyperText Markup Language", "correct": true }
+    ]
+  },
     {
       "text": "Which Marvel movie features the character 'Black Panther'?",
+      "category": "Movies",
       "answers": [
-        { "text": "1. Captain America: Civil War", "correct": false },
-        { "text": "2. Thor: Ragnarok", "correct": false },
-        { "text": "3. Black Panther", "correct": true },
-        { "text": "4. Avengers: Infinity War", "correct": false }
+      { "text": "1. Captain America: Civil War", "correct": false },
+      { "text": "2. Thor: Ragnarok", "correct": false },
+      { "text": "3. Black Panther", "correct": true },
+      { "text": "4. Avengers: Infinity War", "correct": false }
       ]
     },
     {
       "text": "Which TV show is set in a post-apocalyptic world where zombies rule?",
+      "category": "TV",
       "answers": [
-        { "text": "1. Breaking Bad", "correct": false },
-        { "text": "2. Stranger Things", "correct": false },
-        { "text": "3. Game of Thrones", "correct": false },
-        { "text": "4. The Walking Dead", "correct": true }
+      { "text": "1. Breaking Bad", "correct": false },
+      { "text": "2. Stranger Things", "correct": false },
+      { "text": "3. Game of Thrones", "correct": false },
+      { "text": "4. The Walking Dead", "correct": true }
       ]
     },
     {
       "text": "Which video game series features a character named 'Link'?",
+      "category": "Gaming",
       "answers": [
-        { "text": "1. Halo", "correct": false },
-        { "text": "2. Final Fantasy", "correct": false },
-        { "text": "3. Metroid", "correct": false },
-        { "text": "4. The Legend of Zelda", "correct": true }
+      { "text": "1. Halo", "correct": false },
+      { "text": "2. Final Fantasy", "correct": false },
+      { "text": "3. Metroid", "correct": false },
+      { "text": "4. The Legend of Zelda", "correct": true }
       ]
     },
     {
       "text": "What is the main ingredient in guacamole?",
+      "category": "Food",
       "answers": [
-        { "text": "1. Tomato", "correct": false },
-        { "text": "2. Avocado", "correct": true },
-        { "text": "3. Cucumber", "correct": false },
-        { "text": "4. Lemon", "correct": false }
+      { "text": "1. Tomato", "correct": false },
+      { "text": "2. Avocado", "correct": true },
+      { "text": "3. Cucumber", "correct": false },
+      { "text": "4. Lemon", "correct": false }
       ]
     },
     {
       "text": "Which famous artist painted the 'Mona Lisa'?",
+      "category": "Art",
       "answers": [
-        { "text": "1. Vincent van Gogh", "correct": false },
-        { "text": "2. Claude Monet", "correct": false },
-        { "text": "3. Pablo Picasso", "correct": false },
-        { "text": "4. Leonardo da Vinci", "correct": true }
+      { "text": "1. Vincent van Gogh", "correct": false },
+      { "text": "2. Claude Monet", "correct": false },
+      { "text": "3. Pablo Picasso", "correct": false },
+      { "text": "4. Leonardo da Vinci", "correct": true }
       ]
     },
     {
       "text": "Which company created the iPhone?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. Samsung", "correct": false },
-        { "text": "2. Google", "correct": false },
-        { "text": "3. Microsoft", "correct": false },
-        { "text": "4. Apple", "correct": true }
+      { "text": "1. Samsung", "correct": false },
+      { "text": "2. Google", "correct": false },
+      { "text": "3. Microsoft", "correct": false },
+      { "text": "4. Apple", "correct": true }
       ]
     },
     {
       "text": "What is the capital city of France?",
+      "category": "Geography",
       "answers": [
-        { "text": "1. Berlin", "correct": false },
-        { "text": "2. Madrid", "correct": false },
-        { "text": "3. Paris", "correct": true },
-        { "text": "4. Rome", "correct": false }
+      { "text": "1. Berlin", "correct": false },
+      { "text": "2. Madrid", "correct": false },
+      { "text": "3. Paris", "correct": true },
+      { "text": "4. Rome", "correct": false }
       ]
     },
     {
       "text": "Which fictional character is known for saying 'To infinity and beyond!'?",
+      "category": "Movies",
       "answers": [
-        { "text": "1. Buzz Lightyear", "correct": true },
-        { "text": "2. Woody", "correct": false },
-        { "text": "3. Mike Wazowski", "correct": false },
-        { "text": "4. Lightning McQueen", "correct": false }
+      { "text": "1. Buzz Lightyear", "correct": true },
+      { "text": "2. Woody", "correct": false },
+      { "text": "3. Mike Wazowski", "correct": false },
+      { "text": "4. Lightning McQueen", "correct": false }
       ]
     },
     {
       "text": "What animal is the symbol of the World Wildlife Fund (WWF)?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Lion", "correct": false },
-        { "text": "2. Elephant", "correct": false },
-        { "text": "3. Panda", "correct": true },
-        { "text": "4. Tiger", "correct": false }
+      { "text": "1. Lion", "correct": false },
+      { "text": "2. Elephant", "correct": false },
+      { "text": "3. Panda", "correct": true },
+      { "text": "4. Tiger", "correct": false }
       ]
     },
     {
       "text": "Which popular video game features a battle royale mode called 'Warzone'?",
+      "category": "Gaming",
       "answers": [
-        { "text": "1. Call of Duty", "correct": true },
-        { "text": "2. Fortnite", "correct": false },
-        { "text": "3. Apex Legends", "correct": false },
-        { "text": "4. PUBG", "correct": false }
+      { "text": "1. Call of Duty", "correct": true },
+      { "text": "2. Fortnite", "correct": false },
+      { "text": "3. Apex Legends", "correct": false },
+      { "text": "4. PUBG", "correct": false }
       ]
     },
     {
       "text": "In what year did the first iPhone release?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. 2010", "correct": false },
-        { "text": "2. 2009", "correct": false },
-        { "text": "3. 2007", "correct": true },
-        { "text": "4. 2005", "correct": false }
+      { "text": "1. 2010", "correct": false },
+      { "text": "2. 2009", "correct": false },
+      { "text": "3. 2007", "correct": true },
+      { "text": "4. 2005", "correct": false }
       ]
     },
     {
       "text": "Which character is the main antagonist in the movie 'The Lion King'?",
+      "category": "Movies",
       "answers": [
-        { "text": "1. Scar", "correct": true },
-        { "text": "2. Mufasa", "correct": false },
-        { "text": "3. Simba", "correct": false },
-        { "text": "4. Timon", "correct": false }
+      { "text": "1. Scar", "correct": true },
+      { "text": "2. Mufasa", "correct": false },
+      { "text": "3. Simba", "correct": false },
+      { "text": "4. Timon", "correct": false }
       ]
     },
     {
       "text": "What is the capital of Canada?",
+      "category": "Geography",
       "answers": [
-        { "text": "1. Toronto", "correct": false },
-        { "text": "2. Montreal", "correct": false },
-        { "text": "3. Ottawa", "correct": true },
-        { "text": "4. Vancouver", "correct": false }
+      { "text": "1. Toronto", "correct": false },
+      { "text": "2. Montreal", "correct": false },
+      { "text": "3. Ottawa", "correct": true },
+      { "text": "4. Vancouver", "correct": false }
       ]
     },
     {
       "text": "Which programming language is used for machine learning frameworks like TensorFlow?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. Python", "correct": true },
-        { "text": "2. C++", "correct": false },
-        { "text": "3. Ruby", "correct": false },
-        { "text": "4. Go", "correct": false }
+      { "text": "1. Python", "correct": true },
+      { "text": "2. C++", "correct": false },
+      { "text": "3. Ruby", "correct": false },
+      { "text": "4. Go", "correct": false }
       ]
     },
     {
       "text": "Which console is known for the 'Halo' franchise?",
+      "category": "Gaming",
       "answers": [
-        { "text": "1. PlayStation", "correct": false },
-        { "text": "2. Xbox", "correct": true },
-        { "text": "3. Nintendo Switch", "correct": false },
-        { "text": "4. Sega Genesis", "correct": false }
+      { "text": "1. PlayStation", "correct": false },
+      { "text": "2. Xbox", "correct": true },
+      { "text": "3. Nintendo Switch", "correct": false },
+      { "text": "4. Sega Genesis", "correct": false }
       ]
     },
     {
       "text": "Who is known as the 'Man of Steel'?",
+      "category": "Comics",
       "answers": [
-        { "text": "1. Batman", "correct": false },
-        { "text": "2. Spider-Man", "correct": false },
-        { "text": "3. Superman", "correct": true },
-        { "text": "4. Wolverine", "correct": false }
+      { "text": "1. Batman", "correct": false },
+      { "text": "2. Spider-Man", "correct": false },
+      { "text": "3. Superman", "correct": true },
+      { "text": "4. Wolverine", "correct": false }
       ]
     },
     {
       "text": "In 'The Office', what is Michael Scott's favorite movie?",
+      "category": "TV",
       "answers": [
-        { "text": "1. Die Hard", "correct": false },
-        { "text": "2. Threat Level Midnight", "correct": true },
-        { "text": "3. The Godfather", "correct": false },
-        { "text": "4. Star Wars", "correct": false }
+      { "text": "1. Die Hard", "correct": false },
+      { "text": "2. Threat Level Midnight", "correct": true },
+      { "text": "3. The Godfather", "correct": false },
+      { "text": "4. Star Wars", "correct": false }
       ]
     },
     {
       "text": "Which planet is known as the 'Red Planet'?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Venus", "correct": false },
-        { "text": "2. Mars", "correct": true },
-        { "text": "3. Jupiter", "correct": false },
-        { "text": "4. Saturn", "correct": false }
+      { "text": "1. Venus", "correct": false },
+      { "text": "2. Mars", "correct": true },
+      { "text": "3. Jupiter", "correct": false },
+      { "text": "4. Saturn", "correct": false }
       ]
     },
     {
       "text": "Which company owns Instagram?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. Google", "correct": false },
-        { "text": "2. Amazon", "correct": false },
-        { "text": "3. Meta", "correct": true },
-        { "text": "4. Microsoft", "correct": false }
+      { "text": "1. Google", "correct": false },
+      { "text": "2. Amazon", "correct": false },
+      { "text": "3. Meta", "correct": true },
+      { "text": "4. Microsoft", "correct": false }
       ]
     },
     {
       "text": "What is the smallest prime number?",
+      "category": "Math",
       "answers": [
-        { "text": "1. 0", "correct": false },
-        { "text": "2. 1", "correct": false },
-        { "text": "3. 2", "correct": true },
-        { "text": "4. 3", "correct": false }
+      { "text": "1. 0", "correct": false },
+      { "text": "2. 1", "correct": false },
+      { "text": "3. 2", "correct": true },
+      { "text": "4. 3", "correct": false }
       ]
     },
     {
       "text": "Which game popularized the battle royale genre?",
+      "category": "Gaming",
       "answers": [
-        { "text": "1. Fortnite", "correct": false },
-        { "text": "2. PUBG", "correct": true },
-        { "text": "3. Apex Legends", "correct": false },
-        { "text": "4. Overwatch", "correct": false }
+      { "text": "1. Fortnite", "correct": false },
+      { "text": "2. PUBG", "correct": true },
+      { "text": "3. Apex Legends", "correct": false },
+      { "text": "4. Overwatch", "correct": false }
       ]
     },
     {
       "text": "Who wrote 'Romeo and Juliet'?",
+      "category": "Literature",
       "answers": [
-        { "text": "1. Charles Dickens", "correct": false },
-        { "text": "2. J.K. Rowling", "correct": false },
-        { "text": "3. William Shakespeare", "correct": true },
-        { "text": "4. Mark Twain", "correct": false }
+      { "text": "1. Charles Dickens", "correct": false },
+      { "text": "2. J.K. Rowling", "correct": false },
+      { "text": "3. William Shakespeare", "correct": true },
+      { "text": "4. Mark Twain", "correct": false }
       ]
     },
     {
       "text": "Which country invented pizza?",
+      "category": "Food",
       "answers": [
-        { "text": "1. United States", "correct": false },
-        { "text": "2. France", "correct": false },
-        { "text": "3. China", "correct": false },
-        { "text": "4. Italy", "correct": true }
+      { "text": "1. United States", "correct": false },
+      { "text": "2. France", "correct": false },
+      { "text": "3. China", "correct": false },
+      { "text": "4. Italy", "correct": true }
       ]
     },
     {
       "text": "What does 'HTTP' stand for?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. HyperText Transfer Protocol", "correct": true },
-        { "text": "2. High-Tech Text Processor", "correct": false },
-        { "text": "3. Home Terminal Transfer Program", "correct": false },
-        { "text": "4. Hyperlink Text Transmission", "correct": false }
+      { "text": "1. HyperText Transfer Protocol", "correct": true },
+      { "text": "2. High-Tech Text Processor", "correct": false },
+      { "text": "3. Home Terminal Transfer Program", "correct": false },
+      { "text": "4. Hyperlink Text Transmission", "correct": false }
       ]
     },
     {
       "text": "Which animal can regrow its limbs?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Shark", "correct": false },
-        { "text": "2. Starfish", "correct": true },
-        { "text": "3. Elephant", "correct": false },
-        { "text": "4. Kangaroo", "correct": false }
+      { "text": "1. Shark", "correct": false },
+      { "text": "2. Starfish", "correct": true },
+      { "text": "3. Elephant", "correct": false },
+      { "text": "4. Kangaroo", "correct": false }
       ]
     },
     {
       "text": "In 'Breaking Bad', what is Walter White's alias?",
+      "category": "TV",
       "answers": [
-        { "text": "1. The Joker", "correct": false },
-        { "text": "2. Heisenberg", "correct": true },
-        { "text": "3. Pablo Escobar", "correct": false },
-        { "text": "4. Tony Montana", "correct": false }
+      { "text": "1. The Joker", "correct": false },
+      { "text": "2. Heisenberg", "correct": true },
+      { "text": "3. Pablo Escobar", "correct": false },
+      { "text": "4. Tony Montana", "correct": false }
       ]
     },
     {
       "text": "What is the currency of Germany?",
+      "category": "Geography",
       "answers": [
-        { "text": "1. Euro", "correct": true },
-        { "text": "2. Dollar", "correct": false },
-        { "text": "3. Pound", "correct": false },
-        { "text": "4. Yen", "correct": false }
+      { "text": "1. Euro", "correct": true },
+      { "text": "2. Dollar", "correct": false },
+      { "text": "3. Pound", "correct": false },
+      { "text": "4. Yen", "correct": false }
       ]
     },
     {
       "text": "Which planet is closest to the Sun?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Venus", "correct": false },
-        { "text": "2. Earth", "correct": false },
-        { "text": "3. Mercury", "correct": true },
-        { "text": "4. Mars", "correct": false }
+      { "text": "1. Venus", "correct": false },
+      { "text": "2. Earth", "correct": false },
+      { "text": "3. Mercury", "correct": true },
+      { "text": "4. Mars", "correct": false }
       ]
     },
     {
       "text": "Who painted the ceiling of the Sistine Chapel?",
+      "category": "Art",
       "answers": [
-        { "text": "1. Vincent van Gogh", "correct": false },
-        { "text": "2. Michelangelo", "correct": true },
-        { "text": "3. Leonardo da Vinci", "correct": false },
-        { "text": "4. Pablo Picasso", "correct": false }
+      { "text": "1. Vincent van Gogh", "correct": false },
+      { "text": "2. Michelangelo", "correct": true },
+      { "text": "3. Leonardo da Vinci", "correct": false },
+      { "text": "4. Pablo Picasso", "correct": false }
       ]
     },
     {
       "text": "Which language is used for styling web pages?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. HTML", "correct": false },
-        { "text": "2. JavaScript", "correct": false },
-        { "text": "3. CSS", "correct": true },
-        { "text": "4. Python", "correct": false }
+      { "text": "1. HTML", "correct": false },
+      { "text": "2. JavaScript", "correct": false },
+      { "text": "3. CSS", "correct": true },
+      { "text": "4. Python", "correct": false }
       ]
     },
     {
       "text": "What is the largest organ in the human body?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Liver", "correct": false },
-        { "text": "2. Heart", "correct": false },
-        { "text": "3. Skin", "correct": true },
-        { "text": "4. Lungs", "correct": false }
+      { "text": "1. Liver", "correct": false },
+      { "text": "2. Heart", "correct": false },
+      { "text": "3. Skin", "correct": true },
+      { "text": "4. Lungs", "correct": false }
       ]
     },
     {
       "text": "In 'Game of Thrones', what is the name of Jon Snow's direwolf?",
+      "category": "TV",
       "answers": [
-        { "text": "1. Grey Wind", "correct": false },
-        { "text": "2. Ghost", "correct": true },
-        { "text": "3. Nymeria", "correct": false },
-        { "text": "4. Summer", "correct": false }
+      { "text": "1. Grey Wind", "correct": false },
+      { "text": "2. Ghost", "correct": true },
+      { "text": "3. Nymeria", "correct": false },
+      { "text": "4. Summer", "correct": false }
       ]
     },
     {
       "text": "Which country is known as the 'Land of the Rising Sun'?",
+      "category": "Geography",
       "answers": [
-        { "text": "1. China", "correct": false },
-        { "text": "2. South Korea", "correct": false },
-        { "text": "3. Japan", "correct": true },
-        { "text": "4. Thailand", "correct": false }
+      { "text": "1. China", "correct": false },
+      { "text": "2. South Korea", "correct": false },
+      { "text": "3. Japan", "correct": true },
+      { "text": "4. Thailand", "correct": false }
       ]
     },
     {
       "text": "What is the main component of the Earth's core?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Silicon", "correct": false },
-        { "text": "2. Iron", "correct": true },
-        { "text": "3. Magnesium", "correct": false },
-        { "text": "4. Oxygen", "correct": false }
+      { "text": "1. Silicon", "correct": false },
+      { "text": "2. Iron", "correct": true },
+      { "text": "3. Magnesium", "correct": false },
+      { "text": "4. Oxygen", "correct": false }
       ]
     },
     {
       "text": "Which social media platform uses a blue bird as its logo?",
+      "category": "Technology",
       "answers": [
-        { "text": "1. Facebook", "correct": false },
-        { "text": "2. Instagram", "correct": false },
-        { "text": "3. Twitter (X)", "correct": true },
-        { "text": "4. TikTok", "correct": false }
+      { "text": "1. Facebook", "correct": false },
+      { "text": "2. Instagram", "correct": false },
+      { "text": "3. Twitter (X)", "correct": true },
+      { "text": "4. TikTok", "correct": false }
       ]
     },
     {
       "text": "Who wrote '1984'?",
+      "category": "Literature",
       "answers": [
-        { "text": "1. J.R.R. Tolkien", "correct": false },
-        { "text": "2. George Orwell", "correct": true },
-        { "text": "3. Aldous Huxley", "correct": false },
-        { "text": "4. Ray Bradbury", "correct": false }
+      { "text": "1. J.R.R. Tolkien", "correct": false },
+      { "text": "2. George Orwell", "correct": true },
+      { "text": "3. Aldous Huxley", "correct": false },
+      { "text": "4. Ray Bradbury", "correct": false }
       ]
     },
     {
       "text": "What is the chemical symbol for silver?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Si", "correct": false },
-        { "text": "2. Ag", "correct": true },
-        { "text": "3. Au", "correct": false },
-        { "text": "4. Fe", "correct": false }
+      { "text": "1. Si", "correct": false },
+      { "text": "2. Ag", "correct": true },
+      { "text": "3. Au", "correct": false },
+      { "text": "4. Fe", "correct": false }
       ]
     },
     {
       "text": "Which video game features a plumber named Mario?",
+      "category": "Gaming",
       "answers": [
-        { "text": "1. Sonic the Hedgehog", "correct": false },
-        { "text": "2. Super Mario Bros.", "correct": true },
-        { "text": "3. Donkey Kong", "correct": false },
-        { "text": "4. Pac-Man", "correct": false }
+      { "text": "1. Sonic the Hedgehog", "correct": false },
+      { "text": "2. Super Mario Bros.", "correct": true },
+      { "text": "3. Donkey Kong", "correct": false },
+      { "text": "4. Pac-Man", "correct": false }
       ]
     },
     {
       "text": "What is the capital of Australia?",
+      "category": "Geography",
       "answers": [
-        { "text": "1. Sydney", "correct": false },
-        { "text": "2. Melbourne", "correct": false },
-        { "text": "3. Canberra", "correct": true },
-        { "text": "4. Brisbane", "correct": false }
+      { "text": "1. Sydney", "correct": false },
+      { "text": "2. Melbourne", "correct": false },
+      { "text": "3. Canberra", "correct": true },
+      { "text": "4. Brisbane", "correct": false }
       ]
     },
     {
       "text": "Which element has the atomic number 1?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Helium", "correct": false },
+      { "text": "2. Oxygen", "correct": false },
+      { "text": "3. Hydrogen", "correct": true },
+      { "text": "4. Carbon", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'Harry Potter', what is the name of Hermione's cat?",
+      "category": "Literature",
+      "answers": [
+      { "text": "1. Crookshanks", "correct": true },
+      { "text": "2. Hedwig", "correct": false },
+      { "text": "3. Scabbers", "correct": false },
+      { "text": "4. Fang", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country gifted the Statue of Liberty to the United States?",
+      "category": "History",
+      "answers": [
+      { "text": "1. Spain", "correct": false },
+      { "text": "2. France", "correct": true },
+      { "text": "3. England", "correct": false },
+      { "text": "4. Italy", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the CEO of Tesla?",
+      "category": "Technology",
+      "answers": [
+      { "text": "1. Jeff Bezos", "correct": false },
+      { "text": "2. Tim Cook", "correct": false },
+      { "text": "3. Elon Musk", "correct": true },
+      { "text": "4. Mark Zuckerberg", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the hardest natural substance on Earth?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Gold", "correct": false },
+      { "text": "2. Diamond", "correct": true },
+      { "text": "3. Platinum", "correct": false },
+      { "text": "4. Titanium", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country invented tea?",
+      "category": "Food",
+      "answers": [
+      { "text": "1. India", "correct": false },
+      { "text": "2. England", "correct": false },
+      { "text": "3. China", "correct": true },
+      { "text": "4. Japan", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of Batman's butler?",
+      "category": "Comics",
+      "answers": [
+      { "text": "1. Alfred", "correct": true },
+      { "text": "2. Jarvis", "correct": false },
+      { "text": "3. Lucius", "correct": false },
+      { "text": "4. Gordon", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gas do plants absorb during photosynthesis?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Oxygen", "correct": false },
+      { "text": "2. Nitrogen", "correct": false },
+      { "text": "3. Carbon Dioxide", "correct": true },
+      { "text": "4. Hydrogen", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet has the most moons?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Saturn", "correct": true },
+      { "text": "2. Jupiter", "correct": false },
+      { "text": "3. Mars", "correct": false },
+      { "text": "4. Uranus", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Brazil?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Rio de Janeiro", "correct": false },
+      { "text": "2. São Paulo", "correct": false },
+      { "text": "3. Brasília", "correct": true },
+      { "text": "4. Salvador", "correct": false }
+      ]
+    },
+    {
+      "text": "Who invented the telephone?",
+      "category": "History",
+      "answers": [
+      { "text": "1. Thomas Edison", "correct": false },
+      { "text": "2. Alexander Graham Bell", "correct": true },
+      { "text": "3. Nikola Tesla", "correct": false },
+      { "text": "4. Albert Einstein", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animal is known as the 'King of the Jungle'?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Tiger", "correct": false },
+      { "text": "2. Elephant", "correct": false },
+      { "text": "3. Lion", "correct": true },
+      { "text": "4. Gorilla", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the square root of 64?",
+      "category": "Math",
+      "answers": [
+      { "text": "1. 6", "correct": false },
+      { "text": "2. 8", "correct": true },
+      { "text": "3. 10", "correct": false },
+      { "text": "4. 12", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is the largest by land area?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Canada", "correct": false },
+      { "text": "2. China", "correct": false },
+      { "text": "3. Russia", "correct": true },
+      { "text": "4. United States", "correct": false }
+      ]
+    },
+    {
+      "text": "In 'The Avengers', what is Thor's weapon called?",
+      "category": "Movies",
+      "answers": [
+      { "text": "1. Stormbreaker", "correct": false },
+      { "text": "2. Mjölnir", "correct": true },
+      { "text": "3. Infinity Gauntlet", "correct": false },
+      { "text": "4. Shield", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Egypt?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Alexandria", "correct": false },
+      { "text": "2. Giza", "correct": false },
+      { "text": "3. Cairo", "correct": true },
+      { "text": "4. Luxor", "correct": false }
+      ]
+    },
+    {
+      "text": "Which programming language is used for Android app development?",
+      "category": "Technology",
+      "answers": [
+      { "text": "1. Java/Kotlin", "correct": true },
+      { "text": "2. Swift", "correct": false },
+      { "text": "3. C#", "correct": false },
+      { "text": "4. Python", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek god of the sea?",
+      "category": "Mythology",
+      "answers": [
+      { "text": "1. Zeus", "correct": false },
+      { "text": "2. Poseidon", "correct": true },
+      { "text": "3. Hades", "correct": false },
+      { "text": "4. Apollo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country has the most pyramids?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Egypt", "correct": false },
+      { "text": "2. Mexico", "correct": false },
+      { "text": "3. Sudan", "correct": true },
+      { "text": "4. Peru", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet is known for its rings?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Venus", "correct": false },
+      { "text": "2. Saturn", "correct": true },
+      { "text": "3. Jupiter", "correct": false },
+      { "text": "4. Neptune", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the largest species of shark?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Great White Shark", "correct": false },
+      { "text": "2. Hammerhead Shark", "correct": false },
+      { "text": "3. Whale Shark", "correct": true },
+      { "text": "4. Tiger Shark", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company developed the game 'Fortnite'?",
+      "category": "Gaming",
+      "answers": [
+      { "text": "1. EA", "correct": false },
+      { "text": "2. Ubisoft", "correct": false },
+      { "text": "3. Epic Games", "correct": true },
+      { "text": "4. Activision", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Hunger Games' trilogy?",
+      "category": "Literature",
+      "answers": [
+      { "text": "1. J.K. Rowling", "correct": false },
+      { "text": "2. Suzanne Collins", "correct": true },
+      { "text": "3. Veronica Roth", "correct": false },
+      { "text": "4. Stephenie Meyer", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the chemical symbol for sodium?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. So", "correct": false },
+      { "text": "2. Na", "correct": true },
+      { "text": "3. K", "correct": false },
+      { "text": "4. S", "correct": false }
+      ]
+    },
+    {
+      "text": "Which continent is the Sahara Desert located in?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Asia", "correct": false },
+      { "text": "2. Africa", "correct": true },
+      { "text": "3. Australia", "correct": false },
+      { "text": "4. South America", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the smallest country in the world?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Monaco", "correct": false },
+      { "text": "2. Vatican City", "correct": true },
+      { "text": "3. San Marino", "correct": false },
+      { "text": "4. Liechtenstein", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gaming console is abbreviated as 'PS5'?",
+      "category": "Gaming",
+      "answers": [
+      { "text": "1. PlayStation 5", "correct": true },
+      { "text": "2. Xbox Series X", "correct": false },
+      { "text": "3. Nintendo Wii", "correct": false },
+      { "text": "4. Sega Genesis", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of Spain?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Barcelona", "correct": false },
+      { "text": "2. Madrid", "correct": true },
+      { "text": "3. Valencia", "correct": false },
+      { "text": "4. Seville", "correct": false }
+      ]
+    },
+    {
+      "text": "Which element is a liquid at room temperature?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Bromine", "correct": false },
+      { "text": "2. Mercury", "correct": true },
+      { "text": "3. Iron", "correct": false },
+      { "text": "4. Gold", "correct": false }
+      ]
+    },
+    {
+      "text": "Who discovered penicillin?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Marie Curie", "correct": false },
+      { "text": "2. Alexander Fleming", "correct": true },
+      { "text": "3. Isaac Newton", "correct": false },
+      { "text": "4. Albert Einstein", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the capital of South Korea?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Busan", "correct": false },
+      { "text": "2. Seoul", "correct": true },
+      { "text": "3. Incheon", "correct": false },
+      { "text": "4. Daegu", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animal is the fastest land mammal?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. Lion", "correct": false },
+      { "text": "2. Cheetah", "correct": true },
+      { "text": "3. Gazelle", "correct": false },
+      { "text": "4. Horse", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the largest ocean on Earth?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Atlantic Ocean", "correct": false },
+      { "text": "2. Indian Ocean", "correct": false },
+      { "text": "3. Pacific Ocean", "correct": true },
+      { "text": "4. Arctic Ocean", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is known as the 'Land of the Midnight Sun'?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Norway", "correct": true },
+      { "text": "2. Sweden", "correct": false },
+      { "text": "3. Finland", "correct": false },
+      { "text": "4. Iceland", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the chemical symbol for water?",
+      "category": "Science",
+      "answers": [
+      { "text": "1. H2O", "correct": false },
+      { "text": "2. HO", "correct": false },
+      { "text": "3. H2", "correct": false },
+      { "text": "4. H2O2", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country is known as the 'Land of Fire and Ice'?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Norway", "correct": false },
+      { "text": "2. Sweden", "correct": false },
+      { "text": "3. Finland", "correct": false },
+      { "text": "4. Iceland", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the capital of Russia?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. St. Petersburg", "correct": false },
+      { "text": "2. Moscow", "correct": true },
+      { "text": "3. Sochi", "correct": false },
+      { "text": "4. Vladivostok", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is known as the 'Land of a Thousand Lakes'?",
+      "category": "Geography",
+      "answers": [
+      { "text": "1. Norway", "correct": false },
+      { "text": "2. Sweden", "correct": false },
+      { "text": "3. Finland", "correct": true },
+      { "text": "4. Iceland", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the longest river in Africa?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Niger", "correct": false },
+        { "text": "2. Zambezi", "correct": false },
+        { "text": "3. Nile", "correct": true },
+        { "text": "4. Congo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which is the largest lake in Africa?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Lake Chad", "correct": false },
+        { "text": "2. Lake Victoria", "correct": true },
+        { "text": "3. Lake Tanganyika", "correct": false },
+        { "text": "4. Lake Malawi", "correct": false }
+      ]
+    },
+    {
+      "text": "Which desert is the largest hot desert in the world?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Gobi Desert", "correct": false },
+        { "text": "2. Kalahari Desert", "correct": false },
+        { "text": "3. Arabian Desert", "correct": false },
+        { "text": "4. Sahara Desert", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country is known as the 'Land of the Long White Cloud'?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Australia", "correct": false },
+        { "text": "2. New Zealand", "correct": true },
+        { "text": "3. Fiji", "correct": false },
+        { "text": "4. Iceland", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the highest mountain in Africa?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Mount Kenya", "correct": false },
+        { "text": "2. Ras Dashen", "correct": false },
+        { "text": "3. Mount Meru", "correct": false },
+        { "text": "4. Mount Kilimanjaro", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the capital of Italy?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Venice", "correct": false },
+        { "text": "2. Florence", "correct": false },
+        { "text": "3. Rome", "correct": true },
+        { "text": "4. Milan", "correct": false }
+      ]
+    },
+    {
+      "text": "Which European country is divided into regions called cantons?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Belgium", "correct": false },
+        { "text": "2. Austria", "correct": false },
+        { "text": "3. Luxembourg", "correct": false },
+        { "text": "4. Switzerland", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country has the most official languages?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. India", "correct": false },
+        { "text": "2. Canada", "correct": false },
+        { "text": "3. Switzerland", "correct": false },
+        { "text": "4. South Africa", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the highest waterfall in the world?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Tugela Falls", "correct": false },
+        { "text": "2. Sutherland Falls", "correct": false },
+        { "text": "3. Angel Falls", "correct": true },
+        { "text": "4. Yosemite Falls", "correct": false }
+      ]
+    },
+    {
+      "text": "Which ocean is the deepest in the world?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Atlantic Ocean", "correct": false },
+        { "text": "2. Indian Ocean", "correct": false },
+        { "text": "3. Southern Ocean", "correct": false },
+        { "text": "4. Pacific Ocean", "correct": true }
+      ]
+    },
+    {
+      "text": "Which river flows through the Grand Canyon?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Snake River", "correct": false },
+        { "text": "2. Rio Grande", "correct": false },
+        { "text": "3. Columbia River", "correct": false },
+        { "text": "4. Colorado River", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the largest bay in the world by area?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Gulf of Mexico", "correct": false },
+        { "text": "2. Hudson Bay", "correct": false },
+        { "text": "3. Bay of Biscay", "correct": false },
+        { "text": "4. Bay of Bengal", "correct": true }
+      ]
+    },
+    {
+      "text": "Which island nation is located southeast of India?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Maldives", "correct": false },
+        { "text": "2. Mauritius", "correct": false },
+        { "text": "3. Seychelles", "correct": false },
+        { "text": "4. Sri Lanka", "correct": true }
+      ]
+    },
+    {
+      "text": "Which European capital is famously bisected by the Danube River?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Belgrade", "correct": false },
+        { "text": "2. Vienna", "correct": false },
+        { "text": "3. Bratislava", "correct": false },
+        { "text": "4. Budapest", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the highest peak in the Alps?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Matterhorn", "correct": false },
+        { "text": "2. Eiger", "correct": false },
+        { "text": "3. Jungfrau", "correct": false },
+        { "text": "4. Mont Blanc", "correct": true }
+      ]
+    },
+    {
+      "text": "Which is the largest peninsula in the world by area?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Scandinavian Peninsula", "correct": false },
+        { "text": "2. Iberian Peninsula", "correct": false },
+        { "text": "3. Indian Peninsula", "correct": false },
+        { "text": "4. Arabian Peninsula", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country is home to the ancient city of Petra?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Israel", "correct": false },
+        { "text": "2. Lebanon", "correct": false },
+        { "text": "3. Egypt", "correct": false },
+        { "text": "4. Jordan", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country has the longest coastline in the world?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Russia", "correct": false },
+        { "text": "2. Australia", "correct": false },
+        { "text": "3. Indonesia", "correct": false },
+        { "text": "4. Canada", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the highest capital city in the world by elevation?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Quito", "correct": false },
+        { "text": "2. Bogotá", "correct": false },
+        { "text": "3. Thimphu", "correct": false },
+        { "text": "4. La Paz", "correct": true }
+      ]
+    },
+    {
+      "text": "Which river forms part of the border between the United States and Mexico?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Pecos River", "correct": false },
+        { "text": "2. Colorado River", "correct": false },
+        { "text": "3. Red River", "correct": false },
+        { "text": "4. Rio Grande", "correct": true }
+      ]
+    },
+    {
+      "text": "Which country is famous for the ancient Incan citadel Machu Picchu?",
+      "category": "Geography",
+      "answers": [
+        { "text": "1. Bolivia", "correct": false },
+        { "text": "2. Ecuador", "correct": false },
+        { "text": "3. Chile", "correct": false },
+        { "text": "4. Peru", "correct": true }
+      ]
+    },
+    {
+      "text": "What does 'CPU' stand for?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Control Processing Unit", "correct": false },
+        { "text": "2. Central Programming Unit", "correct": false },
+        { "text": "3. Computer Personal Unit", "correct": false },
+        { "text": "4. Central Processing Unit", "correct": true }
+      ]
+    },
+    {
+      "text": "What does 'RAM' stand for?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Random Access Memory", "correct": true },
+        { "text": "2. Readily Accessible Memory", "correct": false },
+        { "text": "3. Rapid Access Memory", "correct": false },
+        { "text": "4. Read-After Memory", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the main function of a GPU in a computer?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To render images and video", "correct": true },
+        { "text": "2. To execute general-purpose instructions", "correct": false },
+        { "text": "3. To control network traffic", "correct": false },
+        { "text": "4. To manage system memory", "correct": false }
+      ]
+    },
+    {
+      "text": "Which protocol is primarily used for secure web browsing?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. FTP", "correct": false },
+        { "text": "2. SSH", "correct": false },
+        { "text": "3. HTTP", "correct": false },
+        { "text": "4. HTTPS", "correct": true }
+      ]
+    },
+    {
+      "text": "Which technology is used to create a virtual machine environment?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Bootloader", "correct": false },
+        { "text": "2. Interpreter", "correct": false },
+        { "text": "3. Compiler", "correct": false },
+        { "text": "4. Hypervisor", "correct": true }
+      ]
+    },
+    {
+      "text": "What does 'SSD' stand for in computer hardware?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Super Speed Disk", "correct": false },
+        { "text": "2. Sequential Storage Device", "correct": false },
+        { "text": "3. Solid State Drive", "correct": true },
+        { "text": "4. Solid System Drive", "correct": false }
+      ]
+    },
+    {
+      "text": "Which of the following is an example of an open-source operating system?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Windows", "correct": false },
+        { "text": "2. Linux", "correct": true },
+        { "text": "3. Chrome OS", "correct": false },
+        { "text": "4. macOS", "correct": false }
+      ]
+    },
+    {
+      "text": "Which programming language is primarily used for front-end web development?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. C++", "correct": false },
+        { "text": "2. Python", "correct": false },
+        { "text": "3. Java", "correct": false },
+        { "text": "4. JavaScript", "correct": true }
+      ]
+    },
+    {
+      "text": "Which short-range wireless technology is commonly used for connecting peripherals?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Wi-Fi", "correct": false },
+        { "text": "2. NFC", "correct": false },
+        { "text": "3. Bluetooth", "correct": true },
+        { "text": "4. Zigbee", "correct": false }
+      ]
+    },
+    {
+      "text": "What does 'API' stand for?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Application Protocol Interface", "correct": false },
+        { "text": "2. Advanced Programming Interface", "correct": false },
+        { "text": "3. Application Programming Interface", "correct": true },
+        { "text": "4. Applied Program Interface", "correct": false }
+      ]
+    },
+    {
+      "text": "What does 'VPN' stand for?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Virtual Public Network", "correct": false },
+        { "text": "2. Verified Private Network", "correct": false },
+        { "text": "3. Virtual Protected Network", "correct": false },
+        { "text": "4. Virtual Private Network", "correct": true }
+      ]
+    },
+    {
+      "text": "Which of the following is a well-known cloud computing service provider?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. IBM Watson", "correct": false },
+        { "text": "2. Oracle Database", "correct": false },
+        { "text": "3. Salesforce", "correct": false },
+        { "text": "4. Amazon Web Services", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the primary purpose of a firewall in network security?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To optimize system performance", "correct": false },
+        { "text": "2. To monitor and control incoming and outgoing network traffic", "correct": true },
+        { "text": "3. To store data", "correct": false },
+        { "text": "4. To provide wireless access", "correct": false }
+      ]
+    },
+    {
+      "text": "Which protocol is used for sending emails over the Internet?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. POP3", "correct": false },
+        { "text": "2. FTP", "correct": false },
+        { "text": "3. IMAP", "correct": false },
+        { "text": "4. SMTP", "correct": true }
+      ]
+    },
+    {
+      "text": "Which of the following best describes open source software?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Software developed exclusively by large corporations", "correct": false },
+        { "text": "2. Software that can only run on open platforms", "correct": false },
+        { "text": "3. Software that is free to use only", "correct": false },
+        { "text": "4. Software with source code that anyone can inspect, modify, and enhance", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the primary function of a router in a network?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To store data", "correct": false },
+        { "text": "2. To compile code", "correct": false },
+        { "text": "3. To forward data packets between computer networks", "correct": true },
+        { "text": "4. To provide antivirus protection", "correct": false }
+      ]
+    },
+    {
+      "text": "Which of these is a popular version control system used in software development?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. SVN", "correct": false },
+        { "text": "2. Git", "correct": true },
+        { "text": "3. Perforce", "correct": false },
+        { "text": "4. Mercurial", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company developed the operating system 'Windows'?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Apple", "correct": false },
+        { "text": "2. IBM", "correct": false },
+        { "text": "3. Microsoft", "correct": true },
+        { "text": "4. Google", "correct": false }
+      ]
+    },
+    {
+      "text": "What does 'IoT' stand for?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Information of Things", "correct": false },
+        { "text": "2. Internet of Technology", "correct": false },
+        { "text": "3. Interface of Things", "correct": false },
+        { "text": "4. Internet of Things", "correct": true }
+      ]
+    },
+    {
+      "text": "Which technology is used to store data across multiple hard drives for redundancy?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. SSD", "correct": false },
+        { "text": "2. RAM", "correct": false },
+        { "text": "3. GPU", "correct": false },
+        { "text": "4. RAID", "correct": true }
+      ]
+    },
+    {
+      "text": "What does 'BIOS' stand for in computing?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Binary Input/Output System", "correct": false },
+        { "text": "2. Basic Integrated Operating System", "correct": false },
+        { "text": "3. Backup Input/Output System", "correct": false },
+        { "text": "4. Basic Input/Output System", "correct": true }
+      ]
+    },
+    {
+      "text": "What does 'SQL' stand for?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Sequential Query Language", "correct": false },
+        { "text": "2. Simple Query Language", "correct": false },
+        { "text": "3. Structured Question Language", "correct": false },
+        { "text": "4. Structured Query Language", "correct": true }
+      ]
+    },
+    {
+      "text": "Which of the following best describes virtualization in computing?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Creating a virtual version of hardware, storage, or network resources", "correct": true },
+        { "text": "2. Encrypting data for secure storage", "correct": false },
+        { "text": "3. Combining multiple physical machines into one", "correct": false },
+        { "text": "4. Optimizing code performance", "correct": false }
+      ]
+    },
+    {
+      "text": "Which component is responsible for executing instructions in a computer?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Motherboard", "correct": false },
+        { "text": "2. GPU", "correct": false },
+        { "text": "3. CPU", "correct": true },
+        { "text": "4. RAM", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the main advantage of using SSDs over traditional HDDs?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Lower cost per gigabyte", "correct": false },
+        { "text": "2. Faster data access speeds", "correct": true },
+        { "text": "3. Higher storage capacity", "correct": false },
+        { "text": "4. Better compatibility with older systems", "correct": false }
+      ]
+    },
+    {
+      "text": "Which of the following is an example of a high-level programming language?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Machine Code", "correct": false },
+        { "text": "2. Assembly", "correct": false },
+        { "text": "3. Binary", "correct": false },
+        { "text": "4. Python", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the purpose of a compiler in software development?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To debug software", "correct": false },
+        { "text": "2. To compile code line by line", "correct": false },
+        { "text": "3. To translate source code into machine code", "correct": true },
+        { "text": "4. To manage memory allocation", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company is known for developing the Android operating system?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Apple", "correct": false },
+        { "text": "2. Microsoft", "correct": false },
+        { "text": "3. Samsung", "correct": false },
+        { "text": "4. Google", "correct": true }
+      ]
+    },
+    {
+      "text": "Which technology uses satellites to provide location data?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Radar", "correct": false },
+        { "text": "2. LIDAR", "correct": false },
+        { "text": "3. Wi-Fi", "correct": false },
+        { "text": "4. GPS", "correct": true }
+      ]
+    },
+    {
+      "text": "Which technology underpins cryptocurrencies like Bitcoin?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Cloud Computing", "correct": false },
+        { "text": "2. Artificial Intelligence", "correct": false },
+        { "text": "3. Internet of Things", "correct": false },
+        { "text": "4. Blockchain", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the function of a modem in computer networking?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To compile software", "correct": false },
+        { "text": "2. To store data", "correct": false },
+        { "text": "3. To modulate and demodulate signals for communication", "correct": true },
+        { "text": "4. To increase system memory", "correct": false }
+      ]
+    },
+    {
+      "text": "What does 'IDE' stand for in software development?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Internal Development Engine", "correct": false },
+        { "text": "2. Interactive Development Environment", "correct": false },
+        { "text": "3. Integrated Data Engine", "correct": false },
+        { "text": "4. Integrated Development Environment", "correct": true }
+      ]
+    },
+    {
+      "text": "Which technology is commonly used for creating responsive web designs?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. CSS", "correct": true },
+        { "text": "2. SQL", "correct": false },
+        { "text": "3. XML", "correct": false },
+        { "text": "4. C++", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the purpose of DNS in networking?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To route network traffic", "correct": false },
+        { "text": "2. To encrypt data packets", "correct": false },
+        { "text": "3. To translate domain names into IP addresses", "correct": true },
+        { "text": "4. To monitor network performance", "correct": false }
+      ]
+    },
+    {
+      "text": "Which wireless networking standard is known as Wi-Fi 6?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. 802.11g", "correct": false },
+        { "text": "2. 802.11ac", "correct": false },
+        { "text": "3. 802.11n", "correct": false },
+        { "text": "4. 802.11ax", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the primary function of a power supply unit in a computer?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. To store data", "correct": false },
+        { "text": "2. To convert electrical power to usable forms for computer components", "correct": true },
+        { "text": "3. To process instructions", "correct": false },
+        { "text": "4. To provide network connectivity", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company is known for its web browser 'Chrome'?",
+      "category": "Technology",
+      "answers": [
+        { "text": "1. Mozilla", "correct": false },
+        { "text": "2. Microsoft", "correct": false },
+        { "text": "3. Apple", "correct": false },
+        { "text": "4. Google", "correct": true }
+      ]
+    },
+    {
+      "text": "Who is the protagonist in the Halo series?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Cortana", "correct": false },
+        { "text": "2. Master Chief", "correct": true },
+        { "text": "3. Arbiter", "correct": false },
+        { "text": "4. Sergeant Johnson", "correct": false }
+      ]
+    },
+    {
+      "text": "Which company developed the Assassin's Creed series?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Activision", "correct": false },
+        { "text": "2. Ubisoft", "correct": true },
+        { "text": "3. Electronic Arts", "correct": false },
+        { "text": "4. Square Enix", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the best-selling video game console of all time?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Xbox 360", "correct": false },
+        { "text": "2. PlayStation 2", "correct": true },
+        { "text": "3. Nintendo DS", "correct": false },
+        { "text": "4. Nintendo Wii", "correct": false }
+      ]
+    },
+    {
+      "text": "Which video game franchise features the adventurer Lara Croft?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Resident Evil", "correct": false },
+        { "text": "2. Tomb Raider", "correct": true },
+        { "text": "3. Uncharted", "correct": false },
+        { "text": "4. Metroid", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game is set in the fictional city of Los Santos?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Saints Row", "correct": false },
+        { "text": "2. Watch Dogs", "correct": false },
+        { "text": "3. Grand Theft Auto V", "correct": true },
+        { "text": "4. Mafia", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game introduced the character 'Kratos'?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Devil May Cry", "correct": false },
+        { "text": "2. God of War", "correct": true },
+        { "text": "3. Dante's Inferno", "correct": false },
+        { "text": "4. Bayonetta", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game series features ink-based online multiplayer shooter gameplay?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Rainbow Six Siege", "correct": false },
+        { "text": "2. Splatoon", "correct": true },
+        { "text": "3. Paladins", "correct": false },
+        { "text": "4. Overwatch", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of the popular online battle arena game developed by Riot Games?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Heroes of the Storm", "correct": false },
+        { "text": "2. League of Legends", "correct": true },
+        { "text": "3. Dota 2", "correct": false },
+        { "text": "4. Smite", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game features the historical assassin Ezio Auditore?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Prince of Persia", "correct": false },
+        { "text": "2. Assassin's Creed", "correct": true },
+        { "text": "3. Hitman", "correct": false },
+        { "text": "4. Splinter Cell", "correct": false }
+      ]
+    },
+    {
+      "text": "Which console is exclusively developed by Sony and renowned for its strong lineup of exclusives?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Nintendo Switch", "correct": false },
+        { "text": "2. PlayStation", "correct": true },
+        { "text": "3. Sega Dreamcast", "correct": false },
+        { "text": "4. Xbox", "correct": false }
+      ]
+    },
+    {
+      "text": "Which cooperative first-person shooter features a zombie survival mode?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Killing Floor", "correct": false },
+        { "text": "2. Left 4 Dead", "correct": true },
+        { "text": "3. Dying Light", "correct": false },
+        { "text": "4. Warhammer: End Times", "correct": false }
+      ]
+    },
+    {
+      "text": "Which survival horror series is set in the fictional Raccoon City?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Silent Hill", "correct": false },
+        { "text": "2. Resident Evil", "correct": true },
+        { "text": "3. Dead Space", "correct": false },
+        { "text": "4. The Evil Within", "correct": false }
+      ]
+    },
+    {
+      "text": "Which console is known for its exclusive game 'The Last of Us'?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. PC", "correct": false },
+        { "text": "2. Xbox", "correct": false },
+        { "text": "3. PlayStation", "correct": true },
+        { "text": "4. Nintendo Switch", "correct": false }
+      ]
+    },
+    {
+      "text": "Which fighting game series is famous for the phrase 'Finish Him!'?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Tekken", "correct": false },
+        { "text": "2. Mortal Kombat", "correct": true },
+        { "text": "3. Soul Calibur", "correct": false },
+        { "text": "4. Street Fighter", "correct": false }
+      ]
+    },
+    {
+      "text": "Which open-world RPG features a character known as 'The Dragonborn'?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Fallout 4", "correct": false },
+        { "text": "2. Skyrim", "correct": true },
+        { "text": "3. Dragon Age: Inquisition", "correct": false },
+        { "text": "4. The Witcher 3", "correct": false }
+      ]
+    },
+    {
+      "text": "Which platformer features a speedy blue hedgehog?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Mario", "correct": false },
+        { "text": "2. Crash Bandicoot", "correct": false },
+        { "text": "3. Sonic the Hedgehog", "correct": true },
+        { "text": "4. Rayman", "correct": false }
+      ]
+    },
+    {
+      "text": "Which video game franchise features a futuristic bounty hunter who uses a morph ball ability?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Destiny", "correct": false },
+        { "text": "2. Halo", "correct": false },
+        { "text": "3. Gears of War", "correct": false },
+        { "text": "4. Metroid", "correct": true }
+      ]
+    },
+    {
+      "text": "Which RPG series features Commander Shepard as its main character?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. The Witcher", "correct": false },
+        { "text": "2. Mass Effect", "correct": true },
+        { "text": "3. Dragon Age", "correct": false },
+        { "text": "4. Fallout", "correct": false }
+      ]
+    },
+    {
+      "text": "Which stealth action-adventure series features the character Solid Snake?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Hitman", "correct": false },
+        { "text": "2. Deus Ex", "correct": false },
+        { "text": "3. Metal Gear Solid", "correct": true },
+        { "text": "4. Splinter Cell", "correct": false }
+      ]
+    },
+    {
+      "text": "Which survival game involves taming and battling dinosaurs on a mysterious island?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Dino D-Day", "correct": false },
+        { "text": "2. Primal Carnage", "correct": false },
+        { "text": "3. Ark: Survival Evolved", "correct": true },
+        { "text": "4. Jurassic World Evolution", "correct": false }
+      ]
+    },
+    {
+      "text": "Which action RPG, developed by FromSoftware, is renowned for its challenging difficulty?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Bloodborne", "correct": false },
+        { "text": "2. Dark Souls", "correct": true },
+        { "text": "3. Demon's Souls", "correct": false },
+        { "text": "4. Sekiro: Shadows Die Twice", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game series features a silent assassin known as Agent 47?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Assassin's Creed", "correct": false },
+        { "text": "2. Hitman", "correct": true },
+        { "text": "3. Sniper Elite", "correct": false },
+        { "text": "4. Splinter Cell", "correct": false }
+      ]
+    },
+    {
+      "text": "Which post-apocalyptic RPG allows players to explore a vast wasteland and shape their destiny?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. S.T.A.L.K.E.R.", "correct": false },
+        { "text": "2. Fallout", "correct": true },
+        { "text": "3. Metro Exodus", "correct": false },
+        { "text": "4. Wasteland", "correct": false }
+      ]
+    },
+    {
+      "text": "Which rhythm-based dance game series encourages players to mimic on-screen dance moves?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Wii Fit", "correct": false },
+        { "text": "2. Just Dance", "correct": true },
+        { "text": "3. Dance Dance Revolution", "correct": false },
+        { "text": "4. Beat Saber", "correct": false }
+      ]
+    },
+    {
+      "text": "Which simulation game allows players to build and manage their own city from scratch?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Cities: Skylines", "correct": false },
+        { "text": "2. Civilization", "correct": false },
+        { "text": "3. Tropico", "correct": false },
+        { "text": "4. SimCity", "correct": true }
+      ]
+    },
+    {
+      "text": "Which real-time strategy game is famous for the line 'You must construct additional pylons'?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. WarCraft III", "correct": false },
+        { "text": "2. Age of Empires", "correct": false },
+        { "text": "3. StarCraft", "correct": true },
+        { "text": "4. Command & Conquer", "correct": false }
+      ]
+    },
+    {
+      "text": "Which first-person shooter series features the scientist Gordon Freeman?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Bioshock", "correct": false },
+        { "text": "2. Doom", "correct": false },
+        { "text": "3. Half-Life", "correct": true },
+        { "text": "4. Quake", "correct": false }
+      ]
+    },
+    {
+      "text": "Which game is set in a dystopian future and involves battling an alien force known as the Combine?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Destiny", "correct": false },
+        { "text": "2. Half-Life 2", "correct": true },
+        { "text": "3. Prey", "correct": false },
+        { "text": "4. Crysis", "correct": false }
+      ]
+    },
+    {
+      "text": "Which roguelike platformer is celebrated for its randomly generated levels and retro pixel art style?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Enter the Gungeon", "correct": false },
+        { "text": "2. Rogue Legacy", "correct": false },
+        { "text": "3. Spelunky", "correct": true },
+        { "text": "4. The Binding of Isaac", "correct": false }
+      ]
+    },
+    {
+      "text": "Which multiplayer online battle arena game developed by Blizzard features characters from across its franchises?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. League of Legends", "correct": false },
+        { "text": "2. Heroes of the Storm", "correct": true },
+        { "text": "3. Dota 2", "correct": false },
+        { "text": "4. Smite", "correct": false }
+      ]
+    },
+    {
+      "text": "Which installment of the Grand Theft Auto series is set in Liberty City?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Grand Theft Auto: San Andreas", "correct": false },
+        { "text": "2. Grand Theft Auto V", "correct": false },
+        { "text": "3. Grand Theft Auto IV", "correct": true },
+        { "text": "4. Grand Theft Auto III", "correct": false }
+      ]
+    },
+    {
+      "text": "Which battle royale game features building mechanics and frequent pop-culture collaborations?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Call of Duty: Warzone", "correct": false },
+        { "text": "2. PUBG", "correct": false },
+        { "text": "3. Fortnite", "correct": true },
+        { "text": "4. Apex Legends", "correct": false }
+      ]
+    },
+    {
+      "text": "Which horror first-person shooter is set in a mysterious, abandoned plantation and marked a return to the series' roots?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. The Evil Within", "correct": false },
+        { "text": "2. Silent Hill 2", "correct": false },
+        { "text": "3. Dead Space", "correct": false },
+        { "text": "4. Resident Evil 7: Biohazard", "correct": true }
+      ]
+    },
+    {
+      "text": "Which indie, narrative-driven game is known for its choice-based storytelling and unique pixel art style?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Celeste", "correct": false },
+        { "text": "2. Undertale", "correct": true },
+        { "text": "3. Hollow Knight", "correct": false },
+        { "text": "4. Limbo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which futuristic vehicular sports game involves high-octane matches of soccer using rocket-powered cars?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Mario Kart", "correct": false },
+        { "text": "2. Rocket League", "correct": true },
+        { "text": "3. Blur", "correct": false },
+        { "text": "4. Twisted Metal", "correct": false }
+      ]
+    },
+    {
+      "text": "Which turn-based strategy game franchise challenges players to build and expand their own civilization?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Rise of Nations", "correct": false },
+        { "text": "2. Civilization", "correct": true },
+        { "text": "3. Age of Empires", "correct": false },
+        { "text": "4. Total War", "correct": false }
+      ]
+    },
+    {
+      "text": "Which fighting game franchise is renowned for its deep combo system and competitive multiplayer scene?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. Guilty Gear", "correct": false },
+        { "text": "2. Mortal Kombat", "correct": false },
+        { "text": "3. Street Fighter", "correct": true },
+        { "text": "4. Tekken", "correct": false }
+      ]
+    },
+    {
+      "text": "Which free-to-play battle royale game, developed by Respawn Entertainment, is set in the Titanfall universe?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. PUBG", "correct": false },
+        { "text": "2. Apex Legends", "correct": true },
+        { "text": "3. Call of Duty: Warzone", "correct": false },
+        { "text": "4. Fortnite", "correct": false }
+      ]
+    },
+    {
+      "text": "Which simulation game lets players design and manage their own virtual theme park?",
+      "category": "Gaming",
+      "answers": [
+        { "text": "1. SimTheme Park", "correct": false },
+        { "text": "2. RollerCoaster Tycoon", "correct": true },
+        { "text": "3. Zoo Tycoon", "correct": false },
+        { "text": "4. Planet Coaster", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic book publisher is responsible for Spider-Man?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. DC", "correct": false },
+        { "text": "2. Marvel", "correct": true },
+        { "text": "3. Dark Horse", "correct": false },
+        { "text": "4. Image Comics", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero wields a hammer named Mjölnir?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Loki", "correct": false },
+        { "text": "2. Hulk", "correct": false },
+        { "text": "3. Thor", "correct": true },
+        { "text": "4. Odin", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the alter ego of Superman?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Peter Parker", "correct": false },
+        { "text": "2. Clark Kent", "correct": true },
+        { "text": "3. Bruce Wayne", "correct": false },
+        { "text": "4. Tony Stark", "correct": false }
+      ]
+    },
+    {
+      "text": "Which villain is known as the Joker?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Penguin", "correct": false },
+        { "text": "2. Joker", "correct": true },
+        { "text": "3. Riddler", "correct": false },
+        { "text": "4. Lex Luthor", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero team is known as the 'Justice League'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Avengers", "correct": false },
+        { "text": "2. Fantastic Four", "correct": false },
+        { "text": "3. Justice League", "correct": true },
+        { "text": "4. X-Men", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic features a detective named Hellboy?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Witchblade", "correct": false },
+        { "text": "2. Spawn", "correct": false },
+        { "text": "3. Hellboy", "correct": true },
+        { "text": "4. Savage Dragon", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic book series features a character called the Punisher?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Ghost Rider", "correct": false },
+        { "text": "2. Daredevil", "correct": false },
+        { "text": "3. The Punisher", "correct": true },
+        { "text": "4. Elektra", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known for his web-slinging abilities?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Batman", "correct": false },
+        { "text": "2. Spider-Man", "correct": true },
+        { "text": "3. Captain America", "correct": false },
+        { "text": "4. Iron Man", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic publisher created the character Spawn?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Dark Horse", "correct": false },
+        { "text": "2. Marvel", "correct": false },
+        { "text": "3. Image Comics", "correct": true },
+        { "text": "4. DC", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the archenemy of Batman?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Scarecrow", "correct": false },
+        { "text": "2. The Joker", "correct": true },
+        { "text": "3. Bane", "correct": false },
+        { "text": "4. Two-Face", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is a founding member of the Avengers and also known as the First Avenger?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Thor", "correct": false },
+        { "text": "2. Captain America", "correct": true },
+        { "text": "3. Hawkeye", "correct": false },
+        { "text": "4. Iron Man", "correct": false }
+      ]
+    },
+    {
+      "text": "Which villain is known for his purple suit and is a nemesis of the Fantastic Four?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Red Skull", "correct": false },
+        { "text": "2. Kingpin", "correct": false },
+        { "text": "3. Doctor Doom", "correct": true },
+        { "text": "4. Galactus", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known as the 'Merc with a Mouth'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Spider-Man", "correct": false },
+        { "text": "2. Deadpool", "correct": true },
+        { "text": "3. Wolverine", "correct": false },
+        { "text": "4. Iron Fist", "correct": false }
+      ]
+    },
+    {
+      "text": "Which character is known as the 'Sorcerer Supreme'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Blade", "correct": false },
+        { "text": "2. Doctor Strange", "correct": true },
+        { "text": "3. Vision", "correct": false },
+        { "text": "4. Silver Surfer", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic character is famous for the catchphrase 'Avengers, assemble!'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Hawkeye", "correct": false },
+        { "text": "2. Captain America", "correct": true },
+        { "text": "3. Thor", "correct": false },
+        { "text": "4. Iron Man", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known for his adamantium claws?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Colossus", "correct": false },
+        { "text": "2. Wolverine", "correct": true },
+        { "text": "3. Beast", "correct": false },
+        { "text": "4. Cyclops", "correct": false }
+      ]
+    },
+    {
+      "text": "Which member of the X-Men can control weather?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Jean Grey", "correct": false },
+        { "text": "2. Mystique", "correct": false },
+        { "text": "3. Storm", "correct": true },
+        { "text": "4. Rogue", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the leader of the Fantastic Four?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. The Thing", "correct": false },
+        { "text": "2. Human Torch", "correct": false },
+        { "text": "3. Mr. Fantastic", "correct": true },
+        { "text": "4. Invisible Woman", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known for his shield made of vibranium?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Falcon", "correct": false },
+        { "text": "2. Hawkeye", "correct": false },
+        { "text": "3. Captain America", "correct": true },
+        { "text": "4. Black Panther", "correct": false }
+      ]
+    },
+    {
+      "text": "Which DC character is known as the 'Man of Steel'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Batman", "correct": false },
+        { "text": "2. Aquaman", "correct": false },
+        { "text": "3. Superman", "correct": true },
+        { "text": "4. Green Lantern", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel character is known for his high-tech suit of armor?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Spider-Man", "correct": false },
+        { "text": "2. Black Panther", "correct": false },
+        { "text": "3. Captain America", "correct": false },
+        { "text": "4. Iron Man", "correct": true }
+      ]
+    },
+    {
+      "text": "Which DC character is known for his detective skills?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Superman", "correct": false },
+        { "text": "2. Batman", "correct": true },
+        { "text": "3. Wonder Woman", "correct": false },
+        { "text": "4. The Flash", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known for his ability to stretch his body?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Dr. Strange", "correct": false },
+        { "text": "2. Mister Fantastic", "correct": true },
+        { "text": "3. Ant-Man", "correct": false },
+        { "text": "4. The Wasp", "correct": false }
+      ]
+    },
+    {
+      "text": "Which villain is known for his riddles and question mark motif?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Joker", "correct": false },
+        { "text": "2. Bane", "correct": false },
+        { "text": "3. The Riddler", "correct": true },
+        { "text": "4. Two-Face", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel superhero is nicknamed 'The Man Without Fear'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Captain America", "correct": false },
+        { "text": "2. Daredevil", "correct": true },
+        { "text": "3. Luke Cage", "correct": false },
+        { "text": "4. Iron Fist", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is associated with the phrase 'I'm always angry'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Wolverine", "correct": false },
+        { "text": "2. Hulk", "correct": true },
+        { "text": "3. Thor", "correct": false },
+        { "text": "4. Iron Man", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel villain is known for wielding the Infinity Gauntlet?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Loki", "correct": false },
+        { "text": "2. Red Skull", "correct": false },
+        { "text": "3. Thanos", "correct": true },
+        { "text": "4. Ultron", "correct": false }
+      ]
+    },
+    {
+      "text": "Which DC character is a speedster known as the 'Fastest Man Alive'?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Green Lantern", "correct": false },
+        { "text": "2. Aquaman", "correct": false },
+        { "text": "3. Superman", "correct": false },
+        { "text": "4. The Flash", "correct": true }
+      ]
+    },
+    {
+      "text": "Which superhero team is known for members such as Cyclops, Jean Grey, and Beast?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Justice League", "correct": false },
+        { "text": "2. Avengers", "correct": false },
+        { "text": "3. X-Men", "correct": true },
+        { "text": "4. Fantastic Four", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic series features a character who transforms into a monstrous creature during a full moon?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Solomon Grundy", "correct": false },
+        { "text": "2. The Hulk", "correct": true },
+        { "text": "3. Doomsday", "correct": false },
+        { "text": "4. The Thing", "correct": false }
+      ]
+    },
+    {
+      "text": "Which DC villain is known for his obsession with riddles and puzzles?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Two-Face", "correct": false },
+        { "text": "2. Poison Ivy", "correct": false },
+        { "text": "3. The Riddler", "correct": true },
+        { "text": "4. Scarecrow", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel character is known as the 'Mercenary' and often breaks the fourth wall?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Cable", "correct": false },
+        { "text": "2. Deadpool", "correct": true },
+        { "text": "3. Gambit", "correct": false },
+        { "text": "4. Colossus", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero has a secret identity as Bruce Wayne?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Superman", "correct": false },
+        { "text": "2. Green Arrow", "correct": false },
+        { "text": "3. Batman", "correct": true },
+        { "text": "4. Aquaman", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic character is a mutant with the power of telepathy and telekinesis?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Rogue", "correct": false },
+        { "text": "2. Kitty Pryde", "correct": false },
+        { "text": "3. Jean Grey", "correct": true },
+        { "text": "4. Storm", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel hero is known for his unbreakable shield and leadership skills?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Thor", "correct": false },
+        { "text": "2. Black Panther", "correct": false },
+        { "text": "3. Captain America", "correct": true },
+        { "text": "4. Iron Man", "correct": false }
+      ]
+    },
+    {
+      "text": "Which villain is the archenemy of the Fantastic Four, ruling the fictional nation of Latveria?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Loki", "correct": false },
+        { "text": "2. Red Skull", "correct": false },
+        { "text": "3. Magneto", "correct": false },
+        { "text": "4. Doctor Doom", "correct": true }
+      ]
+    },
+    {
+      "text": "Which DC character is known for his expert archery skills?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Blue Beetle", "correct": false },
+        { "text": "2. Red Hood", "correct": false },
+        { "text": "3. Green Arrow", "correct": true },
+        { "text": "4. Arrowette", "correct": false }
+      ]
+    },
+    {
+      "text": "Which character is the alter ego of Tony Stark?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Spider-Man", "correct": false },
+        { "text": "2. Captain America", "correct": false },
+        { "text": "3. Iron Man", "correct": true },
+        { "text": "4. Black Panther", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel character has a healing factor that makes him nearly immortal?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Cyclops", "correct": false },
+        { "text": "2. Wolverine", "correct": true },
+        { "text": "3. Gambit", "correct": false },
+        { "text": "4. Iceman", "correct": false }
+      ]
+    },
+    {
+      "text": "Which superhero is known for his role as the king of Wakanda?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Luke Cage", "correct": false },
+        { "text": "2. Falcon", "correct": false },
+        { "text": "3. Black Panther", "correct": true },
+        { "text": "4. Storm", "correct": false }
+      ]
+    },
+    {
+      "text": "Which DC superhero is known for her power of flight and super strength?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Batgirl", "correct": false },
+        { "text": "2. Catwoman", "correct": false },
+        { "text": "3. Wonder Woman", "correct": true },
+        { "text": "4. Supergirl", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic villain is known for his two-faced persona?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. The Joker", "correct": false },
+        { "text": "2. Scarecrow", "correct": false },
+        { "text": "3. Two-Face", "correct": true },
+        { "text": "4. Riddler", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic series features a team of superheroes including Star-Lord, Gamora, and Rocket Raccoon?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. X-Men", "correct": false },
+        { "text": "2. Guardians of the Galaxy", "correct": true },
+        { "text": "3. Justice League", "correct": false },
+        { "text": "4. Teen Titans", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Marvel character is known for his ability to manipulate metal?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Iron Man", "correct": false },
+        { "text": "2. Black Bolt", "correct": false },
+        { "text": "3. Magneto", "correct": true },
+        { "text": "4. Thor", "correct": false }
+      ]
+    },
+    {
+      "text": "Which DC hero is known for his detective skills and use of gadgets?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Cyborg", "correct": false },
+        { "text": "2. Batman", "correct": true },
+        { "text": "3. Aquaman", "correct": false },
+        { "text": "4. Superman", "correct": false }
+      ]
+    },
+    {
+      "text": "Which founding member of the X-Men can project powerful energy blasts from his eyes?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. Iceman", "correct": false },
+        { "text": "2. Cyclops", "correct": true },
+        { "text": "3. Nightcrawler", "correct": false },
+        { "text": "4. Colossus", "correct": false }
+      ]
+    },
+    {
+      "text": "Which comic publisher is known for characters such as Spawn, Savage Dragon, and Witchblade?",
+      "category": "Comics",
+      "answers": [
+        { "text": "1. DC", "correct": false },
+        { "text": "2. Marvel", "correct": false },
+        { "text": "3. Dark Horse Comics", "correct": false },
+        { "text": "4. Image Comics", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the name of the coffee shop in Friends?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Brewed Awakenings", "correct": false },
+        { "text": "2. The Bean Scene", "correct": false },
+        { "text": "3. Central Perk", "correct": true },
+        { "text": "4. Java Joe's", "correct": false }
+      ]
+    },
+    {
+      "text": "In The Simpsons, which character frequently exclaims 'D'oh!'?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Mr. Burns", "correct": false },
+        { "text": "2. Homer Simpson", "correct": true },
+        { "text": "3. Bart Simpson", "correct": false },
+        { "text": "4. Ned Flanders", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series features Don Draper as the main character?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Mad Men", "correct": true },
+        { "text": "2. Boardwalk Empire", "correct": false },
+        { "text": "3. The Sopranos", "correct": false },
+        { "text": "4. The West Wing", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animated series is set in the fictional town of Quahog?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. South Park", "correct": false },
+        { "text": "2. The Cleveland Show", "correct": false },
+        { "text": "3. Family Guy", "correct": true },
+        { "text": "4. American Dad", "correct": false }
+      ]
+    },
+    {
+      "text": "Which sitcom revolves around the employees of a paper company in Scranton, PA?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Brooklyn Nine-Nine", "correct": false },
+        { "text": "2. The Office", "correct": true },
+        { "text": "3. 30 Rock", "correct": false },
+        { "text": "4. Parks and Recreation", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV show features Sheldon Cooper as a brilliant but quirky physicist?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Young Sheldon", "correct": false },
+        { "text": "2. The Big Bang Theory", "correct": true },
+        { "text": "3. Silicon Valley", "correct": false },
+        { "text": "4. Futurama", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of the bar where characters in How I Met Your Mother often meet?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. The Bronze", "correct": false },
+        { "text": "2. MacLaren's Pub", "correct": true },
+        { "text": "3. Paddy's Pub", "correct": false },
+        { "text": "4. The Winchester", "correct": false }
+      ]
+    },
+    {
+      "text": "In Stranger Things, what is the name of the town where the story is set?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Twin Peaks", "correct": false },
+        { "text": "2. Hawkins", "correct": true },
+        { "text": "3. Midvale", "correct": false },
+        { "text": "4. Hill Valley", "correct": false }
+      ]
+    },
+    {
+      "text": "In The Simpsons, what is the family surname?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Wiggum", "correct": false },
+        { "text": "2. Simpson", "correct": true },
+        { "text": "3. Flanders", "correct": false },
+        { "text": "4. Griffin", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series features a high school glee club and musical performances?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Fame", "correct": false },
+        { "text": "2. High School Musical", "correct": false },
+        { "text": "3. Glee", "correct": true },
+        { "text": "4. Freaks and Geeks", "correct": false }
+      ]
+    },
+    {
+      "text": "Which science fiction TV series features the time-traveling TARDIS?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Red Dwarf", "correct": false },
+        { "text": "2. Doctor Who", "correct": true },
+        { "text": "3. Torchwood", "correct": false },
+        { "text": "4. Stargate SG-1", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series is known for the phrase 'Winter is coming'?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Vikings", "correct": false },
+        { "text": "2. The Witcher", "correct": false },
+        { "text": "3. Game of Thrones", "correct": true },
+        { "text": "4. Rome", "correct": false }
+      ]
+    },
+    {
+      "text": "In Family Guy, who is Peter Griffin's wife?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Marge Griffin", "correct": false },
+        { "text": "2. Lois Griffin", "correct": true },
+        { "text": "3. Carol", "correct": false },
+        { "text": "4. Bonnie", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV drama centers on FBI agents investigating paranormal phenomena?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Fringe", "correct": false },
+        { "text": "2. The X-Files", "correct": true },
+        { "text": "3. Supernatural", "correct": false },
+        { "text": "4. Twin Peaks", "correct": false }
+      ]
+    },
+    {
+      "text": "Which sitcom is set in a Boston bar where friends gather after work?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Friends", "correct": false },
+        { "text": "2. Cheers", "correct": true },
+        { "text": "3. How I Met Your Mother", "correct": false },
+        { "text": "4. Seinfeld", "correct": false }
+      ]
+    },
+    {
+      "text": "In Parks and Recreation, what is the name of the town where the series is set?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Eagleton", "correct": false },
+        { "text": "2. Springfield", "correct": false },
+        { "text": "3. Pawnee", "correct": true },
+        { "text": "4. Sunnyvale", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animated series features a suave secret agent squirrel?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Rick and Morty", "correct": false },
+        { "text": "2. Archer", "correct": true },
+        { "text": "3. Bob's Burgers", "correct": false },
+        { "text": "4. Futurama", "correct": false }
+      ]
+    },
+    {
+      "text": "Which British sitcom focuses on the lives of IT workers?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Fawlty Towers", "correct": false },
+        { "text": "2. The IT Crowd", "correct": true },
+        { "text": "3. Peep Show", "correct": false },
+        { "text": "4. Black Books", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series follows the lives of residents in the small town of Stars Hollow?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Parenthood", "correct": false },
+        { "text": "2. Hart of Dixie", "correct": false },
+        { "text": "3. Gilmore Girls", "correct": true },
+        { "text": "4. Everwood", "correct": false }
+      ]
+    },
+    {
+      "text": "In Modern Family, what is the surname of the family led by Jay?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Dunphy", "correct": false },
+        { "text": "2. Pritchett", "correct": true },
+        { "text": "3. Halpert", "correct": false },
+        { "text": "4. Tucker", "correct": false }
+      ]
+    },
+    {
+      "text": "Which reality competition show features chefs competing in culinary challenges?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Hell's Kitchen", "correct": false },
+        { "text": "2. Chopped", "correct": false },
+        { "text": "3. MasterChef", "correct": false },
+        { "text": "4. Top Chef", "correct": true }
+      ]
+    },
+    {
+      "text": "Which historical drama TV series is based on the reign of Queen Elizabeth II?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Elizabeth I", "correct": false },
+        { "text": "2. The Tudors", "correct": false },
+        { "text": "3. Victoria", "correct": false },
+        { "text": "4. The Crown", "correct": true }
+      ]
+    },
+    {
+      "text": "In Seinfeld, which character is known for his eccentric entrances?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. George", "correct": false },
+        { "text": "2. Jerry", "correct": false },
+        { "text": "3. Newman", "correct": false },
+        { "text": "4. Kramer", "correct": true }
+      ]
+    },
+    {
+      "text": "Which political drama series set in Washington, D.C. features ruthless politicians?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. The West Wing", "correct": false },
+        { "text": "2. Scandal", "correct": false },
+        { "text": "3. Designated Survivor", "correct": false },
+        { "text": "4. House of Cards", "correct": true }
+      ]
+    },
+    {
+      "text": "Which animated series features Bart Simpson?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Family Guy", "correct": false },
+        { "text": "2. South Park", "correct": false },
+        { "text": "3. Futurama", "correct": false },
+        { "text": "4. The Simpsons", "correct": true }
+      ]
+    },
+    {
+      "text": "Which crime drama series follows FBI profilers solving complex cases?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Bones", "correct": false },
+        { "text": "2. CSI", "correct": false },
+        { "text": "3. Criminal Minds", "correct": true },
+        { "text": "4. NCIS", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series features a teenage private investigator in Neptune, California?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Dawson's Creek", "correct": false },
+        { "text": "2. Pretty Little Liars", "correct": false },
+        { "text": "3. Veronica Mars", "correct": true },
+        { "text": "4. Riverdale", "correct": false }
+      ]
+    },
+    {
+      "text": "Which British political satire series focuses on the inner workings of government?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. The Office", "correct": false },
+        { "text": "2. Blackadder", "correct": false },
+        { "text": "3. Yes Minister", "correct": false },
+        { "text": "4. The Thick of It", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series is known for its eerie anthology format and horror themes?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Black Mirror", "correct": false },
+        { "text": "2. The Twilight Zone", "correct": false },
+        { "text": "3. Penny Dreadful", "correct": false },
+        { "text": "4. American Horror Story", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV show is famous for its 'Soup Nazi' episode?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Curb Your Enthusiasm", "correct": false },
+        { "text": "2. The Larry Sanders Show", "correct": false },
+        { "text": "3. Seinfeld", "correct": true },
+        { "text": "4. Arrested Development", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animated series is set in a futuristic world and features the character Bender?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. South Park", "correct": false },
+        { "text": "2. Futurama", "correct": true },
+        { "text": "3. The Simpsons", "correct": false },
+        { "text": "4. Family Guy", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV drama follows a group of high school students in the 1990s dealing with teen angst?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Daria", "correct": false },
+        { "text": "2. Freaks and Geeks", "correct": false },
+        { "text": "3. Friday Night Lights", "correct": false },
+        { "text": "4. My So-Called Life", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series follows the life of a charismatic lawyer in New York City?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Boston Legal", "correct": false },
+        { "text": "2. The Good Wife", "correct": false },
+        { "text": "3. Suits", "correct": true },
+        { "text": "4. Better Call Saul", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series is set in a high-security prison and follows the lives of inmates?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Oz", "correct": false },
+        { "text": "2. Prison Break", "correct": false },
+        { "text": "3. Wentworth", "correct": false },
+        { "text": "4. Orange Is the New Black", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series features doctors at a fictional hospital and is known for its ensemble cast?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. ER", "correct": false },
+        { "text": "2. House", "correct": false },
+        { "text": "3. Scrubs", "correct": false },
+        { "text": "4. Grey's Anatomy", "correct": true }
+      ]
+    },
+    {
+      "text": "Which sitcom centers around a family headed by the Huxtables?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Family Matters", "correct": false },
+        { "text": "2. Fresh Prince of Bel-Air", "correct": false },
+        { "text": "3. Good Times", "correct": false },
+        { "text": "4. The Cosby Show", "correct": true }
+      ]
+    },
+    {
+      "text": "Which reality competition series tests the survival skills of contestants on a remote island?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Big Brother", "correct": false },
+        { "text": "2. Expedition Robinson", "correct": false },
+        { "text": "3. Survivor", "correct": true },
+        { "text": "4. The Amazing Race", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series follows the daily operations of a local news station in Minneapolis?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. NewsRadio", "correct": false },
+        { "text": "2. Murphy Brown", "correct": false },
+        { "text": "3. The Mary Tyler Moore Show", "correct": true },
+        { "text": "4. The Larry Sanders Show", "correct": false }
+      ]
+    },
+    {
+      "text": "Which TV series features a charismatic con artist working with the FBI?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Burn Notice", "correct": false },
+        { "text": "2. Psych", "correct": false },
+        { "text": "3. Leverage", "correct": false },
+        { "text": "4. White Collar", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series follows a group of college friends living in New York City?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Friends", "correct": false },
+        { "text": "2. New Girl", "correct": false },
+        { "text": "3. Cougar Town", "correct": false },
+        { "text": "4. How I Met Your Mother", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series is a dark comedy about a news anchor and the behind-the-scenes of a late-night talk show?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. NewsRadio", "correct": false },
+        { "text": "2. Curb Your Enthusiasm", "correct": false },
+        { "text": "3. 30 Rock", "correct": false },
+        { "text": "4. The Larry Sanders Show", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series is a post-apocalyptic drama about survivors of a nuclear disaster?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Revolution", "correct": false },
+        { "text": "2. Jericho", "correct": false },
+        { "text": "3. The Walking Dead", "correct": false },
+        { "text": "4. The 100", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series is a mockumentary-style comedy following the lives of quirky office workers?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Modern Family", "correct": false },
+        { "text": "2. Brooklyn Nine-Nine", "correct": false },
+        { "text": "3. The Office", "correct": false },
+        { "text": "4. Parks and Recreation", "correct": true }
+      ]
+    },
+    {
+      "text": "Which TV series is known for its satirical portrayal of the entertainment industry, focusing on a television news anchor?",
+      "category": "TV",
+      "answers": [
+        { "text": "1. Studio 60 on the Sunset Strip", "correct": false },
+        { "text": "2. Sports Night", "correct": false },
+        { "text": "3. The West Wing", "correct": false },
+        { "text": "4. The Newsroom", "correct": true }
+      ]
+    },
+    {
+      "text": "Who wrote 'To Kill a Mockingbird'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Ernest Hemingway", "correct": false },
+        { "text": "2. Harper Lee", "correct": true },
+        { "text": "3. Mark Twain", "correct": false },
+        { "text": "4. F. Scott Fitzgerald", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Pride and Prejudice'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Charlotte Brontë", "correct": false },
+        { "text": "2. Jane Austen", "correct": true },
+        { "text": "3. Mary Shelley", "correct": false },
+        { "text": "4. Emily Brontë", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote '1984'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Aldous Huxley", "correct": false },
+        { "text": "2. George Orwell", "correct": true },
+        { "text": "3. J.D. Salinger", "correct": false },
+        { "text": "4. Ray Bradbury", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Great Gatsby'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. John Steinbeck", "correct": false },
+        { "text": "2. Mark Twain", "correct": false },
+        { "text": "3. F. Scott Fitzgerald", "correct": true },
+        { "text": "4. Ernest Hemingway", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Moby-Dick'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Edgar Allan Poe", "correct": false },
+        { "text": "2. Mark Twain", "correct": false },
+        { "text": "3. Herman Melville", "correct": true },
+        { "text": "4. Nathaniel Hawthorne", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Catcher in the Rye'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Truman Capote", "correct": false },
+        { "text": "2. J.D. Salinger", "correct": true },
+        { "text": "3. Ernest Hemingway", "correct": false },
+        { "text": "4. F. Scott Fitzgerald", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Brave New World'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Ray Bradbury", "correct": false },
+        { "text": "2. Kurt Vonnegut", "correct": false },
+        { "text": "3. George Orwell", "correct": false },
+        { "text": "4. Aldous Huxley", "correct": true }
+      ]
+    },
+    {
+      "text": "Who wrote 'Crime and Punishment'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Ivan Turgenev", "correct": false },
+        { "text": "2. Fyodor Dostoevsky", "correct": true },
+        { "text": "3. Leo Tolstoy", "correct": false },
+        { "text": "4. Anton Chekhov", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'War and Peace'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Nikolai Gogol", "correct": false },
+        { "text": "2. Leo Tolstoy", "correct": true },
+        { "text": "3. Fyodor Dostoevsky", "correct": false },
+        { "text": "4. Anton Chekhov", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Brothers Karamazov'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Vladimir Nabokov", "correct": false },
+        { "text": "2. Fyodor Dostoevsky", "correct": true },
+        { "text": "3. Leo Tolstoy", "correct": false },
+        { "text": "4. Ivan Turgenev", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'One Hundred Years of Solitude'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Isabel Allende", "correct": false },
+        { "text": "2. Gabriel García Márquez", "correct": true },
+        { "text": "3. Mario Vargas Llosa", "correct": false },
+        { "text": "4. Jorge Luis Borges", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Stranger'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Franz Kafka", "correct": false },
+        { "text": "2. Albert Camus", "correct": true },
+        { "text": "3. Samuel Beckett", "correct": false },
+        { "text": "4. Jean-Paul Sartre", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Picture of Dorian Gray'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Bram Stoker", "correct": false },
+        { "text": "2. Oscar Wilde", "correct": true },
+        { "text": "3. Mary Shelley", "correct": false },
+        { "text": "4. H.G. Wells", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Wuthering Heights'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Jane Austen", "correct": false },
+        { "text": "2. Emily Brontë", "correct": true },
+        { "text": "3. Charlotte Brontë", "correct": false },
+        { "text": "4. Mary Shelley", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Great Expectations'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. William Makepeace Thackeray", "correct": false },
+        { "text": "2. Thomas Hardy", "correct": false },
+        { "text": "3. Charles Dickens", "correct": true },
+        { "text": "4. George Eliot", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Anna Karenina'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Leo Tolstoy", "correct": true },
+        { "text": "2. Fyodor Dostoevsky", "correct": false },
+        { "text": "3. Anton Chekhov", "correct": false },
+        { "text": "4. Ivan Turgenev", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Lolita'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Jack Kerouac", "correct": false },
+        { "text": "2. J.D. Salinger", "correct": false },
+        { "text": "3. Vladimir Nabokov", "correct": true },
+        { "text": "4. Saul Bellow", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Sound and the Fury'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. John Steinbeck", "correct": false },
+        { "text": "2. William Faulkner", "correct": true },
+        { "text": "3. Ernest Hemingway", "correct": false },
+        { "text": "4. F. Scott Fitzgerald", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Beloved'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Toni Morrison", "correct": true },
+        { "text": "2. Maya Angelou", "correct": false },
+        { "text": "3. Zora Neale Hurston", "correct": false },
+        { "text": "4. Alice Walker", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Grapes of Wrath'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Ernest Hemingway", "correct": false },
+        { "text": "2. F. Scott Fitzgerald", "correct": false },
+        { "text": "3. John Steinbeck", "correct": true },
+        { "text": "4. William Faulkner", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Invisible Man'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Langston Hughes", "correct": false },
+        { "text": "2. James Baldwin", "correct": false },
+        { "text": "3. Richard Wright", "correct": false },
+        { "text": "4. Ralph Ellison", "correct": true }
+      ]
+    },
+    {
+      "text": "Who wrote 'A Tale of Two Cities'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Alexandre Dumas", "correct": false },
+        { "text": "2. Victor Hugo", "correct": false },
+        { "text": "3. Charles Dickens", "correct": true },
+        { "text": "4. Leo Tolstoy", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Catch-22'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Thomas Pynchon", "correct": false },
+        { "text": "2. Joseph Heller", "correct": true },
+        { "text": "3. Norman Mailer", "correct": false },
+        { "text": "4. Kurt Vonnegut", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Slaughterhouse-Five'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Joseph Heller", "correct": false },
+        { "text": "2. J.D. Salinger", "correct": false },
+        { "text": "3. Philip K. Dick", "correct": false },
+        { "text": "4. Kurt Vonnegut", "correct": true }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Sun Also Rises'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. F. Scott Fitzgerald", "correct": false },
+        { "text": "2. John Steinbeck", "correct": false },
+        { "text": "3. Ernest Hemingway", "correct": true },
+        { "text": "4. William Faulkner", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Lord of the Flies'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. George Orwell", "correct": false },
+        { "text": "2. Joseph Conrad", "correct": false },
+        { "text": "3. Aldous Huxley", "correct": false },
+        { "text": "4. William Golding", "correct": true }
+      ]
+    },
+    {
+      "text": "Who is the author of 'One Flew Over the Cuckoo's Nest'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Hunter S. Thompson", "correct": false },
+        { "text": "2. Allen Ginsberg", "correct": false },
+        { "text": "3. Ken Kesey", "correct": true },
+        { "text": "4. Jack Kerouac", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Old Man and the Sea'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Mark Twain", "correct": false },
+        { "text": "2. Ernest Hemingway", "correct": true },
+        { "text": "3. John Steinbeck", "correct": false },
+        { "text": "4. William Faulkner", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Road'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Philip Roth", "correct": false },
+        { "text": "2. Cormac McCarthy", "correct": true },
+        { "text": "3. Thomas Pynchon", "correct": false },
+        { "text": "4. Don DeLillo", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Handmaid's Tale'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Alice Munro", "correct": false },
+        { "text": "2. Ursula K. Le Guin", "correct": false },
+        { "text": "3. Margaret Atwood", "correct": true },
+        { "text": "4. Toni Morrison", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Bell Jar'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Anne Sexton", "correct": false },
+        { "text": "2. Virginia Woolf", "correct": false },
+        { "text": "3. Emily Dickinson", "correct": false },
+        { "text": "4. Sylvia Plath", "correct": true }
+      ]
+    },
+    {
+      "text": "Who wrote 'A Clockwork Orange'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Ray Bradbury", "correct": false },
+        { "text": "2. Anthony Burgess", "correct": true },
+        { "text": "3. Aldous Huxley", "correct": false },
+        { "text": "4. George Orwell", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Alchemist'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Jorge Luis Borges", "correct": false },
+        { "text": "2. Paulo Coelho", "correct": true },
+        { "text": "3. Isabel Allende", "correct": false },
+        { "text": "4. Gabriel García Márquez", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Siddhartha'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Thomas Mann", "correct": false },
+        { "text": "2. Hermann Hesse", "correct": true },
+        { "text": "3. Franz Kafka", "correct": false },
+        { "text": "4. Rainer Maria Rilke", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Metamorphosis'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Samuel Beckett", "correct": false },
+        { "text": "2. Albert Camus", "correct": false },
+        { "text": "3. Franz Kafka", "correct": true },
+        { "text": "4. Jean-Paul Sartre", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Don Quixote'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Federico García Lorca", "correct": false },
+        { "text": "2. Gabriel García Márquez", "correct": false },
+        { "text": "3. Miguel de Cervantes", "correct": true },
+        { "text": "4. Lope de Vega", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Divine Comedy'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Geoffrey Chaucer", "correct": false },
+        { "text": "2. John Milton", "correct": false },
+        { "text": "3. Dante Alighieri", "correct": true },
+        { "text": "4. William Shakespeare", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Paradise Lost'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. William Blake", "correct": false },
+        { "text": "2. Christopher Marlowe", "correct": false },
+        { "text": "3. John Milton", "correct": true },
+        { "text": "4. Edmund Spenser", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Ulysses'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. T.S. Eliot", "correct": false },
+        { "text": "2. W.B. Yeats", "correct": false },
+        { "text": "3. Ezra Pound", "correct": false },
+        { "text": "4. James Joyce", "correct": true }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Canterbury Tales'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. John Milton", "correct": false },
+        { "text": "2. Geoffrey Chaucer", "correct": true },
+        { "text": "3. Charles Dickens", "correct": false },
+        { "text": "4. William Shakespeare", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'Frankenstein'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Oscar Wilde", "correct": false },
+        { "text": "2. Mary Shelley", "correct": true },
+        { "text": "3. H.G. Wells", "correct": false },
+        { "text": "4. Bram Stoker", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'Dracula'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Stephen King", "correct": false },
+        { "text": "2. Mary Shelley", "correct": false },
+        { "text": "3. Bram Stoker", "correct": true },
+        { "text": "4. Edgar Allan Poe", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Odyssey'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Euripides", "correct": false },
+        { "text": "2. Virgil", "correct": false },
+        { "text": "3. Homer", "correct": true },
+        { "text": "4. Sophocles", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote 'The Iliad'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Aristotle", "correct": false },
+        { "text": "2. Homer", "correct": true },
+        { "text": "3. Aeschylus", "correct": false },
+        { "text": "4. Plato", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the author of 'The Scarlet Letter'?",
+      "category": "Literature",
+      "answers": [
+        { "text": "1. Edgar Allan Poe", "correct": false },
+        { "text": "2. Mark Twain", "correct": false },
+        { "text": "3. Nathaniel Hawthorne", "correct": true },
+        { "text": "4. Herman Melville", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the process by which plants make their own food?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Fermentation", "correct": false },
+        { "text": "2. Photosynthesis", "correct": true },
+        { "text": "3. Respiration", "correct": false },
+        { "text": "4. Transpiration", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gas is most abundant in Earth's atmosphere?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Oxygen", "correct": false },
+        { "text": "2. Nitrogen", "correct": true },
+        { "text": "3. Carbon Dioxide", "correct": false },
+        { "text": "4. Argon", "correct": false }
+      ]
+    },
+    {
+      "text": "What is commonly referred to as the powerhouse of the cell?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Nucleus", "correct": false },
+        { "text": "2. Mitochondria", "correct": true },
+        { "text": "3. Ribosome", "correct": false },
+        { "text": "4. Chloroplast", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the chemical formula for water?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. H2O", "correct": true },
+        { "text": "2. CO2", "correct": false },
+        { "text": "3. HO", "correct": false },
+        { "text": "4. H2O2", "correct": false }
+      ]
+    },
+    {
+      "text": "Which planet is known as the 'Red Planet'?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Venus", "correct": false },
+        { "text": "2. Mars", "correct": true },
+        { "text": "3. Jupiter", "correct": false },
+        { "text": "4. Mercury", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the approximate speed of light in a vacuum?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. 300,000 km/s", "correct": true },
+        { "text": "2. 150,000 km/s", "correct": false },
+        { "text": "3. 1,000,000 km/s", "correct": false },
+        { "text": "4. 30,000 km/s", "correct": false }
+      ]
+    },
+    {
+      "text": "Which element has the atomic number 6?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Oxygen", "correct": false },
+        { "text": "2. Nitrogen", "correct": false },
+        { "text": "3. Carbon", "correct": true },
+        { "text": "4. Helium", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the hardest natural substance on Earth?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Corundum", "correct": false },
+        { "text": "2. Diamond", "correct": true },
+        { "text": "3. Quartz", "correct": false },
+        { "text": "4. Topaz", "correct": false }
+      ]
+    },
+    {
+      "text": "Which organ is responsible for pumping blood throughout the body?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Brain", "correct": false },
+        { "text": "2. Lung", "correct": false },
+        { "text": "3. Heart", "correct": true },
+        { "text": "4. Kidney", "correct": false }
+      ]
+    },
+    {
+      "text": "At what temperature does water boil at sea level (in Celsius)?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. 90°C", "correct": false },
+        { "text": "2. 100°C", "correct": true },
+        { "text": "3. 80°C", "correct": false },
+        { "text": "4. 120°C", "correct": false }
+      ]
+    },
+    {
+      "text": "Which gas is a major contributor to the greenhouse effect?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Oxygen", "correct": false },
+        { "text": "2. Carbon Dioxide", "correct": true },
+        { "text": "3. Hydrogen", "correct": false },
+        { "text": "4. Neon", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the center of an atom called?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Electron Cloud", "correct": false },
+        { "text": "2. Nucleus", "correct": true },
+        { "text": "3. Proton", "correct": false },
+        { "text": "4. Neutron", "correct": false }
+      ]
+    },
+    {
+      "text": "Which subatomic particle carries a negative charge?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Proton", "correct": false },
+        { "text": "2. Electron", "correct": true },
+        { "text": "3. Neutron", "correct": false },
+        { "text": "4. Positron", "correct": false }
+      ]
+    },
+    {
+      "text": "What force keeps the planets in orbit around the sun?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Electromagnetism", "correct": false },
+        { "text": "2. Gravity", "correct": true },
+        { "text": "3. Nuclear Force", "correct": false },
+        { "text": "4. Friction", "correct": false }
+      ]
+    },
+    {
+      "text": "Which vitamin is produced when human skin is exposed to sunlight?",
+      "category": "Science",
+      "answers": [
+        { "text": "1. Vitamin C", "correct": false },
+        { "text": "2. Vitamin D", "correct": true },
+        { "text": "3. Vitamin B12", "correct": false },
+        { "text": "4. Vitamin A", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the most abundant element in the universe?",
+      "category": "Science",
       "answers": [
         { "text": "1. Helium", "correct": false },
         { "text": "2. Oxygen", "correct": false },
@@ -513,291 +3430,143 @@
       ]
     },
     {
-      "text": "In 'Harry Potter', what is the name of Hermione's cat?",
+      "text": "Which branch of science studies the behavior of matter and energy?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Crookshanks", "correct": true },
-        { "text": "2. Hedwig", "correct": false },
-        { "text": "3. Scabbers", "correct": false },
-        { "text": "4. Fang", "correct": false }
+        { "text": "1. Biology", "correct": false },
+        { "text": "2. Chemistry", "correct": false },
+        { "text": "3. Physics", "correct": true },
+        { "text": "4. Geology", "correct": false }
       ]
     },
     {
-      "text": "Which country gifted the Statue of Liberty to the United States?",
+      "text": "What phenomenon causes the bending of light as it passes through different mediums?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Spain", "correct": false },
-        { "text": "2. France", "correct": true },
-        { "text": "3. England", "correct": false },
-        { "text": "4. Italy", "correct": false }
+        { "text": "1. Reflection", "correct": false },
+        { "text": "2. Refraction", "correct": true },
+        { "text": "3. Diffraction", "correct": false },
+        { "text": "4. Dispersion", "correct": false }
       ]
     },
     {
-      "text": "Who is the CEO of Tesla?",
+      "text": "Which planet is famous for its prominent ring system?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Jeff Bezos", "correct": false },
-        { "text": "2. Tim Cook", "correct": false },
-        { "text": "3. Elon Musk", "correct": true },
-        { "text": "4. Mark Zuckerberg", "correct": false }
+        { "text": "1. Uranus", "correct": false },
+        { "text": "2. Neptune", "correct": false },
+        { "text": "3. Saturn", "correct": true },
+        { "text": "4. Jupiter", "correct": false }
       ]
     },
     {
-      "text": "What is the hardest natural substance on Earth?",
+      "text": "What is the process by which liquid water becomes vapor?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Gold", "correct": false },
-        { "text": "2. Diamond", "correct": true },
-        { "text": "3. Platinum", "correct": false },
-        { "text": "4. Titanium", "correct": false }
+        { "text": "1. Condensation", "correct": false },
+        { "text": "2. Precipitation", "correct": false },
+        { "text": "3. Evaporation", "correct": true },
+        { "text": "4. Sublimation", "correct": false }
       ]
     },
     {
-      "text": "Which country invented tea?",
+      "text": "What is the study of insects called?",
+      "category": "Science",
       "answers": [
-        { "text": "1. India", "correct": false },
-        { "text": "2. England", "correct": false },
-        { "text": "3. China", "correct": true },
-        { "text": "4. Japan", "correct": false }
+        { "text": "1. Ornithology", "correct": false },
+        { "text": "2. Entomology", "correct": true },
+        { "text": "3. Herpetology", "correct": false },
+        { "text": "4. Ichthyology", "correct": false }
       ]
     },
     {
-      "text": "What is the name of Batman's butler?",
+      "text": "Which type of blood cells are primarily responsible for carrying oxygen?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Alfred", "correct": true },
-        { "text": "2. Jarvis", "correct": false },
-        { "text": "3. Lucius", "correct": false },
-        { "text": "4. Gordon", "correct": false }
+        { "text": "1. White blood cells", "correct": false },
+        { "text": "2. Red blood cells", "correct": true },
+        { "text": "3. Platelets", "correct": false },
+        { "text": "4. Plasma cells", "correct": false }
       ]
     },
     {
-      "text": "Which gas do plants absorb during photosynthesis?",
+      "text": "Which instrument is used to measure atmospheric pressure?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Oxygen", "correct": false },
-        { "text": "2. Nitrogen", "correct": false },
-        { "text": "3. Carbon Dioxide", "correct": true },
-        { "text": "4. Hydrogen", "correct": false }
+        { "text": "1. Thermometer", "correct": false },
+        { "text": "2. Barometer", "correct": true },
+        { "text": "3. Hygrometer", "correct": false },
+        { "text": "4. Anemometer", "correct": false }
       ]
     },
     {
-      "text": "Which planet has the most moons?",
+      "text": "Which scientist is famous for proposing the theory of relativity?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Saturn", "correct": true },
-        { "text": "2. Jupiter", "correct": false },
-        { "text": "3. Mars", "correct": false },
-        { "text": "4. Uranus", "correct": false }
+        { "text": "1. Isaac Newton", "correct": false },
+        { "text": "2. Nikola Tesla", "correct": false },
+        { "text": "3. Albert Einstein", "correct": true },
+        { "text": "4. Galileo Galilei", "correct": false }
       ]
     },
     {
-      "text": "What is the capital of Brazil?",
+      "text": "What is the primary pigment in plants that absorbs sunlight?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Rio de Janeiro", "correct": false },
-        { "text": "2. São Paulo", "correct": false },
-        { "text": "3. Brasília", "correct": true },
-        { "text": "4. Salvador", "correct": false }
+        { "text": "1. Melanin", "correct": false },
+        { "text": "2. Chlorophyll", "correct": true },
+        { "text": "3. Carotene", "correct": false },
+        { "text": "4. Anthocyanin", "correct": false }
       ]
     },
     {
-      "text": "Who invented the telephone?",
+      "text": "What is the chemical symbol for potassium?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Thomas Edison", "correct": false },
-        { "text": "2. Alexander Graham Bell", "correct": true },
-        { "text": "3. Nikola Tesla", "correct": false },
-        { "text": "4. Albert Einstein", "correct": false }
+        { "text": "1. Po", "correct": false },
+        { "text": "2. K", "correct": true },
+        { "text": "3. P", "correct": false },
+        { "text": "4. Pt", "correct": false }
       ]
     },
     {
-      "text": "Which animal is known as the 'King of the Jungle'?",
+      "text": "Which planet is known for having a giant storm called the Great Red Spot?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Tiger", "correct": false },
-        { "text": "2. Elephant", "correct": false },
-        { "text": "3. Lion", "correct": true },
-        { "text": "4. Gorilla", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the square root of 64?",
-      "answers": [
-        { "text": "1. 6", "correct": false },
-        { "text": "2. 8", "correct": true },
-        { "text": "3. 10", "correct": false },
-        { "text": "4. 12", "correct": false }
-      ]
-    },
-    {
-      "text": "Which country is the largest by land area?",
-      "answers": [
-        { "text": "1. Canada", "correct": false },
-        { "text": "2. China", "correct": false },
-        { "text": "3. Russia", "correct": true },
-        { "text": "4. United States", "correct": false }
-      ]
-    },
-    {
-      "text": "In 'The Avengers', what is Thor's weapon called?",
-      "answers": [
-        { "text": "1. Stormbreaker", "correct": false },
-        { "text": "2. Mjölnir", "correct": true },
-        { "text": "3. Infinity Gauntlet", "correct": false },
-        { "text": "4. Shield", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the capital of Egypt?",
-      "answers": [
-        { "text": "1. Alexandria", "correct": false },
-        { "text": "2. Giza", "correct": false },
-        { "text": "3. Cairo", "correct": true },
-        { "text": "4. Luxor", "correct": false }
-      ]
-    },
-    {
-      "text": "Which programming language is used for Android app development?",
-      "answers": [
-        { "text": "1. Java/Kotlin", "correct": true },
-        { "text": "2. Swift", "correct": false },
-        { "text": "3. C#", "correct": false },
-        { "text": "4. Python", "correct": false }
-      ]
-    },
-    {
-      "text": "Who is the Greek god of the sea?",
-      "answers": [
-        { "text": "1. Zeus", "correct": false },
-        { "text": "2. Poseidon", "correct": true },
-        { "text": "3. Hades", "correct": false },
-        { "text": "4. Apollo", "correct": false }
-      ]
-    },
-    {
-      "text": "Which country has the most pyramids?",
-      "answers": [
-        { "text": "1. Egypt", "correct": false },
-        { "text": "2. Mexico", "correct": false },
-        { "text": "3. Sudan", "correct": true },
-        { "text": "4. Peru", "correct": false }
-      ]
-    },
-    {
-      "text": "Which planet is known for its rings?",
-      "answers": [
-        { "text": "1. Venus", "correct": false },
-        { "text": "2. Saturn", "correct": true },
-        { "text": "3. Jupiter", "correct": false },
+        { "text": "1. Saturn", "correct": false },
+        { "text": "2. Mars", "correct": false },
+        { "text": "3. Jupiter", "correct": true },
         { "text": "4. Neptune", "correct": false }
       ]
     },
     {
-      "text": "What is the largest species of shark?",
+      "text": "What is the primary unit of measurement for electric current?",
+      "category": "Science",
       "answers": [
-        { "text": "1. Great White Shark", "correct": false },
-        { "text": "2. Hammerhead Shark", "correct": false },
-        { "text": "3. Whale Shark", "correct": true },
-        { "text": "4. Tiger Shark", "correct": false }
+        { "text": "1. Volt", "correct": false },
+        { "text": "2. Ohm", "correct": false },
+        { "text": "3. Ampere", "correct": true },
+        { "text": "4. Watt", "correct": false }
       ]
     },
     {
-      "text": "Which company developed the game 'Fortnite'?",
+      "text": "Which subatomic particle has no electric charge?",
+      "category": "Science",
       "answers": [
-        { "text": "1. EA", "correct": false },
-        { "text": "2. Ubisoft", "correct": false },
-        { "text": "3. Epic Games", "correct": true },
-        { "text": "4. Activision", "correct": false }
+        { "text": "1. Proton", "correct": false },
+        { "text": "2. Electron", "correct": false },
+        { "text": "3. Neutron", "correct": true },
+        { "text": "4. Positron", "correct": false }
       ]
     },
     {
-      "text": "Who is the author of 'The Hunger Games' trilogy?",
+      "text": "What is the process by which water moves through a plant from roots to leaves?",
+      "category": "Science",
       "answers": [
-        { "text": "1. J.K. Rowling", "correct": false },
-        { "text": "2. Suzanne Collins", "correct": true },
-        { "text": "3. Veronica Roth", "correct": false },
-        { "text": "4. Stephenie Meyer", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the chemical symbol for sodium?",
-      "answers": [
-        { "text": "1. So", "correct": false },
-        { "text": "2. Na", "correct": true },
-        { "text": "3. K", "correct": false },
-        { "text": "4. S", "correct": false }
-      ]
-    },
-    {
-      "text": "Which continent is the Sahara Desert located in?",
-      "answers": [
-        { "text": "1. Asia", "correct": false },
-        { "text": "2. Africa", "correct": true },
-        { "text": "3. Australia", "correct": false },
-        { "text": "4. South America", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the smallest country in the world?",
-      "answers": [
-        { "text": "1. Monaco", "correct": false },
-        { "text": "2. Vatican City", "correct": true },
-        { "text": "3. San Marino", "correct": false },
-        { "text": "4. Liechtenstein", "correct": false }
-      ]
-    },
-    {
-      "text": "Which gaming console is abbreviated as 'PS5'?",
-      "answers": [
-        { "text": "1. PlayStation 5", "correct": true },
-        { "text": "2. Xbox Series X", "correct": false },
-        { "text": "3. Nintendo Wii", "correct": false },
-        { "text": "4. Sega Genesis", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the capital of Spain?",
-      "answers": [
-        { "text": "1. Barcelona", "correct": false },
-        { "text": "2. Madrid", "correct": true },
-        { "text": "3. Valencia", "correct": false },
-        { "text": "4. Seville", "correct": false }
-      ]
-    },
-    {
-      "text": "Which element is a liquid at room temperature?",
-      "answers": [
-        { "text": "1. Bromine", "correct": false },
-        { "text": "2. Mercury", "correct": true },
-        { "text": "3. Iron", "correct": false },
-        { "text": "4. Gold", "correct": false }
-      ]
-    },
-    {
-      "text": "Who discovered penicillin?",
-      "answers": [
-        { "text": "1. Marie Curie", "correct": false },
-        { "text": "2. Alexander Fleming", "correct": true },
-        { "text": "3. Isaac Newton", "correct": false },
-        { "text": "4. Albert Einstein", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the capital of South Korea?",
-      "answers": [
-        { "text": "1. Busan", "correct": false },
-        { "text": "2. Seoul", "correct": true },
-        { "text": "3. Incheon", "correct": false },
-        { "text": "4. Daegu", "correct": false }
-      ]
-    },
-    {
-      "text": "Which animal is the fastest land mammal?",
-      "answers": [
-        { "text": "1. Lion", "correct": false },
-        { "text": "2. Cheetah", "correct": true },
-        { "text": "3. Gazelle", "correct": false },
-        { "text": "4. Horse", "correct": false }
-      ]
-    },
-    {
-      "text": "What is the largest ocean on Earth?",
-      "answers": [
-        { "text": "1. Atlantic Ocean", "correct": false },
-        { "text": "2. Indian Ocean", "correct": false },
-        { "text": "3. Pacific Ocean", "correct": true },
-        { "text": "4. Arctic Ocean", "correct": false }
+        { "text": "1. Transpiration", "correct": true },
+        { "text": "2. Osmosis", "correct": false },
+        { "text": "3. Diffusion", "correct": false },
+        { "text": "4. Capillary action", "correct": false }
       ]
     }
   ]
