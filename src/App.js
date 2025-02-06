@@ -7,8 +7,6 @@ import GameOver from "./components/GameOver";
 import Scoreboard from "./components/Scoreboard";
 import "./App.css";
 
-// fix overflow to prevent horizontal scroll
-
 const App = () => {
   const [gameStarted, setGameStarted] = useState(false);
   const [player1Score, setPlayer1Score] = useState(0);
