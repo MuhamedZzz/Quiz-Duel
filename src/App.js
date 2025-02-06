@@ -35,19 +35,9 @@ const App = () => {
         }));
         setAllQuestions(withCategories);
 
-        // disable categories because there are not enough questions
-        const unwantedCategories = [
-          "Food",
-          "Movies",
-          "Art",
-          "Math",
-          "History",
-          "Mythology",
-        ];
-
         const uniqueCategories = [
           ...new Set(withCategories.map((q) => q.category)),
-        ].filter((category) => !unwantedCategories.includes(category));
+        ];
         setCategories(["General Knowledge", ...uniqueCategories]);
 
         setQuestions(shuffleArray(withCategories));

@@ -3568,5 +3568,2825 @@
         { "text": "3. Diffusion", "correct": false },
         { "text": "4. Capillary action", "correct": false }
       ]
+    },
+    {
+      "text": "What is the main ingredient in traditional hummus?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Chickpeas", "correct": true },
+        { "text": "2. Lentils", "correct": false },
+        { "text": "3. Black Beans", "correct": false },
+        { "text": "4. Tofu", "correct": false }
+      ]
+    },
+    {
+      "text": "Which fruit contains the enzyme bromelain, which helps break down proteins?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Mango", "correct": false },
+        { "text": "2. Pineapple", "correct": true },
+        { "text": "3. Kiwi", "correct": false },
+        { "text": "4. Papaya", "correct": false }
+      ]
+    },
+    {
+      "text": "Which country is famous for inventing sushi?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. South Korea", "correct": false },
+        { "text": "2. Thailand", "correct": false },
+        { "text": "3. Japan", "correct": true },
+        { "text": "4. China", "correct": false }
+      ]
+    },
+    {
+      "text": "What type of pasta is shaped like small rice grains and is often used in soups?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Orzo", "correct": true },
+        { "text": "2. Penne", "correct": false },
+        { "text": "3. Spaghetti", "correct": false },
+        { "text": "4. Fettuccine", "correct": false }
+      ]
+    },
+    {
+      "text": "Which type of nut is traditionally used to make marzipan?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Almond", "correct": true },
+        { "text": "2. Cashew", "correct": false },
+        { "text": "3. Walnut", "correct": false },
+        { "text": "4. Pistachio", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the most widely consumed meat in the world?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Pork", "correct": true },
+        { "text": "2. Beef", "correct": false },
+        { "text": "3. Chicken", "correct": false },
+        { "text": "4. Lamb", "correct": false }
+      ]
+    },
+    {
+      "text": "What ingredient is responsible for making bread rise?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Yeast", "correct": true },
+        { "text": "2. Baking Soda", "correct": false },
+        { "text": "3. Baking Powder", "correct": false },
+        { "text": "4. Salt", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the most expensive spice in the world by weight?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Vanilla", "correct": false },
+        { "text": "2. Saffron", "correct": true },
+        { "text": "3. Cardamom", "correct": false },
+        { "text": "4. Cinnamon", "correct": false }
+      ]
+    },
+    {
+      "text": "Tofu is primarily made from which ingredient?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Chickpeas", "correct": false },
+        { "text": "2. Soybeans", "correct": true },
+        { "text": "3. Almonds", "correct": false },
+        { "text": "4. Rice", "correct": false }
+      ]
+    },
+    {
+      "text": "Which vegetable is known for making people cry when it is cut?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Garlic", "correct": false },
+        { "text": "2. Shallot", "correct": false },
+        { "text": "3. Leek", "correct": false },
+        { "text": "4. Onion", "correct": true }
+      ]
+    },
+    {
+      "text": "Guacamole is primarily made from which ingredient?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Tomato", "correct": false },
+        { "text": "2. Avocado", "correct": true },
+        { "text": "3. Cucumber", "correct": false },
+        { "text": "4. Bell Pepper", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Italian dish is known for its layers of pasta, sauce, and cheese?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Spaghetti", "correct": false },
+        { "text": "2. Ravioli", "correct": false },
+        { "text": "3. Fettuccine Alfredo", "correct": false },
+        { "text": "4. Lasagna", "correct": true }
+      ]
+    },
+    {
+      "text": "Refried beans are traditionally made from which type of bean?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Black Beans", "correct": false },
+        { "text": "2. Kidney Beans", "correct": false },
+        { "text": "3. Lentils", "correct": false },
+        { "text": "4. Pinto Beans", "correct": true }
+      ]
+    },
+    {
+      "text": "In traditional Greek moussaka, what is the primary vegetable used?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Zucchini", "correct": false },
+        { "text": "2. Tomato", "correct": false },
+        { "text": "3. Potato", "correct": false },
+        { "text": "4. Eggplant", "correct": true }
+      ]
+    },
+    {
+      "text": "Which fruit is known for its high potassium content?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Apple", "correct": false },
+        { "text": "2. Grape", "correct": false },
+        { "text": "3. Orange", "correct": false },
+        { "text": "4. Banana", "correct": true }
+      ]
+    },
+    {
+      "text": "Which type of rice is traditionally used in making risotto?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Basmati Rice", "correct": false },
+        { "text": "2. Jasmine Rice", "correct": false },
+        { "text": "3. Arborio Rice", "correct": true },
+        { "text": "4. Brown Rice", "correct": false }
+      ]
+    },
+    {
+      "text": "What type of cheese is typically used on authentic Italian pizza?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Cheddar", "correct": false },
+        { "text": "2. Gouda", "correct": false },
+        { "text": "3. Feta", "correct": false },
+        { "text": "4. Mozzarella", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the key ingredient in traditional pesto sauce?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Parsley", "correct": false },
+        { "text": "2. Cilantro", "correct": false },
+        { "text": "3. Spinach", "correct": false },
+        { "text": "4. Basil", "correct": true }
+      ]
+    },
+    {
+      "text": "Wine is primarily made by fermenting which type of fruit?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Apples", "correct": false },
+        { "text": "2. Pears", "correct": false },
+        { "text": "3. Grapes", "correct": true },
+        { "text": "4. Oranges", "correct": false }
+      ]
+    },
+    {
+      "text": "Kimchi is a staple in which cuisine?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Chinese", "correct": false },
+        { "text": "2. Japanese", "correct": false },
+        { "text": "3. Thai", "correct": false },
+        { "text": "4. Korean", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the primary ingredient in gazpacho?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Cucumber", "correct": false },
+        { "text": "2. Watermelon", "correct": false },
+        { "text": "3. Apple", "correct": false },
+        { "text": "4. Tomato", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the key ingredient in miso soup?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Soy Sauce", "correct": false },
+        { "text": "2. Tofu", "correct": false },
+        { "text": "3. Rice", "correct": false },
+        { "text": "4. Miso Paste", "correct": true }
+      ]
+    },
+    {
+      "text": "Which herb is commonly used in both Italian and Mexican cuisines?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Rosemary", "correct": false },
+        { "text": "2. Thyme", "correct": false },
+        { "text": "3. Sage", "correct": false },
+        { "text": "4. Oregano", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the main ingredient in traditional falafel?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Lentils", "correct": false },
+        { "text": "2. Fava Beans", "correct": false },
+        { "text": "3. Kidney Beans", "correct": false },
+        { "text": "4. Chickpeas", "correct": true }
+      ]
+    },
+    {
+      "text": "Which type of rice is used to make sushi?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Long-Grain Rice", "correct": false },
+        { "text": "2. Jasmine Rice", "correct": false },
+        { "text": "3. Basmati Rice", "correct": false },
+        { "text": "4. Short-Grain Rice", "correct": true }
+      ]
+    },
+    {
+      "text": "What is a key ingredient in traditional Caesar salad dressing?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Egg Yolk", "correct": false },
+        { "text": "2. Parmesan Cheese", "correct": false },
+        { "text": "3. Lemon Juice", "correct": false },
+        { "text": "4. Anchovies", "correct": true }
+      ]
+    },
+    {
+      "text": "Raisins are dried forms of which fruit?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Mango", "correct": false },
+        { "text": "2. Apple", "correct": false },
+        { "text": "3. Cherry", "correct": false },
+        { "text": "4. Grape", "correct": true }
+      ]
+    },
+    {
+      "text": "Which meat is typically used in a traditional gyro?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Beef", "correct": false },
+        { "text": "2. Chicken", "correct": false },
+        { "text": "3. Pork", "correct": false },
+        { "text": "4. Lamb", "correct": true }
+      ]
+    },
+    {
+      "text": "What is a key spice in traditional curry powder?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Chili Powder", "correct": false },
+        { "text": "2. Coriander", "correct": false },
+        { "text": "3. Cumin", "correct": false },
+        { "text": "4. Turmeric", "correct": true }
+      ]
+    },
+    {
+      "text": "Yogurt is produced by fermenting which dairy product?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Cream", "correct": false },
+        { "text": "2. Cheese", "correct": false },
+        { "text": "3. Butter", "correct": false },
+        { "text": "4. Milk", "correct": true }
+      ]
+    },
+    {
+      "text": "Which beverage is brewed from roasted coffee beans?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Tea", "correct": false },
+        { "text": "2. Hot Chocolate", "correct": false },
+        { "text": "3. Lemonade", "correct": false },
+        { "text": "4. Coffee", "correct": true }
+      ]
+    },
+    {
+      "text": "Which ingredient gives traditional pesto its green color?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Parsley", "correct": false },
+        { "text": "2. Arugula", "correct": false },
+        { "text": "3. Spinach", "correct": false },
+        { "text": "4. Basil", "correct": true }
+      ]
+    },
+    {
+      "text": "Which oil is commonly used in Mediterranean cuisine?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Coconut Oil", "correct": false },
+        { "text": "2. Canola Oil", "correct": false },
+        { "text": "3. Sunflower Oil", "correct": false },
+        { "text": "4. Olive Oil", "correct": true }
+      ]
+    },
+    {
+      "text": "Which fruit is typically used to make guava juice?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Pineapple", "correct": false },
+        { "text": "2. Orange", "correct": false },
+        { "text": "3. Guava", "correct": true },
+        { "text": "4. Apple", "correct": false }
+      ]
+    },
+    {
+      "text": "Borscht, a traditional Eastern European soup, is primarily made from which vegetable?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Carrot", "correct": false },
+        { "text": "2. Cabbage", "correct": false },
+        { "text": "3. Potato", "correct": false },
+        { "text": "4. Beetroot", "correct": true }
+      ]
+    },
+    {
+      "text": "What is a key ingredient in traditional paella?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Quinoa", "correct": false },
+        { "text": "2. Pasta", "correct": false },
+        { "text": "3. Barley", "correct": false },
+        { "text": "4. Rice", "correct": true }
+      ]
+    },
+    {
+      "text": "Which fish is commonly used to make sushi?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Cod", "correct": false },
+        { "text": "2. Mackerel", "correct": false },
+        { "text": "3. Tilapia", "correct": false },
+        { "text": "4. Salmon", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the primary ingredient in a BLT sandwich?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Turkey", "correct": false },
+        { "text": "2. Roast Beef", "correct": false },
+        { "text": "3. Ham", "correct": false },
+        { "text": "4. Bacon", "correct": true }
+      ]
+    },
+    {
+      "text": "Which dessert is made by layering ladyfingers with mascarpone cheese and coffee?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Cannoli", "correct": false },
+        { "text": "2. Panna Cotta", "correct": false },
+        { "text": "3. Zabaglione", "correct": false },
+        { "text": "4. Tiramisu", "correct": true }
+      ]
+    },
+    {
+      "text": "Which pastry is traditionally used to make a croissant?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Choux Pastry", "correct": false },
+        { "text": "2. Shortcrust Pastry", "correct": false },
+        { "text": "3. Filo Dough", "correct": false },
+        { "text": "4. Puff Pastry", "correct": true }
+      ]
+    },
+    {
+      "text": "Which fruit is a key ingredient in a traditional apple pie?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Pear", "correct": false },
+        { "text": "2. Peach", "correct": false },
+        { "text": "3. Plum", "correct": false },
+        { "text": "4. Apple", "correct": true }
+      ]
+    },
+    {
+      "text": "What type of ingredient is used to make a falooda dessert?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Noodles", "correct": false },
+        { "text": "2. Rice Noodles", "correct": false },
+        { "text": "3. Pasta", "correct": false },
+        { "text": "4. Vermicelli", "correct": true }
+      ]
+    },
+    {
+      "text": "What ingredient gives pickles their sour taste?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Sugar", "correct": false },
+        { "text": "2. Salt", "correct": false },
+        { "text": "3. Lemon Juice", "correct": false },
+        { "text": "4. Vinegar", "correct": true }
+      ]
+    },
+    {
+      "text": "What is the primary ingredient in a smoothie?",
+      "category": "Food",
+      "answers": [
+        { "text": "1. Dairy", "correct": false },
+        { "text": "2. Vegetable", "correct": false },
+        { "text": "3. Chocolate", "correct": false },
+        { "text": "4. Fruit", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film is known as the highest-grossing film of all time?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Titanic", "correct": false },
+        { "text": "2. Star Wars: The Force Awakens", "correct": false },
+        { "text": "3. Avatar", "correct": true },
+        { "text": "4. Avengers: Endgame", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film won the Best Picture Oscar in 2019?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Bohemian Rhapsody", "correct": false },
+        { "text": "2. Green Book", "correct": true },
+        { "text": "3. Roma", "correct": false },
+        { "text": "4. A Star Is Born", "correct": false }
+      ]
+    },
+    {
+      "text": "Who directed 'Jurassic Park'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Ridley Scott", "correct": false },
+        { "text": "2. Steven Spielberg", "correct": true },
+        { "text": "3. Peter Jackson", "correct": false },
+        { "text": "4. James Cameron", "correct": false }
+      ]
+    },
+    {
+      "text": "Who starred as the titular character in 'Iron Man'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Chris Evans", "correct": false },
+        { "text": "2. Mark Ruffalo", "correct": false },
+        { "text": "3. Robert Downey Jr.", "correct": true },
+        { "text": "4. Chris Hemsworth", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is based on a novel by J.R.R. Tolkien?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. The Hobbit: An Unexpected Journey", "correct": false },
+        { "text": "2. Harry Potter and the Sorcerer's Stone", "correct": false },
+        { "text": "3. The Lord of the Rings: The Fellowship of the Ring", "correct": true },
+        { "text": "4. The Chronicles of Narnia", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of the wizarding sport in the Harry Potter films?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Wizard Chess", "correct": false },
+        { "text": "2. Spellball", "correct": false },
+        { "text": "3. Magic Soccer", "correct": false },
+        { "text": "4. Quidditch", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film features a character named Jack Dawson?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Inception", "correct": false },
+        { "text": "2. Titanic", "correct": true },
+        { "text": "3. The Revenant", "correct": false },
+        { "text": "4. Avatar", "correct": false }
+      ]
+    },
+    {
+      "text": "Who directed 'Inception'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Martin Scorsese", "correct": false },
+        { "text": "2. Quentin Tarantino", "correct": false },
+        { "text": "3. Christopher Nolan", "correct": true },
+        { "text": "4. Steven Spielberg", "correct": false }
+      ]
+    },
+    {
+      "text": "Which actor played the Joker in 'The Dark Knight'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Jared Leto", "correct": false },
+        { "text": "2. Jack Nicholson", "correct": false },
+        { "text": "3. Joaquin Phoenix", "correct": false },
+        { "text": "4. Heath Ledger", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film is known for its iconic 'I'll be back' line?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Total Recall", "correct": false },
+        { "text": "2. Predator", "correct": false },
+        { "text": "3. The Terminator", "correct": true },
+        { "text": "4. Commando", "correct": false }
+      ]
+    },
+    {
+      "text": "Who starred as Forrest Gump in the film of the same name?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Brad Pitt", "correct": false },
+        { "text": "2. Tom Hanks", "correct": true },
+        { "text": "3. Leonardo DiCaprio", "correct": false },
+        { "text": "4. Johnny Depp", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is a musical featuring the song 'Hakuna Matata'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Mulan", "correct": false },
+        { "text": "2. Beauty and the Beast", "correct": false },
+        { "text": "3. The Lion King", "correct": true },
+        { "text": "4. Aladdin", "correct": false }
+      ]
+    },
+    {
+      "text": "Which animated film won the Academy Award for Best Animated Feature in 2014?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Tangled", "correct": false },
+        { "text": "2. Big Hero 6", "correct": false },
+        { "text": "3. Frozen", "correct": true },
+        { "text": "4. Inside Out", "correct": false }
+      ]
+    },
+    {
+      "text": "Which actor portrayed Jack Sparrow in the 'Pirates of the Caribbean' series?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Jared Leto", "correct": false },
+        { "text": "2. Geoffrey Rush", "correct": false },
+        { "text": "3. Johnny Depp", "correct": true },
+        { "text": "4. Orlando Bloom", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is a sci-fi thriller starring Keanu Reeves as Neo?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Speed", "correct": false },
+        { "text": "2. The Matrix", "correct": true },
+        { "text": "3. Constantine", "correct": false },
+        { "text": "4. John Wick", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is directed by Quentin Tarantino and features the character 'The Bride'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Reservoir Dogs", "correct": false },
+        { "text": "2. Kill Bill: Volume 1", "correct": true },
+        { "text": "3. Inglourious Basterds", "correct": false },
+        { "text": "4. Pulp Fiction", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film features a giant ape named King Kong?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Godzilla", "correct": false },
+        { "text": "2. Jurassic Park", "correct": false },
+        { "text": "3. King Kong", "correct": true },
+        { "text": "4. The Mummy", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is known for the line 'May the Force be with you'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Star Wars", "correct": true },
+        { "text": "2. Star Trek", "correct": false },
+        { "text": "3. Guardians of the Galaxy", "correct": false },
+        { "text": "4. Battlestar Galactica", "correct": false }
+      ]
+    },
+    {
+      "text": "Who directed 'Schindler's List'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Francis Ford Coppola", "correct": false },
+        { "text": "2. Ridley Scott", "correct": false },
+        { "text": "3. Steven Spielberg", "correct": true },
+        { "text": "4. Martin Scorsese", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film features a dream-within-a-dream concept?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Inception", "correct": true },
+        { "text": "2. Memento", "correct": false },
+        { "text": "3. Interstellar", "correct": false },
+        { "text": "4. The Prestige", "correct": false }
+      ]
+    },
+    {
+      "text": "Which actor played the lead role in 'Cast Away'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Bruce Willis", "correct": false },
+        { "text": "2. Tom Hanks", "correct": true },
+        { "text": "3. Matt Damon", "correct": false },
+        { "text": "4. Johnny Depp", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is a biographical drama about the boxer Muhammad Ali?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Rocky", "correct": false },
+        { "text": "2. Ali", "correct": true },
+        { "text": "3. Million Dollar Baby", "correct": false },
+        { "text": "4. Raging Bull", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film features a fictional prison called Shawshank?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. The Green Mile", "correct": false },
+        { "text": "2. Cool Hand Luke", "correct": false },
+        { "text": "3. The Shawshank Redemption", "correct": true },
+        { "text": "4. Escape from Alcatraz", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is a biopic about the musician Ray Charles?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Ray Donovan", "correct": false },
+        { "text": "2. La Bamba", "correct": false },
+        { "text": "3. Ray", "correct": true },
+        { "text": "4. Walk the Line", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is set in a dystopian future where society is divided into factions?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. The Hunger Games", "correct": false },
+        { "text": "2. Maze Runner", "correct": false },
+        { "text": "3. Divergent", "correct": true },
+        { "text": "4. Battle Royale", "correct": false }
+      ]
+    },
+    {
+      "text": "Which classic musical stars Gene Kelly and Debbie Reynolds?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. West Side Story", "correct": false },
+        { "text": "2. The Sound of Music", "correct": false },
+        { "text": "3. Singin' in the Rain", "correct": true },
+        { "text": "4. An American in Paris", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film features a lethal heist set during the Christmas season?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. RoboCop", "correct": false },
+        { "text": "2. Lethal Weapon", "correct": false },
+        { "text": "3. Die Hard", "correct": true },
+        { "text": "4. Speed", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is directed by Stanley Kubrick and is based on a dystopian novel?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. 2001: A Space Odyssey", "correct": false },
+        { "text": "2. Full Metal Jacket", "correct": false },
+        { "text": "3. A Clockwork Orange", "correct": true },
+        { "text": "4. The Shining", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film stars Leonardo DiCaprio and is directed by Martin Scorsese?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. The Revenant", "correct": false },
+        { "text": "2. Inception", "correct": false },
+        { "text": "3. The Wolf of Wall Street", "correct": true },
+        { "text": "4. Titanic", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is a romantic drama set aboard a doomed ocean liner?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Atonement", "correct": false },
+        { "text": "2. Romeo + Juliet", "correct": false },
+        { "text": "3. Titanic", "correct": true },
+        { "text": "4. The Notebook", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film features a computer hacker recruited to join a rebellion against machines?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Minority Report", "correct": false },
+        { "text": "2. Blade Runner", "correct": false },
+        { "text": "3. Tron", "correct": false },
+        { "text": "4. The Matrix", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film is a spy thriller starring Matt Damon as Jason Bourne?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Mission: Impossible", "correct": false },
+        { "text": "2. Ronin", "correct": false },
+        { "text": "3. The Bourne Identity", "correct": true },
+        { "text": "4. James Bond", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is based on a Stephen King novel about a haunted hotel?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Carrie", "correct": false },
+        { "text": "2. It", "correct": false },
+        { "text": "3. Misery", "correct": false },
+        { "text": "4. The Shining", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film features the character Forrest Gump?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. The Green Mile", "correct": false },
+        { "text": "2. Cast Away", "correct": false },
+        { "text": "3. Forrest Gump", "correct": true },
+        { "text": "4. Rain Man", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is known for its groundbreaking special effects and the phrase 'Welcome to the Real World'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Avatar", "correct": false },
+        { "text": "2. Edge of Tomorrow", "correct": false },
+        { "text": "3. The Matrix", "correct": true },
+        { "text": "4. Tron", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is directed by Francis Ford Coppola and about a mafia family?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Scarface", "correct": false },
+        { "text": "2. Goodfellas", "correct": false },
+        { "text": "3. Casino", "correct": false },
+        { "text": "4. The Godfather", "correct": true }
+      ]
+    },
+    {
+      "text": "Which animated film features a talking snowman named Olaf?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Tangled", "correct": false },
+        { "text": "2. Moana", "correct": false },
+        { "text": "3. Brave", "correct": false },
+        { "text": "4. Frozen", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film features the song 'My Heart Will Go On'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. The Bodyguard", "correct": false },
+        { "text": "2. Ghost", "correct": false },
+        { "text": "3. Pretty Woman", "correct": false },
+        { "text": "4. Titanic", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film is a biopic about the British rock band Queen?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Rocketman", "correct": false },
+        { "text": "2. Yesterday", "correct": false },
+        { "text": "3. The Runaways", "correct": false },
+        { "text": "4. Bohemian Rhapsody", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film features a character known as 'Mad Max'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Escape from New York", "correct": false },
+        { "text": "2. The Road Warrior", "correct": false },
+        { "text": "3. Mad Max: Fury Road", "correct": true },
+        { "text": "4. The Book of Eli", "correct": false }
+      ]
+    },
+    {
+      "text": "Which film is a fantasy epic directed by Peter Jackson based on a high-fantasy novel series?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Harry Potter and the Sorcerer's Stone", "correct": false },
+        { "text": "2. The Hobbit: An Unexpected Journey", "correct": false },
+        { "text": "3. The Chronicles of Narnia", "correct": false },
+        { "text": "4. The Lord of the Rings: The Return of the King", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film features the character Neo, who discovers the truth about his reality?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Equilibrium", "correct": false },
+        { "text": "2. Inception", "correct": false },
+        { "text": "3. The Thirteenth Floor", "correct": false },
+        { "text": "4. The Matrix", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film is known for the line 'Here's looking at you, kid'?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Citizen Kane", "correct": false },
+        { "text": "2. Gone with the Wind", "correct": false },
+        { "text": "3. The Maltese Falcon", "correct": false },
+        { "text": "4. Casablanca", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film features a detective solving a mystery in 1940s Los Angeles and is directed by Roman Polanski?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. L.A. Confidential", "correct": false },
+        { "text": "2. Blade Runner", "correct": false },
+        { "text": "3. Mulholland Drive", "correct": false },
+        { "text": "4. Chinatown", "correct": true }
+      ]
+    },
+    {
+      "text": "Which film is a science fiction epic directed by Ridley Scott, featuring replicants?",
+      "category": "Movies",
+      "answers": [
+        { "text": "1. Alien", "correct": false },
+        { "text": "2. Prometheus", "correct": false },
+        { "text": "3. The Terminator", "correct": false },
+        { "text": "4. Blade Runner", "correct": true }
+      ]
+    },
+    {
+      "text": "Who painted the Mona Lisa?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Pablo Picasso", "correct": false },
+        { "text": "2. Vincent van Gogh", "correct": false },
+        { "text": "3. Leonardo da Vinci", "correct": true },
+        { "text": "4. Claude Monet", "correct": false }
+      ]
+    },
+    {
+      "text": "Which art movement is Salvador Dalí associated with?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Realism", "correct": false },
+        { "text": "2. Impressionism", "correct": false },
+        { "text": "3. Surrealism", "correct": true },
+        { "text": "4. Cubism", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Starry Night'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Claude Monet", "correct": false },
+        { "text": "2. Vincent van Gogh", "correct": true },
+        { "text": "3. Pablo Picasso", "correct": false },
+        { "text": "4. Henri Matisse", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for the 'Campbell's Soup Cans' artwork?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Andy Warhol", "correct": true },
+        { "text": "2. Roy Lichtenstein", "correct": false },
+        { "text": "3. Jackson Pollock", "correct": false },
+        { "text": "4. Keith Haring", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Persistence of Memory'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Salvador Dalí", "correct": true },
+        { "text": "2. René Magritte", "correct": false },
+        { "text": "3. Frida Kahlo", "correct": false },
+        { "text": "4. Paul Cézanne", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is famous for painting water lilies?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Claude Monet", "correct": true },
+        { "text": "2. Vincent van Gogh", "correct": false },
+        { "text": "3. Édouard Manet", "correct": false },
+        { "text": "4. Gustav Klimt", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is associated with the Cubism movement?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Pablo Picasso", "correct": true },
+        { "text": "2. Henri Matisse", "correct": false },
+        { "text": "3. Salvador Dalí", "correct": false },
+        { "text": "4. Andy Warhol", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Scream'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Edvard Munch", "correct": true },
+        { "text": "2. Francisco Goya", "correct": false },
+        { "text": "3. Paul Gauguin", "correct": false },
+        { "text": "4. Marc Chagall", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Renaissance artist painted 'The Last Supper'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Michelangelo", "correct": false },
+        { "text": "2. Raphael", "correct": false },
+        { "text": "3. Leonardo da Vinci", "correct": true },
+        { "text": "4. Titian", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for his Blue Period?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Pablo Picasso", "correct": true },
+        { "text": "2. Henri Matisse", "correct": false },
+        { "text": "3. Paul Klee", "correct": false },
+        { "text": "4. Wassily Kandinsky", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Guernica'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Pablo Picasso", "correct": true },
+        { "text": "2. Salvador Dalí", "correct": false },
+        { "text": "3. Diego Rivera", "correct": false },
+        { "text": "4. Frida Kahlo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which sculptor created 'David'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Donatello", "correct": false },
+        { "text": "2. Gian Lorenzo Bernini", "correct": false },
+        { "text": "3. Michelangelo", "correct": true },
+        { "text": "4. Auguste Rodin", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is known for painting 'American Gothic'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Grant Wood", "correct": true },
+        { "text": "2. Edward Hopper", "correct": false },
+        { "text": "3. Norman Rockwell", "correct": false },
+        { "text": "4. Thomas Hart Benton", "correct": false }
+      ]
+    },
+    {
+      "text": "Which painting depicts 'The Birth of Venus'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Sandro Botticelli", "correct": true },
+        { "text": "2. Titian", "correct": false },
+        { "text": "3. Caravaggio", "correct": false },
+        { "text": "4. El Greco", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Girl with a Pearl Earring'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Johannes Vermeer", "correct": true },
+        { "text": "2. Rembrandt", "correct": false },
+        { "text": "3. Jan van Eyck", "correct": false },
+        { "text": "4. Peter Paul Rubens", "correct": false }
+      ]
+    },
+    {
+      "text": "Which art movement is Jackson Pollock associated with?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Abstract Expressionism", "correct": true },
+        { "text": "2. Cubism", "correct": false },
+        { "text": "3. Pop Art", "correct": false },
+        { "text": "4. Surrealism", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Night Watch'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Rembrandt", "correct": true },
+        { "text": "2. Vermeer", "correct": false },
+        { "text": "3. Frans Hals", "correct": false },
+        { "text": "4. Caravaggio", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is famous for pointillism?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Georges Seurat", "correct": true },
+        { "text": "2. Paul Signac", "correct": false },
+        { "text": "3. Vincent van Gogh", "correct": false },
+        { "text": "4. Claude Monet", "correct": false }
+      ]
+    },
+    {
+      "text": "Who sculpted 'The Thinker'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Auguste Rodin", "correct": true },
+        { "text": "2. Constantin Brâncuși", "correct": false },
+        { "text": "3. Henry Moore", "correct": false },
+        { "text": "4. Alberto Giacometti", "correct": false }
+      ]
+    },
+    {
+      "text": "Which art movement is Claude Monet associated with?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Impressionism", "correct": true },
+        { "text": "2. Expressionism", "correct": false },
+        { "text": "3. Cubism", "correct": false },
+        { "text": "4. Surrealism", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Kiss' (1907)?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Gustav Klimt", "correct": true },
+        { "text": "2. Egon Schiele", "correct": false },
+        { "text": "3. Oskar Kokoschka", "correct": false },
+        { "text": "4. Alphonse Mucha", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for his Fauvist works and vibrant use of color?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Henri Matisse", "correct": true },
+        { "text": "2. Paul Cézanne", "correct": false },
+        { "text": "3. Georges Braque", "correct": false },
+        { "text": "4. Marc Chagall", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Garden of Earthly Delights'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Hieronymus Bosch", "correct": true },
+        { "text": "2. Pieter Bruegel the Elder", "correct": false },
+        { "text": "3. Albrecht Dürer", "correct": false },
+        { "text": "4. Caravaggio", "correct": false }
+      ]
+    },
+    {
+      "text": "Which contemporary artist is known for his balloon dog sculptures?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Jeff Koons", "correct": true },
+        { "text": "2. Damien Hirst", "correct": false },
+        { "text": "3. Banksy", "correct": false },
+        { "text": "4. Ai Weiwei", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Swing'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Jean-Honoré Fragonard", "correct": true },
+        { "text": "2. Jacques-Louis David", "correct": false },
+        { "text": "3. Édouard Manet", "correct": false },
+        { "text": "4. Gustave Courbet", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Surrealist artist is known for works featuring everyday objects in unusual contexts?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. René Magritte", "correct": true },
+        { "text": "2. Salvador Dalí", "correct": false },
+        { "text": "3. Max Ernst", "correct": false },
+        { "text": "4. Yves Tanguy", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Las Meninas'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Diego Velázquez", "correct": true },
+        { "text": "2. El Greco", "correct": false },
+        { "text": "3. Francisco Goya", "correct": false },
+        { "text": "4. Bartolomé Esteban Murillo", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Nighthawks'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Edward Hopper", "correct": true },
+        { "text": "2. Grant Wood", "correct": false },
+        { "text": "3. Andrew Wyeth", "correct": false },
+        { "text": "4. Jean-François Millet", "correct": false }
+      ]
+    },
+    {
+      "text": "Which art movement is Andy Warhol associated with?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Abstract Expressionism", "correct": false },
+        { "text": "2. Pop Art", "correct": true },
+        { "text": "3. Minimalism", "correct": false },
+        { "text": "4. Futurism", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Son of Man' featuring a man with an apple obscuring his face?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Pablo Picasso", "correct": false },
+        { "text": "2. René Magritte", "correct": true },
+        { "text": "3. Salvador Dalí", "correct": false },
+        { "text": "4. Frida Kahlo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for his geometric abstraction and use of primary colors?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Piet Mondrian", "correct": true },
+        { "text": "2. Wassily Kandinsky", "correct": false },
+        { "text": "3. Kazimir Malevich", "correct": false },
+        { "text": "4. Paul Klee", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is associated with the Dada movement?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Marcel Duchamp", "correct": true },
+        { "text": "2. Francis Picabia", "correct": false },
+        { "text": "3. Man Ray", "correct": false },
+        { "text": "4. Max Ernst", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for creating kinetic sculptures such as mobiles?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Alexander Calder", "correct": true },
+        { "text": "2. Jean Tinguely", "correct": false },
+        { "text": "3. Naum Gabo", "correct": false },
+        { "text": "4. Richard Serra", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'A Sunday Afternoon on the Island of La Grande Jatte'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Georges Seurat", "correct": true },
+        { "text": "2. Paul Signac", "correct": false },
+        { "text": "3. Claude Monet", "correct": false },
+        { "text": "4. Pierre-Auguste Renoir", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is famous for his murals, including works by Diego Rivera?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Frida Kahlo", "correct": false },
+        { "text": "2. Diego Rivera", "correct": true },
+        { "text": "3. David Alfaro Siqueiros", "correct": false },
+        { "text": "4. José Clemente Orozco", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for his abstract drip paintings?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Mark Rothko", "correct": false },
+        { "text": "2. Jackson Pollock", "correct": true },
+        { "text": "3. Willem de Kooning", "correct": false },
+        { "text": "4. Franz Kline", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Whistler's Mother'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. James McNeill Whistler", "correct": true },
+        { "text": "2. John Singer Sargent", "correct": false },
+        { "text": "3. Thomas Eakins", "correct": false },
+        { "text": "4. Winslow Homer", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for his portraits of American celebrities in the 1960s?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Andy Warhol", "correct": true },
+        { "text": "2. Roy Lichtenstein", "correct": false },
+        { "text": "3. Robert Rauschenberg", "correct": false },
+        { "text": "4. Jasper Johns", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted the ceiling of the Sistine Chapel?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Michelangelo", "correct": true },
+        { "text": "2. Leonardo da Vinci", "correct": false },
+        { "text": "3. Raphael", "correct": false },
+        { "text": "4. Titian", "correct": false }
+      ]
+    },
+    {
+      "text": "Which art movement emphasizes the depiction of light and its changing qualities?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Expressionism", "correct": false },
+        { "text": "2. Impressionism", "correct": true },
+        { "text": "3. Baroque", "correct": false },
+        { "text": "4. Neoclassicism", "correct": false }
+      ]
+    },
+    {
+      "text": "Which minimalist artist is known for sculptures made of industrial materials?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Donald Judd", "correct": true },
+        { "text": "2. Sol LeWitt", "correct": false },
+        { "text": "3. Carl Andre", "correct": false },
+        { "text": "4. Dan Flavin", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for stain paintings and abstract color fields?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Helen Frankenthaler", "correct": true },
+        { "text": "2. Mark Rothko", "correct": false },
+        { "text": "3. Barnett Newman", "correct": false },
+        { "text": "4. Ad Reinhardt", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Renaissance artist is famous for detailed anatomical drawings?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Leonardo da Vinci", "correct": true },
+        { "text": "2. Michelangelo", "correct": false },
+        { "text": "3. Raphael", "correct": false },
+        { "text": "4. Albrecht Dürer", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The School of Athens'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Raphael", "correct": true },
+        { "text": "2. Leonardo da Vinci", "correct": false },
+        { "text": "3. Michelangelo", "correct": false },
+        { "text": "4. Titian", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is associated with the Pre-Raphaelite Brotherhood?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. John Everett Millais", "correct": true },
+        { "text": "2. Dante Gabriel Rossetti", "correct": false },
+        { "text": "3. William Holman Hunt", "correct": false },
+        { "text": "4. Ford Madox Brown", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'The Dance' (1910)?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Henri Matisse", "correct": true },
+        { "text": "2. Pablo Picasso", "correct": false },
+        { "text": "3. Amedeo Modigliani", "correct": false },
+        { "text": "4. Georges Braque", "correct": false }
+      ]
+    },
+    {
+      "text": "Which artist is known for his iconic painting 'American Gothic'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Grant Wood", "correct": true },
+        { "text": "2. Edward Hopper", "correct": false },
+        { "text": "3. Andrew Wyeth", "correct": false },
+        { "text": "4. Thomas Hart Benton", "correct": false }
+      ]
+    },
+    {
+      "text": "Who painted 'Self-Portrait with Thorn Necklace and Hummingbird'?",
+      "category": "Art",
+      "answers": [
+        { "text": "1. Frida Kahlo", "correct": true },
+        { "text": "2. Georgia O'Keeffe", "correct": false },
+        { "text": "3. Mary Cassatt", "correct": false },
+        { "text": "4. Berthe Morisot", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the approximate value of π?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 3.14", "correct": true },
+        { "text": "2. 2.17", "correct": false },
+        { "text": "3. 3.00", "correct": false },
+        { "text": "4. 4.13", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the square root of 64?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 8", "correct": true },
+        { "text": "2. 6", "correct": false },
+        { "text": "3. 7", "correct": false },
+        { "text": "4. 9", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 12 multiplied by 8?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 96", "correct": true },
+        { "text": "2. 88", "correct": false },
+        { "text": "3. 100", "correct": false },
+        { "text": "4. 104", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the result of 15 + 27?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 42", "correct": true },
+        { "text": "2. 40", "correct": false },
+        { "text": "3. 43", "correct": false },
+        { "text": "4. 39", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 100 divided by 25?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 4", "correct": true },
+        { "text": "2. 5", "correct": false },
+        { "text": "3. 3", "correct": false },
+        { "text": "4. 6", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve for x: 2x = 10",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 5", "correct": true },
+        { "text": "2. 10", "correct": false },
+        { "text": "3. 2", "correct": false },
+        { "text": "4. 8", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the area of a rectangle with length 10 and width 5?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 50", "correct": true },
+        { "text": "2. 15", "correct": false },
+        { "text": "3. 30", "correct": false },
+        { "text": "4. 25", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the perimeter of a square with side length 6?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 24", "correct": true },
+        { "text": "2. 12", "correct": false },
+        { "text": "3. 18", "correct": false },
+        { "text": "4. 30", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 9 squared?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 81", "correct": true },
+        { "text": "2. 72", "correct": false },
+        { "text": "3. 90", "correct": false },
+        { "text": "4. 99", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the cube of 3?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 27", "correct": true },
+        { "text": "2. 9", "correct": false },
+        { "text": "3. 18", "correct": false },
+        { "text": "4. 81", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the value of 0 factorial (0!)?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 1", "correct": true },
+        { "text": "2. 0", "correct": false },
+        { "text": "3. Undefined", "correct": false },
+        { "text": "4. 2", "correct": false }
+      ]
+    },
+    {
+      "text": "If a triangle has two angles of 60°, what is the measure of the third angle?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 60°", "correct": true },
+        { "text": "2. 30°", "correct": false },
+        { "text": "3. 90°", "correct": false },
+        { "text": "4. 120°", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the derivative of x²?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 2x", "correct": true },
+        { "text": "2. x", "correct": false },
+        { "text": "3. 2", "correct": false },
+        { "text": "4. x²", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the integral of 1/x dx?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. ln|x| + C", "correct": true },
+        { "text": "2. x + C", "correct": false },
+        { "text": "3. 1/(x²) + C", "correct": false },
+        { "text": "4. eˣ + C", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve for x: x + 5 = 12",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 7", "correct": true },
+        { "text": "2. 5", "correct": false },
+        { "text": "3. 6", "correct": false },
+        { "text": "4. 8", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the next prime number after 7?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 9", "correct": false },
+        { "text": "2. 10", "correct": false },
+        { "text": "3. 11", "correct": true },
+        { "text": "4. 12", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the least common multiple of 4 and 6?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 12", "correct": true },
+        { "text": "2. 18", "correct": false },
+        { "text": "3. 24", "correct": false },
+        { "text": "4. 6", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the greatest common divisor of 24 and 36?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 12", "correct": true },
+        { "text": "2. 6", "correct": false },
+        { "text": "3. 18", "correct": false },
+        { "text": "4. 24", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 7! (7 factorial)?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 5040", "correct": true },
+        { "text": "2. 720", "correct": false },
+        { "text": "3. 40320", "correct": false },
+        { "text": "4. 840", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve the equation: 3x - 9 = 0",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 3", "correct": true },
+        { "text": "2. 0", "correct": false },
+        { "text": "3. 9", "correct": false },
+        { "text": "4. 6", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the sum of the interior angles of a hexagon?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 720°", "correct": true },
+        { "text": "2. 540°", "correct": false },
+        { "text": "3. 600°", "correct": false },
+        { "text": "4. 360°", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the derivative of sin(x)?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. cos(x)", "correct": true },
+        { "text": "2. sin(x)", "correct": false },
+        { "text": "3. -sin(x)", "correct": false },
+        { "text": "4. -cos(x)", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the cosine of 0°?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 1", "correct": true },
+        { "text": "2. 0", "correct": false },
+        { "text": "3. -1", "correct": false },
+        { "text": "4. 0.5", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve for x: 2x² = 8",
+      "category": "Math",
+      "answers": [
+        { "text": "1. x = 2 or x = -2", "correct": true },
+        { "text": "2. x = 4", "correct": false },
+        { "text": "3. x = 2", "correct": false },
+        { "text": "4. x = -4", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 2³?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 8", "correct": true },
+        { "text": "2. 6", "correct": false },
+        { "text": "3. 9", "correct": false },
+        { "text": "4. 10", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the formula for the area of a circle?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 2πr", "correct": false },
+        { "text": "2. πr", "correct": false },
+        { "text": "3. 2r", "correct": false },
+        { "text": "4. πr²", "correct": true }
+      ]
+    },
+    {
+      "text": "What is 15% of 200?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 30", "correct": true },
+        { "text": "2. 25", "correct": false },
+        { "text": "3. 35", "correct": false },
+        { "text": "4. 40", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve the equation: x² - 4 = 0",
+      "category": "Math",
+      "answers": [
+        { "text": "1. x = 2 or x = -2", "correct": true },
+        { "text": "2. x = 4", "correct": false },
+        { "text": "3. x = -4", "correct": false },
+        { "text": "4. x = 0", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the next number in the Fibonacci sequence: 0, 1, 1, 2, 3, 5, ?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 8", "correct": true },
+        { "text": "2. 7", "correct": false },
+        { "text": "3. 6", "correct": false },
+        { "text": "4. 9", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the product of the roots of a quadratic equation ax² + bx + c = 0?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. c/a", "correct": true },
+        { "text": "2. b/a", "correct": false },
+        { "text": "3. a/c", "correct": false },
+        { "text": "4. c/b", "correct": false }
+      ]
+    },
+    {
+      "text": "If f(x) = 3x + 2, what is f(4)?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 14", "correct": true },
+        { "text": "2. 12", "correct": false },
+        { "text": "3. 10", "correct": false },
+        { "text": "4. 16", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the sum of the first 10 natural numbers?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 55", "correct": true },
+        { "text": "2. 45", "correct": false },
+        { "text": "3. 50", "correct": false },
+        { "text": "4. 60", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the area of a triangle with base 8 and height 5?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 20", "correct": true },
+        { "text": "2. 40", "correct": false },
+        { "text": "3. 15", "correct": false },
+        { "text": "4. 30", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 0.5 + 0.25?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 0.75", "correct": true },
+        { "text": "2. 0.85", "correct": false },
+        { "text": "3. 0.65", "correct": false },
+        { "text": "4. 1", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 7 multiplied by 6?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 42", "correct": true },
+        { "text": "2. 36", "correct": false },
+        { "text": "3. 48", "correct": false },
+        { "text": "4. 40", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the perimeter of a rectangle with length 12 and width 7?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 38", "correct": true },
+        { "text": "2. 26", "correct": false },
+        { "text": "3. 40", "correct": false },
+        { "text": "4. 34", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve for x: 5x = 45",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 9", "correct": true },
+        { "text": "2. 8", "correct": false },
+        { "text": "3. 10", "correct": false },
+        { "text": "4. 7", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the difference between 100 and 45?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 55", "correct": true },
+        { "text": "2. 65", "correct": false },
+        { "text": "3. 45", "correct": false },
+        { "text": "4. 35", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the product of 9 and 9?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 81", "correct": true },
+        { "text": "2. 72", "correct": false },
+        { "text": "3. 90", "correct": false },
+        { "text": "4. 99", "correct": false }
+      ]
+    },
+    {
+      "text": "If a number is divisible by both 2 and 3, it must be divisible by which number?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 6", "correct": true },
+        { "text": "2. 4", "correct": false },
+        { "text": "3. 8", "correct": false },
+        { "text": "4. 9", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the sum of the angles in a triangle?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 180°", "correct": true },
+        { "text": "2. 90°", "correct": false },
+        { "text": "3. 360°", "correct": false },
+        { "text": "4. 270°", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the value of 2 + 2 * 2?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 6", "correct": true },
+        { "text": "2. 8", "correct": false },
+        { "text": "3. 4", "correct": false },
+        { "text": "4. 10", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the fraction form of 0.25?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 1/4", "correct": true },
+        { "text": "2. 1/3", "correct": false },
+        { "text": "3. 1/2", "correct": false },
+        { "text": "4. 1/5", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the next prime number after 13?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 17", "correct": false },
+        { "text": "2. 15", "correct": false },
+        { "text": "3. 19", "correct": true },
+        { "text": "4. 14", "correct": false }
+      ]
+    },
+    {
+      "text": "What is 50% of 200?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 100", "correct": true },
+        { "text": "2. 150", "correct": false },
+        { "text": "3. 50", "correct": false },
+        { "text": "4. 75", "correct": false }
+      ]
+    },
+    {
+      "text": "Solve for x: x/4 = 3",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 12", "correct": true },
+        { "text": "2. 7", "correct": false },
+        { "text": "3. 3", "correct": false },
+        { "text": "4. 9", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the value of 11 minus 3?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 8", "correct": true },
+        { "text": "2. 7", "correct": false },
+        { "text": "3. 9", "correct": false },
+        { "text": "4. 6", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the sum of 25 and 35?",
+      "category": "Math",
+      "answers": [
+        { "text": "1. 60", "correct": true },
+        { "text": "2. 50", "correct": false },
+        { "text": "3. 70", "correct": false },
+        { "text": "4. 55", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the first President of the United States?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Abraham Lincoln", "correct": false },
+        { "text": "2. Thomas Jefferson", "correct": false },
+        { "text": "3. George Washington", "correct": true },
+        { "text": "4. John Adams", "correct": false }
+      ]
+    },
+    {
+      "text": "In which year did World War II end?",
+      "category": "History",
+      "answers": [
+        { "text": "1. 1945", "correct": true },
+        { "text": "2. 1939", "correct": false },
+        { "text": "3. 1950", "correct": false },
+        { "text": "4. 1942", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the British Prime Minister during most of World War II?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Neville Chamberlain", "correct": false },
+        { "text": "2. Winston Churchill", "correct": true },
+        { "text": "3. Margaret Thatcher", "correct": false },
+        { "text": "4. Tony Blair", "correct": false }
+      ]
+    },
+    {
+      "text": "Which ancient civilization built the pyramids in Egypt?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Romans", "correct": false },
+        { "text": "2. The Greeks", "correct": false },
+        { "text": "3. The Egyptians", "correct": true },
+        { "text": "4. The Persians", "correct": false }
+      ]
+    },
+    {
+      "text": "Who discovered America in 1492?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Ferdinand Magellan", "correct": false },
+        { "text": "2. Christopher Columbus", "correct": true },
+        { "text": "3. Vasco da Gama", "correct": false },
+        { "text": "4. Amerigo Vespucci", "correct": false }
+      ]
+    },
+    {
+      "text": "What was the name of the ship on which the Pilgrims traveled to America?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Santa Maria", "correct": false },
+        { "text": "2. Mayflower", "correct": true },
+        { "text": "3. Pinta", "correct": false },
+        { "text": "4. Nina", "correct": false }
+      ]
+    },
+    {
+      "text": "Which empire was ruled by Julius Caesar?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Persian Empire", "correct": false },
+        { "text": "2. The Roman Empire", "correct": true },
+        { "text": "3. The Ottoman Empire", "correct": false },
+        { "text": "4. The Egyptian Empire", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Joseph Stalin", "correct": false },
+        { "text": "2. Nikita Khrushchev", "correct": true },
+        { "text": "3. Leonid Brezhnev", "correct": false },
+        { "text": "4. Mikhail Gorbachev", "correct": false }
+      ]
+    },
+    {
+      "text": "Which war was fought between the North and South regions in the United States?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Civil War", "correct": true },
+        { "text": "2. World War I", "correct": false },
+        { "text": "3. The Revolutionary War", "correct": false },
+        { "text": "4. The War of 1812", "correct": false }
+      ]
+    },
+    {
+      "text": "What ancient civilization built Machu Picchu?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Aztecs", "correct": false },
+        { "text": "2. The Incas", "correct": true },
+        { "text": "3. The Mayans", "correct": false },
+        { "text": "4. The Olmecs", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the famous civil rights leader who delivered the 'I Have a Dream' speech?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Malcolm X", "correct": false },
+        { "text": "2. Martin Luther King Jr.", "correct": true },
+        { "text": "3. Rosa Parks", "correct": false },
+        { "text": "4. Jesse Jackson", "correct": false }
+      ]
+    },
+    {
+      "text": "In which year did the Berlin Wall fall?",
+      "category": "History",
+      "answers": [
+        { "text": "1. 1991", "correct": false },
+        { "text": "2. 1989", "correct": true },
+        { "text": "3. 1987", "correct": false },
+        { "text": "4. 1990", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the first man to walk on the moon?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Buzz Aldrin", "correct": false },
+        { "text": "2. Neil Armstrong", "correct": true },
+        { "text": "3. Michael Collins", "correct": false },
+        { "text": "4. Yuri Gagarin", "correct": false }
+      ]
+    },
+    {
+      "text": "Which empire was known for its roads and aqueducts in ancient times?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Persian Empire", "correct": false },
+        { "text": "2. The Roman Empire", "correct": true },
+        { "text": "3. The Greek Empire", "correct": false },
+        { "text": "4. The Ottoman Empire", "correct": false }
+      ]
+    },
+    {
+      "text": "Who wrote the 'Iliad' and the 'Odyssey'?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Plato", "correct": false },
+        { "text": "2. Homer", "correct": true },
+        { "text": "3. Sophocles", "correct": false },
+        { "text": "4. Euripides", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the founder of the Mongol Empire?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Kublai Khan", "correct": false },
+        { "text": "2. Genghis Khan", "correct": true },
+        { "text": "3. Tamerlane", "correct": false },
+        { "text": "4. Attila the Hun", "correct": false }
+      ]
+    },
+    {
+      "text": "Which war was fought from 1914 to 1918?",
+      "category": "History",
+      "answers": [
+        { "text": "1. World War II", "correct": false },
+        { "text": "2. The Cold War", "correct": false },
+        { "text": "3. World War I", "correct": true },
+        { "text": "4. The Franco-Prussian War", "correct": false }
+      ]
+    },
+    {
+      "text": "Which document declared the independence of the United States?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Constitution", "correct": false },
+        { "text": "2. The Bill of Rights", "correct": false },
+        { "text": "3. The Declaration of Independence", "correct": true },
+        { "text": "4. The Emancipation Proclamation", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the first female Prime Minister of the United Kingdom?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Theresa May", "correct": false },
+        { "text": "2. Margaret Thatcher", "correct": true },
+        { "text": "3. Angela Merkel", "correct": false },
+        { "text": "4. Indira Gandhi", "correct": false }
+      ]
+    },
+    {
+      "text": "In which century did the Renaissance begin?",
+      "category": "History",
+      "answers": [
+        { "text": "1. 14th century", "correct": true },
+        { "text": "2. 15th century", "correct": false },
+        { "text": "3. 13th century", "correct": false },
+        { "text": "4. 16th century", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the Egyptian queen famous for her relationships with Julius Caesar and Mark Antony?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Nefertiti", "correct": false },
+        { "text": "2. Cleopatra", "correct": true },
+        { "text": "3. Hatshepsut", "correct": false },
+        { "text": "4. Sobekneferu", "correct": false }
+      ]
+    },
+    {
+      "text": "What ancient wonder was located in the city of Alexandria?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Colossus of Rhodes", "correct": false },
+        { "text": "2. The Lighthouse of Alexandria", "correct": true },
+        { "text": "3. The Hanging Gardens", "correct": false },
+        { "text": "4. The Statue of Zeus", "correct": false }
+      ]
+    },
+    {
+      "text": "Which battle is considered a turning point in the American Revolutionary War?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Battle of Bunker Hill", "correct": false },
+        { "text": "2. The Battle of Saratoga", "correct": true },
+        { "text": "3. The Battle of Yorktown", "correct": false },
+        { "text": "4. The Battle of Lexington and Concord", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the leader of Nazi Germany during World War II?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Joseph Goebbels", "correct": false },
+        { "text": "2. Heinrich Himmler", "correct": false },
+        { "text": "3. Adolf Hitler", "correct": true },
+        { "text": "4. Hermann Göring", "correct": false }
+      ]
+    },
+    {
+      "text": "Which U.S. state was the last to join the Union?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Alaska", "correct": false },
+        { "text": "2. Hawaii", "correct": true },
+        { "text": "3. Arizona", "correct": false },
+        { "text": "4. New Mexico", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the main author of the U.S. Constitution?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Benjamin Franklin", "correct": false },
+        { "text": "2. Alexander Hamilton", "correct": false },
+        { "text": "3. James Madison", "correct": true },
+        { "text": "4. Thomas Jefferson", "correct": false }
+      ]
+    },
+    {
+      "text": "What was the name of the war fought between the United States and Mexico from 1846 to 1848?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Spanish-American War", "correct": false },
+        { "text": "2. The Mexican-American War", "correct": true },
+        { "text": "3. The Civil War", "correct": false },
+        { "text": "4. The War of 1812", "correct": false }
+      ]
+    },
+    {
+      "text": "Which ancient civilization is known for developing cuneiform writing?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Egyptians", "correct": false },
+        { "text": "2. The Sumerians", "correct": true },
+        { "text": "3. The Babylonians", "correct": false },
+        { "text": "4. The Assyrians", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the famous Carthaginian general during the Punic Wars?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Hannibal", "correct": true },
+        { "text": "2. Scipio Africanus", "correct": false },
+        { "text": "3. Julius Caesar", "correct": false },
+        { "text": "4. Alexander the Great", "correct": false }
+      ]
+    },
+    {
+      "text": "Which conflict is often referred to as 'The Great War'?",
+      "category": "History",
+      "answers": [
+        { "text": "1. World War II", "correct": false },
+        { "text": "2. The Cold War", "correct": false },
+        { "text": "3. World War I", "correct": true },
+        { "text": "4. The Vietnam War", "correct": false }
+      ]
+    },
+    {
+      "text": "Which emperor of France was exiled to Elba before returning for the Hundred Days?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Louis XIV", "correct": false },
+        { "text": "2. Napoleon Bonaparte", "correct": true },
+        { "text": "3. Charles de Gaulle", "correct": false },
+        { "text": "4. Louis XVI", "correct": false }
+      ]
+    },
+    {
+      "text": "Which historical period followed the Middle Ages in Europe?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Renaissance", "correct": true },
+        { "text": "2. The Industrial Revolution", "correct": false },
+        { "text": "3. The Enlightenment", "correct": false },
+        { "text": "4. The Baroque", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the leader of the Bolshevik Revolution in 1917?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Joseph Stalin", "correct": false },
+        { "text": "2. Vladimir Lenin", "correct": true },
+        { "text": "3. Leon Trotsky", "correct": false },
+        { "text": "4. Nikita Khrushchev", "correct": false }
+      ]
+    },
+    {
+      "text": "Which U.S. President issued the Emancipation Proclamation?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Abraham Lincoln", "correct": true },
+        { "text": "2. Ulysses S. Grant", "correct": false },
+        { "text": "3. Andrew Johnson", "correct": false },
+        { "text": "4. Thomas Jefferson", "correct": false }
+      ]
+    },
+    {
+      "text": "What was the primary cause of the Cold War?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Territorial disputes", "correct": false },
+        { "text": "2. Religious conflicts", "correct": false },
+        { "text": "3. Economic recession", "correct": false },
+        { "text": "4. Ideological differences between the USA and the USSR", "correct": true }
+      ]
+    },
+    {
+      "text": "Which ancient Greek city-state was known for its military prowess?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Athens", "correct": false },
+        { "text": "2. Sparta", "correct": true },
+        { "text": "3. Corinth", "correct": false },
+        { "text": "4. Thebes", "correct": false }
+      ]
+    },
+    {
+      "text": "Which explorer circumnavigated the globe in the 16th century?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Christopher Columbus", "correct": false },
+        { "text": "2. Ferdinand Magellan", "correct": true },
+        { "text": "3. Vasco da Gama", "correct": false },
+        { "text": "4. Hernán Cortés", "correct": false }
+      ]
+    },
+    {
+      "text": "Which battle in 1066 led to the Norman conquest of England?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Battle of Stamford Bridge", "correct": false },
+        { "text": "2. The Battle of Hastings", "correct": true },
+        { "text": "3. The Battle of Agincourt", "correct": false },
+        { "text": "4. The Battle of Bannockburn", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the first emperor of China?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Qin Shi Huang", "correct": true },
+        { "text": "2. Laozi", "correct": false },
+        { "text": "3. Confucius", "correct": false },
+        { "text": "4. Sun Tzu", "correct": false }
+      ]
+    },
+    {
+      "text": "Which war was triggered by the assassination of Archduke Franz Ferdinand?",
+      "category": "History",
+      "answers": [
+        { "text": "1. World War II", "correct": false },
+        { "text": "2. The Crimean War", "correct": false },
+        { "text": "3. World War I", "correct": true },
+        { "text": "4. The Franco-Prussian War", "correct": false }
+      ]
+    },
+    {
+      "text": "Which U.S. President was in office during the majority of World War II?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Dwight D. Eisenhower", "correct": false },
+        { "text": "2. Franklin D. Roosevelt", "correct": true },
+        { "text": "3. Harry S. Truman", "correct": false },
+        { "text": "4. John F. Kennedy", "correct": false }
+      ]
+    },
+    {
+      "text": "Which ancient civilization built the city of Petra?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Babylonians", "correct": false },
+        { "text": "2. The Nabataeans", "correct": true },
+        { "text": "3. The Assyrians", "correct": false },
+        { "text": "4. The Persians", "correct": false }
+      ]
+    },
+    {
+      "text": "Who led the Indian independence movement with nonviolent resistance?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Jawaharlal Nehru", "correct": false },
+        { "text": "2. Subhas Chandra Bose", "correct": false },
+        { "text": "3. Mahatma Gandhi", "correct": true },
+        { "text": "4. Indira Gandhi", "correct": false }
+      ]
+    },
+    {
+      "text": "Which treaty ended World War I?",
+      "category": "History",
+      "answers": [
+        { "text": "1. The Treaty of Paris", "correct": false },
+        { "text": "2. The Treaty of Versailles", "correct": true },
+        { "text": "3. The Treaty of Tordesillas", "correct": false },
+        { "text": "4. The Treaty of Ghent", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the famous British naval commander at the Battle of Trafalgar?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Horatio Nelson", "correct": true },
+        { "text": "2. Francis Drake", "correct": false },
+        { "text": "3. Lord Cochrane", "correct": false },
+        { "text": "4. John Fisher", "correct": false }
+      ]
+    },
+    {
+      "text": "Which war is often called 'The War to End All Wars'?",
+      "category": "History",
+      "answers": [
+        { "text": "1. World War II", "correct": false },
+        { "text": "2. World War I", "correct": true },
+        { "text": "3. The Korean War", "correct": false },
+        { "text": "4. The Vietnam War", "correct": false }
+      ]
+    },
+    {
+      "text": "Who was the American civil rights activist known for refusing to give up her seat on a bus in Montgomery?",
+      "category": "History",
+      "answers": [
+        { "text": "1. Angela Davis", "correct": false },
+        { "text": "2. Rosa Parks", "correct": true },
+        { "text": "3. Coretta Scott King", "correct": false },
+        { "text": "4. Ella Baker", "correct": false }
+      ]
+    },
+    {
+      "text": "In which century did the Industrial Revolution begin?",
+      "category": "History",
+      "answers": [
+        { "text": "1. 17th century", "correct": false },
+        { "text": "2. 18th century", "correct": true },
+        { "text": "3. 19th century", "correct": false },
+        { "text": "4. 20th century", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek god of the sea?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Zeus", "correct": false },
+        { "text": "2. Poseidon", "correct": true },
+        { "text": "3. Hades", "correct": false },
+        { "text": "4. Apollo", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of wisdom?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Hera", "correct": false },
+        { "text": "2. Athena", "correct": true },
+        { "text": "3. Aphrodite", "correct": false },
+        { "text": "4. Artemis", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Norse god of thunder?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Loki", "correct": false },
+        { "text": "2. Thor", "correct": true },
+        { "text": "3. Odin", "correct": false },
+        { "text": "4. Baldr", "correct": false }
+      ]
+    },
+    {
+      "text": "In Egyptian mythology, who is the god of the underworld?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Ra", "correct": false },
+        { "text": "2. Osiris", "correct": true },
+        { "text": "3. Set", "correct": false },
+        { "text": "4. Anubis", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Roman goddess of love?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Diana", "correct": false },
+        { "text": "2. Juno", "correct": false },
+        { "text": "3. Venus", "correct": true },
+        { "text": "4. Minerva", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature has the body of a lion and the head of an eagle?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Chimera", "correct": false },
+        { "text": "2. Griffin", "correct": true },
+        { "text": "3. Centaur", "correct": false },
+        { "text": "4. Sphinx", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the king of the Greek gods?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Hades", "correct": false },
+        { "text": "2. Poseidon", "correct": false },
+        { "text": "3. Zeus", "correct": true },
+        { "text": "4. Apollo", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of the harvest?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Demeter", "correct": true },
+        { "text": "2. Persephone", "correct": false },
+        { "text": "3. Hestia", "correct": false },
+        { "text": "4. Athena", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Greek hero completed 12 labors?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Perseus", "correct": false },
+        { "text": "2. Theseus", "correct": false },
+        { "text": "3. Heracles", "correct": true },
+        { "text": "4. Achilles", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Norse god of mischief?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Thor", "correct": false },
+        { "text": "2. Loki", "correct": true },
+        { "text": "3. Baldr", "correct": false },
+        { "text": "4. Heimdall", "correct": false }
+      ]
+    },
+    {
+      "text": "In Roman mythology, who is the god of war?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Mercury", "correct": false },
+        { "text": "2. Mars", "correct": true },
+        { "text": "3. Vulcan", "correct": false },
+        { "text": "4. Neptune", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Egyptian goddess of magic and wisdom?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Hathor", "correct": false },
+        { "text": "2. Isis", "correct": true },
+        { "text": "3. Sekhmet", "correct": false },
+        { "text": "4. Nephthys", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature is a winged horse?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Unicorn", "correct": false },
+        { "text": "2. Pegasus", "correct": true },
+        { "text": "3. Hippogriff", "correct": false },
+        { "text": "4. Centaur", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek god of the sun?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Helios", "correct": false },
+        { "text": "2. Apollo", "correct": true },
+        { "text": "3. Hermes", "correct": false },
+        { "text": "4. Dionysus", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of love?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Artemis", "correct": false },
+        { "text": "2. Hera", "correct": false },
+        { "text": "3. Aphrodite", "correct": true },
+        { "text": "4. Demeter", "correct": false }
+      ]
+    },
+    {
+      "text": "What is the name of Athena's shield in Greek mythology?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Aegis", "correct": true },
+        { "text": "2. Valhalla", "correct": false },
+        { "text": "3. Mjölnir", "correct": false },
+        { "text": "4. Excalibur", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Norse goddess is associated with beauty and fertility?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Frigg", "correct": false },
+        { "text": "2. Sif", "correct": false },
+        { "text": "3. Freyja", "correct": true },
+        { "text": "4. Idunn", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Greek hero is renowned for his cunning and the Trojan Horse?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Achilles", "correct": false },
+        { "text": "2. Perseus", "correct": false },
+        { "text": "3. Odysseus", "correct": true },
+        { "text": "4. Jason", "correct": false }
+      ]
+    },
+    {
+      "text": "In Norse mythology, what is the name of the world tree?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Yggdrasil", "correct": true },
+        { "text": "2. Midgard", "correct": false },
+        { "text": "3. Valhalla", "correct": false },
+        { "text": "4. Asgard", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Roman god of beginnings, gates, transitions, and endings?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Janus", "correct": true },
+        { "text": "2. Saturn", "correct": false },
+        { "text": "3. Pluto", "correct": false },
+        { "text": "4. Jupiter", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature is known for turning people to stone with its gaze?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Hydra", "correct": false },
+        { "text": "2. Medusa", "correct": true },
+        { "text": "3. Siren", "correct": false },
+        { "text": "4. Cyclops", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of the rainbow?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Iris", "correct": true },
+        { "text": "2. Nemesis", "correct": false },
+        { "text": "3. Rhea", "correct": false },
+        { "text": "4. Clotho", "correct": false }
+      ]
+    },
+    {
+      "text": "In Greek mythology, who is the god of wine?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Apollo", "correct": false },
+        { "text": "2. Dionysus", "correct": true },
+        { "text": "3. Hermes", "correct": false },
+        { "text": "4. Ares", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature is half-man, half-bull?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Centaur", "correct": false },
+        { "text": "2. Minotaur", "correct": true },
+        { "text": "3. Satyr", "correct": false },
+        { "text": "4. Chimera", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Norse god of wisdom and poetry?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Freyr", "correct": false },
+        { "text": "2. Odin", "correct": true },
+        { "text": "3. Tyr", "correct": false },
+        { "text": "4. Loki", "correct": false }
+      ]
+    },
+    {
+      "text": "In Egyptian mythology, who is the god of the sky?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Osiris", "correct": false },
+        { "text": "2. Horus", "correct": true },
+        { "text": "3. Anubis", "correct": false },
+        { "text": "4. Thoth", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek god of the underworld?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Hades", "correct": true },
+        { "text": "2. Poseidon", "correct": false },
+        { "text": "3. Zeus", "correct": false },
+        { "text": "4. Apollo", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological figure is famous for flying too close to the sun?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Icarus", "correct": true },
+        { "text": "2. Daedalus", "correct": false },
+        { "text": "3. Orion", "correct": false },
+        { "text": "4. Perseus", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Roman equivalent of the Greek god Hermes?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Mars", "correct": false },
+        { "text": "2. Mercury", "correct": true },
+        { "text": "3. Apollo", "correct": false },
+        { "text": "4. Vulcan", "correct": false }
+      ]
+    },
+    {
+      "text": "Which goddess in Greek mythology presides over marriage and family?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Artemis", "correct": false },
+        { "text": "2. Hera", "correct": true },
+        { "text": "3. Demeter", "correct": false },
+        { "text": "4. Hestia", "correct": false }
+      ]
+    },
+    {
+      "text": "Which hero is famous for slaying the Hydra in Greek mythology?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Perseus", "correct": false },
+        { "text": "2. Heracles", "correct": true },
+        { "text": "3. Theseus", "correct": false },
+        { "text": "4. Jason", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the messenger of the Greek gods?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Ares", "correct": false },
+        { "text": "2. Apollo", "correct": false },
+        { "text": "3. Hermes", "correct": true },
+        { "text": "4. Dionysus", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature is depicted as a serpent with multiple heads that regrow when severed?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Cerberus", "correct": false },
+        { "text": "2. Lernaean Hydra", "correct": true },
+        { "text": "3. Chimera", "correct": false },
+        { "text": "4. Kraken", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Roman god of the sea?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Neptune", "correct": true },
+        { "text": "2. Mars", "correct": false },
+        { "text": "3. Jupiter", "correct": false },
+        { "text": "4. Pluto", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological king is known for his golden touch?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. King Midas", "correct": true },
+        { "text": "2. King Minos", "correct": false },
+        { "text": "3. King Priam", "correct": false },
+        { "text": "4. King Croesus", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of the hunt?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Aphrodite", "correct": false },
+        { "text": "2. Demeter", "correct": false },
+        { "text": "3. Artemis", "correct": true },
+        { "text": "4. Athena", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Norse god is known for his long beard and one eye?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Loki", "correct": false },
+        { "text": "2. Thor", "correct": false },
+        { "text": "3. Odin", "correct": true },
+        { "text": "4. Baldr", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature is often depicted as a large, fire-breathing reptile?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Wyvern", "correct": false },
+        { "text": "2. Dragon", "correct": true },
+        { "text": "3. Griffin", "correct": false },
+        { "text": "4. Basilisk", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek god of war?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Ares", "correct": true },
+        { "text": "2. Apollo", "correct": false },
+        { "text": "3. Hermes", "correct": false },
+        { "text": "4. Zeus", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Roman goddess is the equivalent of the Greek goddess Persephone?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Ceres", "correct": false },
+        { "text": "2. Proserpina", "correct": true },
+        { "text": "3. Diana", "correct": false },
+        { "text": "4. Vesta", "correct": false }
+      ]
+    },
+    {
+      "text": "In Egyptian mythology, which god is depicted with the head of a jackal?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Horus", "correct": false },
+        { "text": "2. Set", "correct": false },
+        { "text": "3. Anubis", "correct": true },
+        { "text": "4. Thoth", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of victory?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Nike", "correct": true },
+        { "text": "2. Iris", "correct": false },
+        { "text": "3. Hera", "correct": false },
+        { "text": "4. Demeter", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Norse god is often referred to as the Allfather?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Odin", "correct": true },
+        { "text": "2. Loki", "correct": false },
+        { "text": "3. Thor", "correct": false },
+        { "text": "4. Baldr", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological figure is famous for his journey home after the Trojan War?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Jason", "correct": false },
+        { "text": "2. Achilles", "correct": false },
+        { "text": "3. Odysseus", "correct": true },
+        { "text": "4. Agamemnon", "correct": false }
+      ]
+    },
+    {
+      "text": "In Roman mythology, who is the goddess of the hearth?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Vesta", "correct": true },
+        { "text": "2. Venus", "correct": false },
+        { "text": "3. Minerva", "correct": false },
+        { "text": "4. Diana", "correct": false }
+      ]
+    },
+    {
+      "text": "Which mythological creature is defined as half-human, half-horse?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Centaur", "correct": true },
+        { "text": "2. Satyr", "correct": false },
+        { "text": "3. Minotaur", "correct": false },
+        { "text": "4. Chimera", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Greek goddess of childbirth and midwifery?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Eileithyia", "correct": true },
+        { "text": "2. Hera", "correct": false },
+        { "text": "3. Demeter", "correct": false },
+        { "text": "4. Persephone", "correct": false }
+      ]
+    },
+    {
+      "text": "Which Titan in mythology is known for holding up the sky?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Prometheus", "correct": false },
+        { "text": "2. Atlas", "correct": true },
+        { "text": "3. Cronus", "correct": false },
+        { "text": "4. Hyperion", "correct": false }
+      ]
+    },
+    {
+      "text": "Who is the Norse goddess associated with death and the afterlife?",
+      "category": "Mythology",
+      "answers": [
+        { "text": "1. Freyja", "correct": false },
+        { "text": "2. Hel", "correct": true },
+        { "text": "3. Sif", "correct": false },
+        { "text": "4. Skadi", "correct": false }
+      ]
     }
   ]

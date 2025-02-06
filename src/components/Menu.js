@@ -14,18 +14,21 @@ const Menu = ({
           Welcome to <span className="gradient-text">Quiz Duel</span>
         </h1>
 
-        <div className="category-selector-wrapper">
-          <label className="category-label neon-text">Select Category:</label>
-          <CategorySelector
-            categories={categories}
-            selectedCategory={selectedCategory}
-            onSelect={onCategoryChange}
-          />
+        <div className="menu-options">
+          <div className="category-selector-wrapper">
+            <label className="category-label neon-text">Select Category:</label>
+            <CategorySelector
+              categories={categories}
+              selectedCategory={selectedCategory}
+              onSelect={onCategoryChange}
+            />
+          </div>
+
+          <button onClick={startGame} className="gradient-btn hover-glow">
+            Start Game
+          </button>
         </div>
 
-        <button onClick={startGame} className="gradient-btn hover-glow">
-          Start Game
-        </button>
         <div className="glass-card instruction-card">
           <h2 className="neon-subtitle">How to Play</h2>
           <div className="instruction-text">

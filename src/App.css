@@ -686,16 +686,25 @@ body {
 }
 
 .category-selector-wrapper {
-  margin: 20px 0;
   text-align: center;
+  margin-right: 20px;
 }
 
 .category-label {
   display: block;
   margin-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #ff6b6b;
   text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
+
+.menu-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  margin-right: 1rem;
 }
 
 @media (max-width: 768px) {
