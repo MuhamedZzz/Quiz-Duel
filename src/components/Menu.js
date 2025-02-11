@@ -15,14 +15,12 @@ const Menu = ({
   return (
     <div className="menu-container">
       <div className="menu-wrapper">
-        {/* Left side: Player 1 name input */}
         <PlayerNameInput
           label="Player 1"
           currentName={player1Name}
           onApply={onPlayer1NameChange}
         />
 
-        {/* Center: Main menu glass card */}
         <div className="glass-card main-menu">
           <h1 className="neon-title">
             Welcome to <span className="gradient-text">Quiz Duel</span>
@@ -70,7 +68,6 @@ const Menu = ({
           </div>
         </div>
 
-        {/* Right side: Player 2 name input */}
         <PlayerNameInput
           label="Player 2"
           currentName={player2Name}

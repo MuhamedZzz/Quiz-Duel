@@ -741,7 +741,6 @@ body {
   border-radius: 25px;
   border: 2px solid transparent;
   backdrop-filter: blur(12px);
-  box-shadow: 0 0 50px rgba(78, 205, 196, 0.2);
   transform-style: preserve-3d;
   perspective: 1000px;
   overflow: hidden;

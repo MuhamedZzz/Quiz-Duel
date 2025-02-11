@@ -11,8 +11,13 @@ const PlayerNameInput = ({ label, currentName, onApply }) => {
   };
 
   return (
-    <div className="player-name-input-container">
-      {/* Conditionally style the label: blue for Player 2, red for Player 1 */}
+    <div
+      className="player-name-input-container"
+      style={{
+        boxShadow:
+          label === "Player 1" ? "0px 0px 10px red" : "0px 0px 10px #4ecdc4",
+      }}
+    >
       <h2 style={{ color: label === "Player 2" ? "#4ecdc4" : "#ff6b6b" }}>
         {label}
       </h2>
