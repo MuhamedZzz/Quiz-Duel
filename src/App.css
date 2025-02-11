@@ -287,7 +287,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   z-index: 1000;
 }
@@ -301,7 +301,7 @@ body {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
-  width: 80%;
+  width: 37%;
   max-width: 750px;
 }
 
@@ -721,4 +721,156 @@ body {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
   }
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 92.4%;
+  padding: 0 2rem;
+  gap: 5rem;
+  margin: 0 auto;
+}
+
+.player-name-input-container {
+  position: relative;
+  flex: 0 1 400px;
+  padding: 2.5rem;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: 2px solid transparent;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 50px rgba(78, 205, 196, 0.2);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.player-name-input-container h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(45deg, var(--neon-pink), var(--neon-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 20px var(--neon-blue), 0 0 30px var(--neon-pink),
+    0 0 40px rgba(255, 255, 255, 0.3);
+  animation: text-glow 1.5s ease-in-out infinite alternate;
+  text-align: center;
+  width: 100%;
+}
+
+.player-name-input {
+  padding: 1rem 1rem;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, var(--neon-pink), var(--neon-blue)) 1;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--matrix-green);
+  font-size: 1.5rem;
+  font-family: "Orbitron", sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0 0 10px var(--hacker-glow);
+  box-shadow: inset 0 0 15px rgba(16, 185, 129, 0.2),
+    0 0 20px rgba(16, 185, 129, 0.1);
+}
+
+.player-name-input:focus {
+  border-image: linear-gradient(45deg, var(--neon-blue), var(--neon-pink)) 1;
+  box-shadow: inset 0 0 25px rgba(16, 185, 129, 0.4),
+    0 0 30px rgba(16, 185, 129, 0.3);
+  transform: scale(1.05);
+}
+
+.player-name-input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Poppins", sans-serif;
+}
+
+.apply-name-btn {
+  position: relative;
+  display: inline block;
+  padding: 1rem 2rem;
+  background: linear-gradient(
+    45deg,
+    var(--neon-pink),
+    var(--neon-blue),
+    var(--cyber-purple)
+  );
+  background-size: 300% 300%;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+}
+
+.apply-name-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.apply-name-btn:hover {
+  background-position: 100% 100%;
+  transform: translateY(-3px) rotateX(10deg) rotateY(5deg);
+  box-shadow: 0 10px 30px rgba(78, 205, 196, 0.5),
+    0 0 50px rgba(0, 255, 255, 0.3);
+}
+
+.apply-name-btn:hover::before {
+  left: 100%;
+}
+
+.apply-name-btn:active {
+  transform: translateY(1px);
+  filter: brightness(1.2);
+}
+
+.name-feedback {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid var(--matrix-green);
+  color: var(--matrix-green);
+  text-shadow: 0 0 10px var(--hacker-glow);
+  animation: feedback-appear 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes feedback-appear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-menu {
+  flex: 0 1 900px;
 }

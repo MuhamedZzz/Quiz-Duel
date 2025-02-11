@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import confetti from "canvas-confetti";
 import CategorySelector from "./CategorySelector";
+import PlayerNameInput from "./PlayerNameInput";
 
 const GameOver = ({
   winner,
@@ -9,6 +10,10 @@ const GameOver = ({
   categories,
   selectedCategory,
   onCategoryChange,
+  player1Name,
+  player2Name,
+  onPlayer1NameChange,
+  onPlayer2NameChange,
 }) => {
   useEffect(() => {
     const count = 200;
@@ -33,6 +38,11 @@ const GameOver = ({
 
   return (
     <div className="game-over-container">
+      <PlayerNameInput
+        label="Player 1"
+        currentName={player1Name}
+        onApply={onPlayer1NameChange}
+      />
       <div className="game-over-glass">
         <div className="game-over-content">
           <h1 className="game-over-title">🏆 Victory! 🏆</h1>
@@ -40,17 +50,19 @@ const GameOver = ({
             Winner:{" "}
             <span
               className="winner-name"
-              style={{ color: winner === "Player 1" ? "#ff6b6b" : "#4ecdc4" }}
+              style={{
+                color: winner === "Player 1" ? "#ff6b6b" : "#4ecdc4",
+              }}
             >
-              {winner}
+              {winner === "Player 1" ? player1Name : player2Name}
             </span>
           </h2>
           <div className="score-card">
             <p className="score-player neon-text">
-              Player 1: {scoreboard.player1} Points
+              {player1Name}: {scoreboard.player1} Points
             </p>
             <p className="score-player neon-text">
-              Player 2: {scoreboard.player2} Points
+              {player2Name}: {scoreboard.player2} Points
             </p>
           </div>
           <div className="category-selector-wrapper">
@@ -66,6 +78,11 @@ const GameOver = ({
           </button>
         </div>
       </div>
+      <PlayerNameInput
+        label="Player 2"
+        currentName={player2Name}
+        onApply={onPlayer2NameChange}
+      />
     </div>
   );
 };

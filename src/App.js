@@ -22,6 +22,9 @@ const App = () => {
   const [categories, setCategories] = useState(["General Knowledge"]);
   const [selectedCategory, setSelectedCategory] = useState("General Knowledge");
   const [allQuestions, setAllQuestions] = useState([]);
+  // New state for player names:
+  const [player1Name, setPlayer1Name] = useState("Player 1");
+  const [player2Name, setPlayer2Name] = useState("Player 2");
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -94,7 +97,7 @@ const App = () => {
         if (correct) {
           setScore((prev) => {
             const newScore = prev + 1;
-            if (newScore === 10) {
+            if (newScore === 5) {
               setTimeout(() => {
                 setGameOver(true);
                 setWinner(`Player ${player}`);
@@ -177,6 +180,10 @@ const App = () => {
         categories={categories}
         selectedCategory={selectedCategory}
         onCategoryChange={handleCategoryChange}
+        player1Name={player1Name}
+        player2Name={player2Name}
+        onPlayer1NameChange={setPlayer1Name}
+        onPlayer2NameChange={setPlayer2Name}
       />
     );
 
@@ -189,6 +196,10 @@ const App = () => {
         categories={categories}
         selectedCategory={selectedCategory}
         onCategoryChange={handleCategoryChange}
+        player1Name={player1Name}
+        player2Name={player2Name}
+        onPlayer1NameChange={setPlayer1Name}
+        onPlayer2NameChange={setPlayer2Name}
       />
     );
 
@@ -207,6 +218,8 @@ const App = () => {
           player2Score={player2Score}
           flash1={scoreFlash1}
           flash2={scoreFlash2}
+          player1Name={player1Name}
+          player2Name={player2Name}
         />
       </div>
 
