@@ -22,7 +22,6 @@ const App = () => {
   const [categories, setCategories] = useState(["General Knowledge"]);
   const [selectedCategory, setSelectedCategory] = useState("General Knowledge");
   const [allQuestions, setAllQuestions] = useState([]);
-  // New state for player names:
   const [player1Name, setPlayer1Name] = useState("Player 1");
   const [player2Name, setPlayer2Name] = useState("Player 2");
 
