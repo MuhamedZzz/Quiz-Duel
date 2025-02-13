@@ -50,6 +50,7 @@ const App = () => {
 
   const playSound = (sound) => {
     const audio = new Audio(`/sounds/${sound}.MP3`);
+    audio.volume = 0.1;
     audio.play().catch((error) => console.error("Error playing sound:", error));
   };
 
