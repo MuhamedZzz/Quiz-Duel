@@ -873,3 +873,14 @@ body {
 .main-menu {
   flex: 0 1 900px;
 }
+
+.timer {
+  display: inline-block;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 2px;
+}
+
+.player-buzz-wrapper {
+  position: relative;
+}

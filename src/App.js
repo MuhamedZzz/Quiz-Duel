@@ -24,6 +24,7 @@ const App = () => {
   const [allQuestions, setAllQuestions] = useState([]);
   const [player1Name, setPlayer1Name] = useState("Player 1");
   const [player2Name, setPlayer2Name] = useState("Player 2");
+  const [timeLeft, setTimeLeft] = useState(5000);
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -108,8 +109,7 @@ const App = () => {
           setFlash("green");
         } else {
           setScore((prev) => (prev > 0 ? prev - 1 : 0));
-          if (player === 1 && player1Score > 0) setFlash("red");
-          if (player === 2 && player2Score > 0) setFlash("red");
+          setFlash("red");
         }
 
         setTimeout(() => setFlash(null), 1000);
@@ -131,16 +131,51 @@ const App = () => {
         }
       }, 1500);
     },
-    [
-      buzzedInPlayer,
-      currentQuestionIndex,
-      gameOver,
-      player1Score,
-      player2Score,
-      questions,
-      selectedAnswer,
-    ]
+    [buzzedInPlayer, currentQuestionIndex, gameOver, questions, selectedAnswer]
   );
+
+  const handleTimerExpired = () => {
+    if (selectedAnswer === null && buzzedInPlayer !== null) {
+      if (buzzedInPlayer === 1) {
+        if (player1Score > 0) {
+          setPlayer1Score((prev) => prev - 1);
+        }
+        setScoreFlash1("red");
+        setTimeout(() => setScoreFlash1(null), 1000);
+      } else if (buzzedInPlayer === 2) {
+        if (player2Score > 0) {
+          setPlayer2Score((prev) => prev - 1);
+        }
+        setScoreFlash2("red");
+        setTimeout(() => setScoreFlash2(null), 1000);
+      }
+      playSound("wrong");
+      setTimeout(() => {
+        setCurrentQuestionIndex((prev) => (prev + 1) % questions.length);
+        setBuzzedInPlayer(null);
+        setSelectedAnswer(null);
+      }, 1500);
+    }
+  };
+
+  useEffect(() => {
+    if (buzzedInPlayer !== null && selectedAnswer === null) {
+      setTimeLeft(5000);
+      const start = Date.now();
+      const timerInterval = setInterval(() => {
+        const elapsed = Date.now() - start;
+        const remaining = 5000 - elapsed;
+        if (remaining <= 0) {
+          clearInterval(timerInterval);
+          setTimeLeft(0);
+          handleTimerExpired();
+        } else {
+          setTimeLeft(remaining);
+        }
+      }, 50);
+      return () => clearInterval(timerInterval);
+    }
+  }, [buzzedInPlayer, selectedAnswer]);
 
   const handlePlayAgain = () => {
     const filtered =
@@ -224,7 +259,12 @@ const App = () => {
       </div>
 
       <div className="Card">
-        <PlayerBuzz onBuzzIn={handleBuzzIn} buzzedInPlayer={buzzedInPlayer} />
+        <PlayerBuzz
+          onBuzzIn={handleBuzzIn}
+          buzzedInPlayer={buzzedInPlayer}
+          timeLeft={timeLeft}
+          totalTime={5000}
+        />
       </div>
 
       <div className="Card">
@@ -238,7 +278,7 @@ const App = () => {
   );
 };
 
-// Shuffle function outside component
+// Shuffle function (unchanged)
 const shuffleArray = (array) => {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
